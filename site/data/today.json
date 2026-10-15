@@ -1,0 +1,1399 @@
+{
+ "date": "2026-10-15",
+ "fetched_at": "2026-10-15T10:10:55+02:00",
+ "source": "https://www.menicka.cz/brno.html",
+ "restaurants": [
+  {
+   "name": "Restaurace Sharingham",
+   "url": "https://www.menicka.cz/5396-restaurace-sharingham.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sono Grill&Bar",
+   "url": "https://www.menicka.cz/9517-sono-grill-bar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Fifteen",
+   "url": "https://www.menicka.cz/9778-bistro-fifteen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Padagali",
+   "url": "https://www.menicka.cz/4116-padagali.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "K2",
+   "url": "https://www.menicka.cz/3912-k2.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "re.SET Caffe",
+   "url": "https://www.menicka.cz/8168-re-set-caffe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Dvou kosů",
+   "url": "https://www.menicka.cz/9375-u-dvou-kosu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Arka",
+   "url": "https://www.menicka.cz/2728-restaurace-arka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "La Corrida Restaurant - Bystrc",
+   "url": "https://www.menicka.cz/4897-la-corrida-restaurant-bystrc.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Ministerio",
+   "url": "https://www.menicka.cz/6694-bistro-ministerio.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Buffalo American Steakhouse",
+   "url": "https://www.menicka.cz/5163-buffalo-american-steakhouse.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Club restaurant Remet",
+   "url": "https://www.menicka.cz/3174-club-restaurant-remet.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kajmana",
+   "url": "https://www.menicka.cz/5413-u-kajmana.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "KANCL bistro",
+   "url": "https://www.menicka.cz/8518-kancl-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Lišeňský pivovar",
+   "url": "https://www.menicka.cz/3873-lisensky-pivovar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Oh! Pho",
+   "url": "https://www.menicka.cz/5342-oh-pho.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nepal Curry House",
+   "url": "https://www.menicka.cz/9932-nepal-curry-house.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "KT Bistro & restaurant",
+   "url": "https://www.menicka.cz/9039-kt-bistro-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Grandezza restaurant",
+   "url": "https://www.menicka.cz/4837-grandezza-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Mamlasů Brno",
+   "url": "https://www.menicka.cz/6998-u-mamlasu-brno.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro PLAC",
+   "url": "https://www.menicka.cz/5429-bistro-plac.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Třech čertů - Starobrněnská",
+   "url": "https://www.menicka.cz/8402-u-trech-certu-starobrnenska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro na Botance",
+   "url": "https://www.menicka.cz/9363-bistro-na-botance.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jazzmin Bar & Dining",
+   "url": "https://www.menicka.cz/9983-jazzmin-bar-dining.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Purkyňce",
+   "url": "https://www.menicka.cz/2647-na-purkynce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Mulgogi",
+   "url": "https://www.menicka.cz/8847-mulgogi.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna Kocourek",
+   "url": "https://www.menicka.cz/2692-jidelna-kocourek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Suzies",
+   "url": "https://www.menicka.cz/3830-suzies.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "re.SET Canteen",
+   "url": "https://www.menicka.cz/5336-re-set-canteen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec pod schody",
+   "url": "https://www.menicka.cz/9964-hostinec-pod-schody.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Fairko",
+   "url": "https://www.menicka.cz/3930-restaurace-fairko.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hasičárna 638",
+   "url": "https://www.menicka.cz/8797-hasicarna-638.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Koffein",
+   "url": "https://www.menicka.cz/5344-koffein.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Raj Hlinky",
+   "url": "https://www.menicka.cz/6751-raj-hlinky.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nok Nok",
+   "url": "https://www.menicka.cz/4971-nok-nok.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Obědy Adam",
+   "url": "https://www.menicka.cz/7533-obedy-adam.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Železná Růže",
+   "url": "https://www.menicka.cz/9409-zelezna-ruze.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cook point",
+   "url": "https://www.menicka.cz/4931-cook-point.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nová Chaloupka",
+   "url": "https://www.menicka.cz/2779-nova-chaloupka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Velký Špalíček",
+   "url": "https://www.menicka.cz/2742-rebio-velky-spalicek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Zlatá Loď",
+   "url": "https://www.menicka.cz/2618-zlata-lod.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlie Square",
+   "url": "https://www.menicka.cz/3178-charlie-square.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Garden Food Concept",
+   "url": "https://www.menicka.cz/6361-garden-food-concept.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Café Restaurant Bibus",
+   "url": "https://www.menicka.cz/2660-cafe-restaurant-bibus.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Union",
+   "url": "https://www.menicka.cz/6968-restaurace-union.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sluneční dvůr",
+   "url": "https://www.menicka.cz/2690-slunecni-dvur.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jean Pauls",
+   "url": "https://www.menicka.cz/3884-jean-pauls.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Veg8Café",
+   "url": "https://www.menicka.cz/4108-veg8cafe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzeria Al Capone",
+   "url": "https://www.menicka.cz/2609-pizzeria-al-capone.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice Na Rohu Divadelní",
+   "url": "https://www.menicka.cz/3247-pivnice-na-rohu-divadelni.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Indická restaurace Goa",
+   "url": "https://www.menicka.cz/5363-indicka-restaurace-goa.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Holandská",
+   "url": "https://www.menicka.cz/2747-rebio-holandska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Portoriko",
+   "url": "https://www.menicka.cz/8467-portoriko.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Monte Bú",
+   "url": "https://www.menicka.cz/2652-monte-bu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hotel Rakovec",
+   "url": "https://www.menicka.cz/2694-hotel-rakovec.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Kometa Pub Miki",
+   "url": "https://www.menicka.cz/2678-kometa-pub-miki.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivní Opice",
+   "url": "https://www.menicka.cz/3170-pivni-opice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Švejk restaurant",
+   "url": "https://www.menicka.cz/5433-svejk-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivovarská restaurace Moravia",
+   "url": "https://www.menicka.cz/6898-pivovarska-restaurace-moravia.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Dukát",
+   "url": "https://www.menicka.cz/6712-dukat.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Obědy od Zacha",
+   "url": "https://www.menicka.cz/4864-obedy-od-zacha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Gusto Plzeňka",
+   "url": "https://www.menicka.cz/5390-gusto-plzenka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Noem Arch Restaurant",
+   "url": "https://www.menicka.cz/2613-noem-arch-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Pastouška",
+   "url": "https://www.menicka.cz/3201-restaurace-pastouska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Stronghold",
+   "url": "https://www.menicka.cz/2751-restaurace-stronghold.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tripoli restaurant",
+   "url": "https://www.menicka.cz/3206-tripoli-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Úvozna",
+   "url": "https://www.menicka.cz/4900-uvozna.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Gourmet u Vaňkovky",
+   "url": "https://www.menicka.cz/7220-gourmet-u-vankovky.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Butchers",
+   "url": "https://www.menicka.cz/2718-butchers.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Okruh Pub",
+   "url": "https://www.menicka.cz/3162-restaurace-okruh-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Naber si",
+   "url": "https://www.menicka.cz/3882-naber-si.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna IBC Příkop",
+   "url": "https://www.menicka.cz/3868-jidelna-ibc-prikop.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Svatoboj",
+   "url": "https://www.menicka.cz/2764-svatoboj.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Fat free",
+   "url": "https://www.menicka.cz/4916-fat-free.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Špici",
+   "url": "https://www.menicka.cz/2642-na-spici.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivovarská Starobrno",
+   "url": "https://www.menicka.cz/5374-pivovarska-starobrno.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Mlatech",
+   "url": "https://www.menicka.cz/2771-na-mlatech.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Slatina Bistro",
+   "url": "https://www.menicka.cz/6720-slatina-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Maybe coffee & bistro",
+   "url": "https://www.menicka.cz/8289-maybe-coffee-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tusto Titanium",
+   "url": "https://www.menicka.cz/2787-tusto-titanium.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kormidla",
+   "url": "https://www.menicka.cz/6690-u-kormidla.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Chatě",
+   "url": "https://www.menicka.cz/2645-na-chate.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Baumannů",
+   "url": "https://www.menicka.cz/5415-u-baumannu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "IQ Restaurant Morávka",
+   "url": "https://www.menicka.cz/6380-iq-restaurant-moravka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna 100 chutí",
+   "url": "https://www.menicka.cz/2685-jidelna-100-chuti.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pavillon",
+   "url": "https://www.menicka.cz/2702-pavillon.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Hnízdo",
+   "url": "https://www.menicka.cz/3843-restaurace-hnizdo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurant Mitrovski",
+   "url": "https://www.menicka.cz/3137-restaurant-mitrovski.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Ristorante Piazza",
+   "url": "https://www.menicka.cz/2664-ristorante-piazza.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Morgal",
+   "url": "https://www.menicka.cz/5401-morgal.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Casa del gusto",
+   "url": "https://www.menicka.cz/8655-casa-del-gusto.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Šindelář",
+   "url": "https://www.menicka.cz/3240-bistro-sindelar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "El Fausto",
+   "url": "https://www.menicka.cz/2683-el-fausto.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro 22",
+   "url": "https://www.menicka.cz/6042-bistro-22.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "První Doubravnická",
+   "url": "https://www.menicka.cz/4948-prvni-doubravnicka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hospůdka U Bosé nohy",
+   "url": "https://www.menicka.cz/2753-hospudka-u-bose-nohy.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Potrefená Husa Zelný trh",
+   "url": "https://www.menicka.cz/3165-potrefena-husa-zelny-trh.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace a penzion U Honzáků",
+   "url": "https://www.menicka.cz/2756-restaurace-a-penzion-u-honzaku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Milenium Kitchen",
+   "url": "https://www.menicka.cz/6322-milenium-kitchen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Potrefená Husa Líšeň",
+   "url": "https://www.menicka.cz/2621-potrefena-husa-lisen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice Na Sýpce",
+   "url": "https://www.menicka.cz/5452-pivnice-na-sypce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bobrava a.s.",
+   "url": "https://www.menicka.cz/5475-bobrava-a-s.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Stopkova Plzeňská Pivnice",
+   "url": "https://www.menicka.cz/3224-stopkova-plzenska-pivnice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pooll Grill",
+   "url": "https://www.menicka.cz/6863-pooll-grill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Campus River",
+   "url": "https://www.menicka.cz/3232-campus-river.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sushi Noodles",
+   "url": "https://www.menicka.cz/10055-sushi-noodles.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Garden Restaurant & Pub",
+   "url": "https://www.menicka.cz/6991-garden-restaurant-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Druhý chod",
+   "url": "https://www.menicka.cz/9429-bistro-druhy-chod.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice U Čápa",
+   "url": "https://www.menicka.cz/2700-pivnice-u-capa.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Liberty cafe",
+   "url": "https://www.menicka.cz/9702-liberty-cafe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Vegalite",
+   "url": "https://www.menicka.cz/2775-vegalite.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bagetka “ U mlsných koček”",
+   "url": "https://www.menicka.cz/6388-bagetka-u-mlsnych-kocek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "BUDDHA",
+   "url": "https://www.menicka.cz/9564-buddha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "BUDDHA 2",
+   "url": "https://www.menicka.cz/9582-buddha-2.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Kart Klub",
+   "url": "https://www.menicka.cz/3855-kart-klub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro - Ocean48",
+   "url": "https://www.menicka.cz/4186-bistro-ocean48.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice Masný Růžek",
+   "url": "https://www.menicka.cz/6956-pivnice-masny-ruzek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace U Zlaté Konve",
+   "url": "https://www.menicka.cz/10170-restaurace-u-zlate-konve.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Delitree Bistro",
+   "url": "https://www.menicka.cz/8722-delitree-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Dřeváka Beer&Grill",
+   "url": "https://www.menicka.cz/2752-u-drevaka-beer-grill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Scéna",
+   "url": "https://www.menicka.cz/10127-scena.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Seven Food",
+   "url": "https://www.menicka.cz/4838-seven-food.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Olymp Pub",
+   "url": "https://www.menicka.cz/9987-olymp-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Prime Steak",
+   "url": "https://www.menicka.cz/9376-prime-steak.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Madama Cristina",
+   "url": "https://www.menicka.cz/9557-madama-cristina.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Chajdě",
+   "url": "https://www.menicka.cz/5375-na-chajde.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cafe Imperion",
+   "url": "https://www.menicka.cz/9881-cafe-imperion.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Triplex76",
+   "url": "https://www.menicka.cz/10084-triplex76.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Solnici",
+   "url": "https://www.menicka.cz/7781-na-solnici.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace u Emila",
+   "url": "https://www.menicka.cz/5876-restaurace-u-emila.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Krakonoš",
+   "url": "https://www.menicka.cz/6718-krakonos.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Kometa Arena Pub",
+   "url": "https://www.menicka.cz/2687-kometa-arena-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivovarský dům Poupě",
+   "url": "https://www.menicka.cz/8656-pivovarsky-dum-poupe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Leonardo",
+   "url": "https://www.menicka.cz/9970-restaurace-leonardo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Padthai",
+   "url": "https://www.menicka.cz/8483-padthai.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na Piavě",
+   "url": "https://www.menicka.cz/2770-restaurace-na-piave.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Divá Bára",
+   "url": "https://www.menicka.cz/6468-diva-bara.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "ILEGAL",
+   "url": "https://www.menicka.cz/9404-ilegal.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na Halách",
+   "url": "https://www.menicka.cz/5416-restaurace-na-halach.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Maroša",
+   "url": "https://www.menicka.cz/8283-u-marosa.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurant La Corrida - Žabovřesky",
+   "url": "https://www.menicka.cz/4898-restaurant-la-corrida-zabovresky.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Karla",
+   "url": "https://www.menicka.cz/6695-u-karla.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Betlém",
+   "url": "https://www.menicka.cz/5414-betlem.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Slatinský šenk",
+   "url": "https://www.menicka.cz/3238-restaurace-slatinsky-senk.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Nemilosrdných Bratří",
+   "url": "https://www.menicka.cz/3185-u-nemilosrdnych-bratri.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Laguna",
+   "url": "https://www.menicka.cz/2701-restaurace-laguna.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Látalů",
+   "url": "https://www.menicka.cz/2754-u-latalu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Měděné pánve",
+   "url": "https://www.menicka.cz/8857-u-medene-panve.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hospoda U Kostela",
+   "url": "https://www.menicka.cz/5822-hospoda-u-kostela.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace & Bar Baroko",
+   "url": "https://www.menicka.cz/3205-restaurace-bar-baroko.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace U Trávníčka",
+   "url": "https://www.menicka.cz/3139-restaurace-u-travnicka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Knoflíku",
+   "url": "https://www.menicka.cz/3899-na-knofliku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Zdravý život",
+   "url": "https://www.menicka.cz/3245-restaurace-zdravy-zivot.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kotelny",
+   "url": "https://www.menicka.cz/3934-u-kotelny.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Sup",
+   "url": "https://www.menicka.cz/6347-restaurace-sup.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Třech čertů - Dvořáková",
+   "url": "https://www.menicka.cz/8401-u-trech-certu-dvorakova.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec U Pantátů",
+   "url": "https://www.menicka.cz/3883-hostinec-u-pantatu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na Musilce",
+   "url": "https://www.menicka.cz/5400-restaurace-na-musilce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Stavba",
+   "url": "https://www.menicka.cz/4954-restaurace-stavba.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cosmopolis Grill",
+   "url": "https://www.menicka.cz/9305-cosmopolis-grill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Himalaya restaurant",
+   "url": "https://www.menicka.cz/9683-himalaya-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restobar Onyx",
+   "url": "https://www.menicka.cz/6722-restobar-onyx.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U krále Jiřího",
+   "url": "https://www.menicka.cz/5457-u-krale-jiriho.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Dělnický dům Židenice",
+   "url": "https://www.menicka.cz/2626-delnicky-dum-zidenice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "The Immigrant",
+   "url": "https://www.menicka.cz/7470-the-immigrant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec U Semináru",
+   "url": "https://www.menicka.cz/3197-hostinec-u-seminaru.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Leháro",
+   "url": "https://www.menicka.cz/5343-bistro-leharo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "La Famiglia",
+   "url": "https://www.menicka.cz/3177-la-famiglia.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U 3 Opic",
+   "url": "https://www.menicka.cz/3225-u-3-opic.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace na Vyhlídce",
+   "url": "https://www.menicka.cz/3942-restaurace-na-vyhlidce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Primů",
+   "url": "https://www.menicka.cz/8409-u-primu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlie Street",
+   "url": "https://www.menicka.cz/2615-charlie-street.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Orlí",
+   "url": "https://www.menicka.cz/2745-rebio-orli.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Jakoby",
+   "url": "https://www.menicka.cz/2717-restaurace-jakoby.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Piccolo bar",
+   "url": "https://www.menicka.cz/3167-piccolo-bar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Lucerny",
+   "url": "https://www.menicka.cz/5434-u-lucerny.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Slunečnice pub",
+   "url": "https://www.menicka.cz/5841-slunecnice-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Naše Vaše Bistro",
+   "url": "https://www.menicka.cz/4917-nase-vase-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tripoli Starobrňenská",
+   "url": "https://www.menicka.cz/3207-tripoli-starobrnenska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlies Park",
+   "url": "https://www.menicka.cz/2684-charlies-park.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Oáza",
+   "url": "https://www.menicka.cz/4977-restaurace-oaza.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Růžku",
+   "url": "https://www.menicka.cz/3854-na-ruzku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pohoštění u Šroubka",
+   "url": "https://www.menicka.cz/2696-pohosteni-u-sroubka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Light of India",
+   "url": "https://www.menicka.cz/5448-light-of-india.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Baštírna Slatina",
+   "url": "https://www.menicka.cz/4901-bastirna-slatina.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Dvou Hřebíčků",
+   "url": "https://www.menicka.cz/5349-u-dvou-hrebicku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Brno Business Park",
+   "url": "https://www.menicka.cz/6372-brno-business-park.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hotel Gregor ***",
+   "url": "https://www.menicka.cz/3172-hotel-gregor.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Za Bránou",
+   "url": "https://www.menicka.cz/2665-za-branou.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Trati",
+   "url": "https://www.menicka.cz/2643-na-trati.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Zannam",
+   "url": "https://www.menicka.cz/3918-zannam.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Alvin",
+   "url": "https://www.menicka.cz/2774-alvin.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Franz",
+   "url": "https://www.menicka.cz/3163-bistro-franz.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Rubín",
+   "url": "https://www.menicka.cz/2749-restaurace-rubin.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Mušketýra",
+   "url": "https://www.menicka.cz/3874-u-musketyra.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurant Padowetz",
+   "url": "https://www.menicka.cz/2743-restaurant-padowetz.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Vittorio Restaurant",
+   "url": "https://www.menicka.cz/6666-vittorio-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice U Badinů",
+   "url": "https://www.menicka.cz/3129-pivnice-u-badinu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzeria & Ristorante IL CAPO",
+   "url": "https://www.menicka.cz/3149-pizzeria-ristorante-il-capo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "By the way",
+   "url": "https://www.menicka.cz/5820-by-the-way.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace U Tomana",
+   "url": "https://www.menicka.cz/6897-restaurace-u-tomana.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Plzeňský Dvůr",
+   "url": "https://www.menicka.cz/2724-plzensky-dvur.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tusto Pizzeria Ristorante",
+   "url": "https://www.menicka.cz/2786-tusto-pizzeria-ristorante.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Fako Club restaurace",
+   "url": "https://www.menicka.cz/9365-fako-club-restaurace.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Korzár",
+   "url": "https://www.menicka.cz/2663-restaurace-korzar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzeria U Kalvodů",
+   "url": "https://www.menicka.cz/2693-pizzeria-u-kalvodu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Thalie",
+   "url": "https://www.menicka.cz/6691-thalie.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Hovězího pupku",
+   "url": "https://www.menicka.cz/2759-u-hoveziho-pupku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Kovárně",
+   "url": "https://www.menicka.cz/2646-na-kovarne.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna Máj",
+   "url": "https://www.menicka.cz/2691-jidelna-maj.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivovarská restaurace U Richarda",
+   "url": "https://www.menicka.cz/3867-pivovarska-restaurace-u-richarda.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Havana Restaurant",
+   "url": "https://www.menicka.cz/3833-havana-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Our Story beer & ribs",
+   "url": "https://www.menicka.cz/3153-our-story-beer-ribs.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Hasičce",
+   "url": "https://www.menicka.cz/9351-na-hasicce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Zágreb",
+   "url": "https://www.menicka.cz/2611-zagreb.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Za Kapličkou",
+   "url": "https://www.menicka.cz/3279-za-kaplickou.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Campo (A-Sport Hotel)",
+   "url": "https://www.menicka.cz/2680-restaurace-campo-a-sport-hotel.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec Slunečnice",
+   "url": "https://www.menicka.cz/2654-hostinec-slunecnice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bernard Bar",
+   "url": "https://www.menicka.cz/6980-bernard-bar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Štatl",
+   "url": "https://www.menicka.cz/4946-statl.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace a pivnice Gambrinus",
+   "url": "https://www.menicka.cz/2778-restaurace-a-pivnice-gambrinus.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Bílého koníčka",
+   "url": "https://www.menicka.cz/5339-u-bileho-konicka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Potrefená Husa Vaňkovka",
+   "url": "https://www.menicka.cz/2620-potrefena-husa-vankovka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro U Máchala",
+   "url": "https://www.menicka.cz/6559-bistro-u-machala.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlies Mill",
+   "url": "https://www.menicka.cz/4128-charlies-mill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Steak House K1",
+   "url": "https://www.menicka.cz/4884-steak-house-k1.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzerie Basilico",
+   "url": "https://www.menicka.cz/3870-pizzerie-basilico.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Singha",
+   "url": "https://www.menicka.cz/9399-singha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "SIDDHARTHA",
+   "url": "https://www.menicka.cz/9581-siddhartha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na-tahu",
+   "url": "https://www.menicka.cz/3160-restaurace-na-tahu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Svitavská Rychta",
+   "url": "https://www.menicka.cz/5410-svitavska-rychta.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Gourmet Restaurant",
+   "url": "https://www.menicka.cz/2649-gourmet-restaurant.html",
+   "address": null,
+   "dishes": []
+  }
+ ]
+}
