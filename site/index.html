@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bezlepkové Brno</title>
+<style>
+  :root {
+    --bg: #faf8f4; --fg: #1f1d1a; --muted: #6b665e; --card: #ffffff;
+    --line: #e6e1d8; --gf: #1f7a4d; --gf-bg: #e3f3ea; --maybe: #8a6d1a; --maybe-bg: #f7efd6;
+    --unk: #6b665e; --unk-bg: #eeebe5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161513; --fg: #ece8e1; --muted: #a39d93; --card: #201f1c;
+      --line: #34322e; --gf: #7fd3a5; --gf-bg: #1d3328; --maybe: #e2c46e; --maybe-bg: #3a3220;
+      --unk: #a39d93; --unk-bg: #2a2925;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 16px; font-size: .9rem; }
+  .warn { background: var(--maybe-bg); color: var(--fg); border-radius: 8px;
+          padding: 10px 12px; font-size: .875rem; margin-bottom: 16px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 16px; }
+  input[type=search] { flex: 1 1 220px; padding: 8px 10px; border: 1px solid var(--line);
+                       border-radius: 8px; background: var(--card); color: var(--fg); font: inherit; }
+  label { font-size: .9rem; color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+          padding: 14px 16px; margin-bottom: 12px; }
+  .card h2 { font-size: 1.05rem; margin: 0; }
+  .card h2 a { color: inherit; }
+  .meta { color: var(--muted); font-size: .8rem; margin: 2px 0 8px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { display: flex; gap: 8px; align-items: baseline; padding: 4px 0; border-top: 1px solid var(--line); }
+  li:first-child { border-top: 0; }
+  .dish { flex: 1; }
+  .price { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+  .tag { font-size: .7rem; font-weight: 600; border-radius: 4px; padding: 1px 6px; white-space: nowrap; }
+  .explicit_gf { color: var(--gf); background: var(--gf-bg); }
+  .no_gluten { color: var(--maybe); background: var(--maybe-bg); }
+  .unknown { color: var(--unk); background: var(--unk-bg); }
+  .empty { color: var(--muted); text-align: center; padding: 32px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bezlepkové Brno</h1>
+  <p class="sub" id="sub">Načítavam…</p>
+  <div class="warn">Bez alergénu 1 znamená len to, že v surovinách nie je lepok. O kontaminácii v kuchyni
+    to nič nehovorí. Pri celiakii si to over na mieste.</div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Hľadať reštauráciu alebo jedlo">
+    <label><input type="checkbox" id="unk"> aj jedlá bez uvedených alergénov</label>
+  </div>
+  <div id="list"></div>
+</main>
+<script>
+const LABEL = { explicit_gf: "bez lepku", no_gluten: "bez alerg. 1", unknown: "alergény ?" };
+const RANK = { explicit_gf: 0, no_gluten: 1, unknown: 2 };
+let today = null, stats = {};
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const showUnk = document.getElementById("unk").checked;
+  const ok = new Set(["explicit_gf", "no_gluten", ...(showUnk ? ["unknown"] : [])]);
+
+  const rows = today.restaurants.map(r => {
+    const dishes = r.dishes.filter(d => ok.has(d.status))
+      .filter(d => !q || r.name.toLowerCase().includes(q) || d.name.toLowerCase().includes(q))
+      .sort((a, b) => RANK[a.status] - RANK[b.status]);
+    const score = dishes.reduce((s, d) => s + (d.status === "explicit_gf" ? 10 : d.status === "no_gluten" ? 3 : 0), 0);
+    return { r, dishes, score };
+  }).filter(x => x.dishes.length).sort((a, b) => b.score - a.score);
+
+  const el = document.getElementById("list");
+  if (!rows.length) { el.innerHTML = '<p class="empty">Nič nenájdené.</p>'; return; }
+  el.innerHTML = rows.map(({ r, dishes }) => {
+    const s = stats[r.url || r.name];
+    const hist = s && s.days_seen > 1 ? `Vhodné jedlo v ${s.days_gf} z ${s.days_seen} sledovaných dní` : "";
+    const meta = [r.address, hist].filter(Boolean).map(esc).join(" · ");
+    return `<div class="card">
+      <h2>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)}</h2>
+      ${meta ? `<div class="meta">${meta}</div>` : ""}
+      <ul>${dishes.map(d => `<li>
+        <span class="tag ${d.status}">${LABEL[d.status]}</span>
+        <span class="dish">${esc(d.name)}${d.allergens ? ` <small>(${esc(d.allergens.join(", "))})</small>` : ""}</span>
+        ${d.price ? `<span class="price">${esc(d.price)}</span>` : ""}
+      </li>`).join("")}</ul>
+    </div>`;
+  }).join("");
+}
+
+async function load() {
+  try {
+    today = await (await fetch("data/today.json", { cache: "no-store" })).json();
+    try { stats = await (await fetch("data/stats.json", { cache: "no-store" })).json(); } catch {}
+  } catch {
+    document.getElementById("sub").textContent = "Dáta zatiaľ nie sú. Spusti scraper.";
+    return;
+  }
+  document.getElementById("sub").textContent =
+    `Menu z menicka.cz · ${today.date} · ${today.restaurants.length} reštaurácií`;
+  render();
+}
+document.getElementById("q").addEventListener("input", render);
+document.getElementById("unk").addEventListener("change", render);
+load();
+</script>
+</body>
+</html>
