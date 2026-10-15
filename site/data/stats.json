@@ -17,56 +17,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/4116-padagali.html": {
-  "name": "Padagali",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
  "https://www.menicka.cz/3912-k2.html": {
   "name": "K2",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8168-re-set-caffe.html": {
-  "name": "re.SET Caffe",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9375-u-dvou-kosu.html": {
-  "name": "U Dvou kosů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2728-restaurace-arka.html": {
-  "name": "Restaurace Arka",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4897-la-corrida-restaurant-bystrc.html": {
-  "name": "La Corrida Restaurant - Bystrc",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6694-bistro-ministerio.html": {
-  "name": "Bistro Ministerio",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5163-buffalo-american-steakhouse.html": {
-  "name": "Buffalo American Steakhouse",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3174-club-restaurant-remet.html": {
-  "name": "Club restaurant Remet",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -77,8 +29,26 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/8518-kancl-bistro.html": {
-  "name": "KANCL bistro",
+ "https://www.menicka.cz/6694-bistro-ministerio.html": {
+  "name": "Bistro Ministerio",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4897-la-corrida-restaurant-bystrc.html": {
+  "name": "La Corrida Restaurant - Bystrc",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9375-u-dvou-kosu.html": {
+  "name": "U Dvou kosů",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3174-club-restaurant-remet.html": {
+  "name": "Club restaurant Remet",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -89,20 +59,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5342-oh-pho.html": {
-  "name": "Oh! Pho",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9932-nepal-curry-house.html": {
-  "name": "Nepal Curry House",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9039-kt-bistro-restaurant.html": {
-  "name": "KT Bistro & restaurant",
+ "https://www.menicka.cz/2728-restaurace-arka.html": {
+  "name": "Restaurace Arka",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -113,26 +71,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/6998-u-mamlasu-brno.html": {
-  "name": "U Mamlasů Brno",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5429-bistro-plac.html": {
-  "name": "Bistro PLAC",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8402-u-trech-certu-starobrnenska.html": {
-  "name": "U Třech čertů - Starobrněnská",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9363-bistro-na-botance.html": {
-  "name": "Bistro na Botance",
+ "https://www.menicka.cz/5342-oh-pho.html": {
+  "name": "Oh! Pho",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -149,26 +89,68 @@
   "days_gf": 0,
   "days_explicit": 0
  },
+ "https://www.menicka.cz/8168-re-set-caffe.html": {
+  "name": "re.SET Caffe",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8518-kancl-bistro.html": {
+  "name": "KANCL bistro",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4116-padagali.html": {
+  "name": "Padagali",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9363-bistro-na-botance.html": {
+  "name": "Bistro na Botance",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
  "https://www.menicka.cz/8847-mulgogi.html": {
   "name": "Mulgogi",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2692-jidelna-kocourek.html": {
-  "name": "Jídelna Kocourek",
+ "https://www.menicka.cz/6998-u-mamlasu-brno.html": {
+  "name": "U Mamlasů Brno",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3830-suzies.html": {
-  "name": "Suzies",
+ "https://www.menicka.cz/5163-buffalo-american-steakhouse.html": {
+  "name": "Buffalo American Steakhouse",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5336-re-set-canteen.html": {
-  "name": "re.SET Canteen",
+ "https://www.menicka.cz/9039-kt-bistro-restaurant.html": {
+  "name": "KT Bistro & restaurant",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5429-bistro-plac.html": {
+  "name": "Bistro PLAC",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9932-nepal-curry-house.html": {
+  "name": "Nepal Curry House",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8402-u-trech-certu-starobrnenska.html": {
+  "name": "U Třech čertů - Starobrněnská",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -179,14 +161,14 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3930-restaurace-fairko.html": {
-  "name": "Restaurace Fairko",
+ "https://www.menicka.cz/2692-jidelna-kocourek.html": {
+  "name": "Jídelna Kocourek",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/8797-hasicarna-638.html": {
-  "name": "Hasičárna 638",
+ "https://www.menicka.cz/3930-restaurace-fairko.html": {
+  "name": "Restaurace Fairko",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -197,248 +179,20 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/6751-raj-hlinky.html": {
-  "name": "Raj Hlinky",
+ "https://www.menicka.cz/5336-re-set-canteen.html": {
+  "name": "re.SET Canteen",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8797-hasicarna-638.html": {
+  "name": "Hasičárna 638",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/4971-nok-nok.html": {
-  "name": "Nok Nok",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/7533-obedy-adam.html": {
-  "name": "Obědy Adam",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9409-zelezna-ruze.html": {
-  "name": "Železná Růže",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4931-cook-point.html": {
-  "name": "Cook point",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2779-nova-chaloupka.html": {
-  "name": "Nová Chaloupka",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2742-rebio-velky-spalicek.html": {
-  "name": "Rebio Velký Špalíček",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2618-zlata-lod.html": {
-  "name": "Zlatá Loď",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3178-charlie-square.html": {
-  "name": "Charlie Square",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6361-garden-food-concept.html": {
-  "name": "Garden Food Concept",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2660-cafe-restaurant-bibus.html": {
-  "name": "Café Restaurant Bibus",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6968-restaurace-union.html": {
-  "name": "Restaurace Union",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2690-slunecni-dvur.html": {
-  "name": "Sluneční dvůr",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3884-jean-pauls.html": {
-  "name": "Jean Pauls",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4108-veg8cafe.html": {
-  "name": "Veg8Café",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2609-pizzeria-al-capone.html": {
-  "name": "Pizzeria Al Capone",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3247-pivnice-na-rohu-divadelni.html": {
-  "name": "Pivnice Na Rohu Divadelní",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5363-indicka-restaurace-goa.html": {
-  "name": "Indická restaurace Goa",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2747-rebio-holandska.html": {
-  "name": "Rebio Holandská",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8467-portoriko.html": {
-  "name": "Portoriko",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2652-monte-bu.html": {
-  "name": "Monte Bú",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2694-hotel-rakovec.html": {
-  "name": "Hotel Rakovec",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2678-kometa-pub-miki.html": {
-  "name": "Kometa Pub Miki",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3170-pivni-opice.html": {
-  "name": "Pivní Opice",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5433-svejk-restaurant.html": {
-  "name": "Švejk restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6898-pivovarska-restaurace-moravia.html": {
-  "name": "Pivovarská restaurace Moravia",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6712-dukat.html": {
-  "name": "Dukát",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4864-obedy-od-zacha.html": {
-  "name": "Obědy od Zacha",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5390-gusto-plzenka.html": {
-  "name": "Gusto Plzeňka",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2613-noem-arch-restaurant.html": {
-  "name": "Noem Arch Restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3201-restaurace-pastouska.html": {
-  "name": "Restaurace Pastouška",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2751-restaurace-stronghold.html": {
-  "name": "Restaurace Stronghold",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3206-tripoli-restaurant.html": {
-  "name": "Tripoli restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4900-uvozna.html": {
-  "name": "Úvozna",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/7220-gourmet-u-vankovky.html": {
-  "name": "Gourmet u Vaňkovky",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2718-butchers.html": {
-  "name": "Butchers",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3162-restaurace-okruh-pub.html": {
-  "name": "Restaurace Okruh Pub",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3882-naber-si.html": {
-  "name": "Naber si",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3868-jidelna-ibc-prikop.html": {
-  "name": "Jídelna IBC Příkop",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2764-svatoboj.html": {
-  "name": "Svatoboj",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4916-fat-free.html": {
-  "name": "Fat free",
+ "https://www.menicka.cz/3830-suzies.html": {
+  "name": "Suzies",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -449,74 +203,14 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5374-pivovarska-starobrno.html": {
-  "name": "Pivovarská Starobrno",
+ "https://www.menicka.cz/6322-milenium-kitchen.html": {
+  "name": "Milenium Kitchen",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2771-na-mlatech.html": {
-  "name": "Na Mlatech",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6720-slatina-bistro.html": {
-  "name": "Slatina Bistro",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8289-maybe-coffee-bistro.html": {
-  "name": "Maybe coffee & bistro",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2787-tusto-titanium.html": {
-  "name": "Tusto Titanium",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6690-u-kormidla.html": {
-  "name": "U Kormidla",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2645-na-chate.html": {
-  "name": "Na Chatě",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5415-u-baumannu.html": {
-  "name": "U Baumannů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6380-iq-restaurant-moravka.html": {
-  "name": "IQ Restaurant Morávka",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2685-jidelna-100-chuti.html": {
-  "name": "Jídelna 100 chutí",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2702-pavillon.html": {
-  "name": "Pavillon",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3843-restaurace-hnizdo.html": {
-  "name": "Restaurace Hnízdo",
+ "https://www.menicka.cz/5433-svejk-restaurant.html": {
+  "name": "Švejk restaurant",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -527,20 +221,26 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2664-ristorante-piazza.html": {
-  "name": "Ristorante Piazza",
+ "https://www.menicka.cz/4900-uvozna.html": {
+  "name": "Úvozna",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5401-morgal.html": {
-  "name": "Morgal",
+ "https://www.menicka.cz/7533-obedy-adam.html": {
+  "name": "Obědy Adam",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/8655-casa-del-gusto.html": {
-  "name": "Casa del gusto",
+ "https://www.menicka.cz/3165-potrefena-husa-zelny-trh.html": {
+  "name": "Potrefená Husa Zelný trh",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2652-monte-bu.html": {
+  "name": "Monte Bú",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -548,23 +248,119 @@
  "https://www.menicka.cz/3240-bistro-sindelar.html": {
   "name": "Bistro Šindelář",
   "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2678-kometa-pub-miki.html": {
+  "name": "Kometa Pub Miki",
+  "days_seen": 1,
   "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2775-vegalite.html": {
+  "name": "Vegalite",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3201-restaurace-pastouska.html": {
+  "name": "Restaurace Pastouška",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/7220-gourmet-u-vankovky.html": {
+  "name": "Gourmet u Vaňkovky",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2751-restaurace-stronghold.html": {
+  "name": "Restaurace Stronghold",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3162-restaurace-okruh-pub.html": {
+  "name": "Restaurace Okruh Pub",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3882-naber-si.html": {
+  "name": "Naber si",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2764-svatoboj.html": {
+  "name": "Svatoboj",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2747-rebio-holandska.html": {
+  "name": "Rebio Holandská",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6361-garden-food-concept.html": {
+  "name": "Garden Food Concept",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2694-hotel-rakovec.html": {
+  "name": "Hotel Rakovec",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4108-veg8cafe.html": {
+  "name": "Veg8Café",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4916-fat-free.html": {
+  "name": "Fat free",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2664-ristorante-piazza.html": {
+  "name": "Ristorante Piazza",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5452-pivnice-na-sypce.html": {
+  "name": "Pivnice Na Sýpce",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2787-tusto-titanium.html": {
+  "name": "Tusto Titanium",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2718-butchers.html": {
+  "name": "Butchers",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3232-campus-river.html": {
+  "name": "Campus River",
+  "days_seen": 1,
+  "days_gf": 1,
   "days_explicit": 0
  },
  "https://www.menicka.cz/2683-el-fausto.html": {
   "name": "El Fausto",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6042-bistro-22.html": {
-  "name": "Bistro 22",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4948-prvni-doubravnicka.html": {
-  "name": "První Doubravnická",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -575,32 +371,68 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3165-potrefena-husa-zelny-trh.html": {
-  "name": "Potrefená Husa Zelný trh",
+ "https://www.menicka.cz/4948-prvni-doubravnicka.html": {
+  "name": "První Doubravnická",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4864-obedy-od-zacha.html": {
+  "name": "Obědy od Zacha",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2756-restaurace-a-penzion-u-honzaku.html": {
-  "name": "Restaurace a penzion U Honzáků",
+ "https://www.menicka.cz/9409-zelezna-ruze.html": {
+  "name": "Železná Růže",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/6322-milenium-kitchen.html": {
-  "name": "Milenium Kitchen",
+ "https://www.menicka.cz/2618-zlata-lod.html": {
+  "name": "Zlatá Loď",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2742-rebio-velky-spalicek.html": {
+  "name": "Rebio Velký Špalíček",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2779-nova-chaloupka.html": {
+  "name": "Nová Chaloupka",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2621-potrefena-husa-lisen.html": {
-  "name": "Potrefená Husa Líšeň",
+ "https://www.menicka.cz/6712-dukat.html": {
+  "name": "Dukát",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4971-nok-nok.html": {
+  "name": "Nok Nok",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5452-pivnice-na-sypce.html": {
-  "name": "Pivnice Na Sýpce",
+ "https://www.menicka.cz/2690-slunecni-dvur.html": {
+  "name": "Sluneční dvůr",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2609-pizzeria-al-capone.html": {
+  "name": "Pizzeria Al Capone",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6690-u-kormidla.html": {
+  "name": "U Kormidla",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -611,10 +443,154 @@
   "days_gf": 0,
   "days_explicit": 0
  },
+ "https://www.menicka.cz/6898-pivovarska-restaurace-moravia.html": {
+  "name": "Pivovarská restaurace Moravia",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8655-casa-del-gusto.html": {
+  "name": "Casa del gusto",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5401-morgal.html": {
+  "name": "Morgal",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3884-jean-pauls.html": {
+  "name": "Jean Pauls",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2645-na-chate.html": {
+  "name": "Na Chatě",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5390-gusto-plzenka.html": {
+  "name": "Gusto Plzeňka",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2702-pavillon.html": {
+  "name": "Pavillon",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2613-noem-arch-restaurant.html": {
+  "name": "Noem Arch Restaurant",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6380-iq-restaurant-moravka.html": {
+  "name": "IQ Restaurant Morávka",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
  "https://www.menicka.cz/3224-stopkova-plzenska-pivnice.html": {
   "name": "Stopkova Plzeňská Pivnice",
   "days_seen": 1,
   "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3868-jidelna-ibc-prikop.html": {
+  "name": "Jídelna IBC Příkop",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6720-slatina-bistro.html": {
+  "name": "Slatina Bistro",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4931-cook-point.html": {
+  "name": "Cook point",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6968-restaurace-union.html": {
+  "name": "Restaurace Union",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5374-pivovarska-starobrno.html": {
+  "name": "Pivovarská Starobrno",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6042-bistro-22.html": {
+  "name": "Bistro 22",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3178-charlie-square.html": {
+  "name": "Charlie Square",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5415-u-baumannu.html": {
+  "name": "U Baumannů",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2685-jidelna-100-chuti.html": {
+  "name": "Jídelna 100 chutí",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6751-raj-hlinky.html": {
+  "name": "Raj Hlinky",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2771-na-mlatech.html": {
+  "name": "Na Mlatech",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8289-maybe-coffee-bistro.html": {
+  "name": "Maybe coffee & bistro",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3843-restaurace-hnizdo.html": {
+  "name": "Restaurace Hnízdo",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8467-portoriko.html": {
+  "name": "Portoriko",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3206-tripoli-restaurant.html": {
+  "name": "Tripoli restaurant",
+  "days_seen": 1,
+  "days_gf": 1,
   "days_explicit": 0
  },
  "https://www.menicka.cz/6863-pooll-grill.html": {
@@ -623,14 +599,44 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3232-campus-river.html": {
-  "name": "Campus River",
+ "https://www.menicka.cz/3170-pivni-opice.html": {
+  "name": "Pivní Opice",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/10055-sushi-noodles.html": {
-  "name": "Sushi Noodles",
+ "https://www.menicka.cz/2756-restaurace-a-penzion-u-honzaku.html": {
+  "name": "Restaurace a penzion U Honzáků",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5363-indicka-restaurace-goa.html": {
+  "name": "Indická restaurace Goa",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3247-pivnice-na-rohu-divadelni.html": {
+  "name": "Pivnice Na Rohu Divadelní",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2621-potrefena-husa-lisen.html": {
+  "name": "Potrefená Husa Líšeň",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2660-cafe-restaurant-bibus.html": {
+  "name": "Café Restaurant Bibus",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 1
+ },
+ "https://www.menicka.cz/9702-liberty-cafe.html": {
+  "name": "Liberty cafe",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -647,38 +653,20 @@
   "days_gf": 0,
   "days_explicit": 0
  },
+ "https://www.menicka.cz/10055-sushi-noodles.html": {
+  "name": "Sushi Noodles",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
  "https://www.menicka.cz/2700-pivnice-u-capa.html": {
   "name": "Pivnice U Čápa",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/9702-liberty-cafe.html": {
-  "name": "Liberty cafe",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2775-vegalite.html": {
-  "name": "Vegalite",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6388-bagetka-u-mlsnych-kocek.html": {
-  "name": "Bagetka “ U mlsných koček”",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9564-buddha.html": {
-  "name": "BUDDHA",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9582-buddha-2.html": {
-  "name": "BUDDHA 2",
+ "https://www.menicka.cz/4186-bistro-ocean48.html": {
+  "name": "Bistro - Ocean48",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -689,8 +677,20 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/4186-bistro-ocean48.html": {
-  "name": "Bistro - Ocean48",
+ "https://www.menicka.cz/9582-buddha-2.html": {
+  "name": "BUDDHA 2",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9564-buddha.html": {
+  "name": "BUDDHA",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6388-bagetka-u-mlsnych-kocek.html": {
+  "name": "Bagetka “ U mlsných koček”",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -707,44 +707,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/8722-delitree-bistro.html": {
-  "name": "Delitree Bistro",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2752-u-drevaka-beer-grill.html": {
-  "name": "U Dřeváka Beer&Grill",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/10127-scena.html": {
-  "name": "Scéna",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4838-seven-food.html": {
-  "name": "Seven Food",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9987-olymp-pub.html": {
-  "name": "Olymp Pub",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9376-prime-steak.html": {
-  "name": "Prime Steak",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9557-madama-cristina.html": {
-  "name": "Madama Cristina",
+ "https://www.menicka.cz/6718-krakonos.html": {
+  "name": "Krakonoš",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -755,50 +719,14 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/9881-cafe-imperion.html": {
-  "name": "Cafe Imperion",
+ "https://www.menicka.cz/3139-restaurace-u-travnicka.html": {
+  "name": "Restaurace U Trávníčka",
   "days_seen": 1,
-  "days_gf": 0,
+  "days_gf": 1,
   "days_explicit": 0
  },
- "https://www.menicka.cz/10084-triplex76.html": {
-  "name": "Triplex76",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/7781-na-solnici.html": {
-  "name": "Na Solnici",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5876-restaurace-u-emila.html": {
-  "name": "Restaurace u Emila",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6718-krakonos.html": {
-  "name": "Krakonoš",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2687-kometa-arena-pub.html": {
-  "name": "Kometa Arena Pub",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8656-pivovarsky-dum-poupe.html": {
-  "name": "Pivovarský dům Poupě",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9970-restaurace-leonardo.html": {
-  "name": "Restaurace Leonardo",
+ "https://www.menicka.cz/4898-restaurant-la-corrida-zabovresky.html": {
+  "name": "Restaurant La Corrida - Žabovřesky",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -806,29 +734,11 @@
  "https://www.menicka.cz/8483-padthai.html": {
   "name": "Padthai",
   "days_seen": 1,
-  "days_gf": 0,
+  "days_gf": 1,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2770-restaurace-na-piave.html": {
-  "name": "Restaurace Na Piavě",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6468-diva-bara.html": {
-  "name": "Divá Bára",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9404-ilegal.html": {
-  "name": "ILEGAL",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5416-restaurace-na-halach.html": {
-  "name": "Restaurace Na Halách",
+ "https://www.menicka.cz/5457-u-krale-jiriho.html": {
+  "name": "U krále Jiřího",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -839,50 +749,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/4898-restaurant-la-corrida-zabovresky.html": {
-  "name": "Restaurant La Corrida - Žabovřesky",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6695-u-karla.html": {
-  "name": "U Karla",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5414-betlem.html": {
-  "name": "Betlém",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3238-restaurace-slatinsky-senk.html": {
-  "name": "Restaurace Slatinský šenk",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3185-u-nemilosrdnych-bratri.html": {
-  "name": "U Nemilosrdných Bratří",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2701-restaurace-laguna.html": {
-  "name": "Restaurace Laguna",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2754-u-latalu.html": {
-  "name": "U Látalů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8857-u-medene-panve.html": {
-  "name": "U Měděné pánve",
+ "https://www.menicka.cz/3197-hostinec-u-seminaru.html": {
+  "name": "Hostinec U Semináru",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -893,92 +761,20 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3205-restaurace-bar-baroko.html": {
-  "name": "Restaurace & Bar Baroko",
+ "https://www.menicka.cz/8656-pivovarsky-dum-poupe.html": {
+  "name": "Pivovarský dům Poupě",
   "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3139-restaurace-u-travnicka.html": {
-  "name": "Restaurace U Trávníčka",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3899-na-knofliku.html": {
-  "name": "Na Knoflíku",
-  "days_seen": 1,
-  "days_gf": 0,
+  "days_gf": 1,
   "days_explicit": 0
  },
  "https://www.menicka.cz/3245-restaurace-zdravy-zivot.html": {
   "name": "Restaurace Zdravý život",
   "days_seen": 1,
-  "days_gf": 0,
+  "days_gf": 1,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3934-u-kotelny.html": {
-  "name": "U Kotelny",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6347-restaurace-sup.html": {
-  "name": "Restaurace Sup",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/8401-u-trech-certu-dvorakova.html": {
-  "name": "U Třech čertů - Dvořáková",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3883-hostinec-u-pantatu.html": {
-  "name": "Hostinec U Pantátů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5400-restaurace-na-musilce.html": {
-  "name": "Restaurace Na Musilce",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4954-restaurace-stavba.html": {
-  "name": "Restaurace Stavba",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9305-cosmopolis-grill.html": {
-  "name": "Cosmopolis Grill",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9683-himalaya-restaurant.html": {
-  "name": "Himalaya restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6722-restobar-onyx.html": {
-  "name": "Restobar Onyx",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5457-u-krale-jiriho.html": {
-  "name": "U krále Jiřího",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2626-delnicky-dum-zidenice.html": {
-  "name": "Dělnický dům Židenice",
+ "https://www.menicka.cz/7781-na-solnici.html": {
+  "name": "Na Solnici",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -989,38 +785,236 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3197-hostinec-u-seminaru.html": {
-  "name": "Hostinec U Semináru",
+ "https://www.menicka.cz/9376-prime-steak.html": {
+  "name": "Prime Steak",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5343-bistro-leharo.html": {
-  "name": "Bistro Leháro",
+ "https://www.menicka.cz/10127-scena.html": {
+  "name": "Scéna",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3177-la-famiglia.html": {
-  "name": "La Famiglia",
+ "https://www.menicka.cz/8401-u-trech-certu-dvorakova.html": {
+  "name": "U Třech čertů - Dvořáková",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3225-u-3-opic.html": {
-  "name": "U 3 Opic",
+ "https://www.menicka.cz/5416-restaurace-na-halach.html": {
+  "name": "Restaurace Na Halách",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3942-restaurace-na-vyhlidce.html": {
-  "name": "Restaurace na Vyhlídce",
+ "https://www.menicka.cz/6695-u-karla.html": {
+  "name": "U Karla",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/8409-u-primu.html": {
-  "name": "U Primů",
+ "https://www.menicka.cz/5876-restaurace-u-emila.html": {
+  "name": "Restaurace u Emila",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2626-delnicky-dum-zidenice.html": {
+  "name": "Dělnický dům Židenice",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3934-u-kotelny.html": {
+  "name": "U Kotelny",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9683-himalaya-restaurant.html": {
+  "name": "Himalaya restaurant",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4838-seven-food.html": {
+  "name": "Seven Food",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 1
+ },
+ "https://www.menicka.cz/3883-hostinec-u-pantatu.html": {
+  "name": "Hostinec U Pantátů",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2687-kometa-arena-pub.html": {
+  "name": "Kometa Arena Pub",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9404-ilegal.html": {
+  "name": "ILEGAL",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/10084-triplex76.html": {
+  "name": "Triplex76",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9881-cafe-imperion.html": {
+  "name": "Cafe Imperion",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2752-u-drevaka-beer-grill.html": {
+  "name": "U Dřeváka Beer&Grill",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5400-restaurace-na-musilce.html": {
+  "name": "Restaurace Na Musilce",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2754-u-latalu.html": {
+  "name": "U Látalů",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9987-olymp-pub.html": {
+  "name": "Olymp Pub",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6468-diva-bara.html": {
+  "name": "Divá Bára",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6347-restaurace-sup.html": {
+  "name": "Restaurace Sup",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3899-na-knofliku.html": {
+  "name": "Na Knoflíku",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2701-restaurace-laguna.html": {
+  "name": "Restaurace Laguna",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3238-restaurace-slatinsky-senk.html": {
+  "name": "Restaurace Slatinský šenk",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2770-restaurace-na-piave.html": {
+  "name": "Restaurace Na Piavě",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9305-cosmopolis-grill.html": {
+  "name": "Cosmopolis Grill",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6722-restobar-onyx.html": {
+  "name": "Restobar Onyx",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9557-madama-cristina.html": {
+  "name": "Madama Cristina",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3205-restaurace-bar-baroko.html": {
+  "name": "Restaurace & Bar Baroko",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3185-u-nemilosrdnych-bratri.html": {
+  "name": "U Nemilosrdných Bratří",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9970-restaurace-leonardo.html": {
+  "name": "Restaurace Leonardo",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8857-u-medene-panve.html": {
+  "name": "U Měděné pánve",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5414-betlem.html": {
+  "name": "Betlém",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/8722-delitree-bistro.html": {
+  "name": "Delitree Bistro",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4954-restaurace-stavba.html": {
+  "name": "Restaurace Stavba",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 1
+ },
+ "https://www.menicka.cz/5349-u-dvou-hrebicku.html": {
+  "name": "U Dvou Hřebíčků",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6691-thalie.html": {
+  "name": "Thalie",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2786-tusto-pizzeria-ristorante.html": {
+  "name": "Tusto Pizzeria Ristorante",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3167-piccolo-bar.html": {
+  "name": "Piccolo bar",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1031,68 +1025,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2745-rebio-orli.html": {
-  "name": "Rebio Orlí",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2717-restaurace-jakoby.html": {
-  "name": "Restaurace Jakoby",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3167-piccolo-bar.html": {
-  "name": "Piccolo bar",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5434-u-lucerny.html": {
-  "name": "U Lucerny",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5841-slunecnice-pub.html": {
-  "name": "Slunečnice pub",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4917-nase-vase-bistro.html": {
-  "name": "Naše Vaše Bistro",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3207-tripoli-starobrnenska.html": {
-  "name": "Tripoli Starobrňenská",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2684-charlies-park.html": {
-  "name": "Charlies Park",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4977-restaurace-oaza.html": {
-  "name": "Restaurace Oáza",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3854-na-ruzku.html": {
-  "name": "Na Růžku",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2696-pohosteni-u-sroubka.html": {
-  "name": "Pohoštění u Šroubka",
+ "https://www.menicka.cz/2759-u-hoveziho-pupku.html": {
+  "name": "U Hovězího pupku",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1100,17 +1034,11 @@
  "https://www.menicka.cz/5448-light-of-india.html": {
   "name": "Light of India",
   "days_seen": 1,
-  "days_gf": 0,
+  "days_gf": 1,
   "days_explicit": 0
  },
- "https://www.menicka.cz/4901-bastirna-slatina.html": {
-  "name": "Baštírna Slatina",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5349-u-dvou-hrebicku.html": {
-  "name": "U Dvou Hřebíčků",
+ "https://www.menicka.cz/4917-nase-vase-bistro.html": {
+  "name": "Naše Vaše Bistro",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1121,206 +1049,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3172-hotel-gregor.html": {
-  "name": "Hotel Gregor ***",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2665-za-branou.html": {
-  "name": "Za Bránou",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2643-na-trati.html": {
-  "name": "Na Trati",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3918-zannam.html": {
-  "name": "Zannam",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2774-alvin.html": {
-  "name": "Alvin",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3163-bistro-franz.html": {
-  "name": "Bistro Franz",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2749-restaurace-rubin.html": {
-  "name": "Restaurace Rubín",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3874-u-musketyra.html": {
-  "name": "U Mušketýra",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2743-restaurant-padowetz.html": {
-  "name": "Restaurant Padowetz",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6666-vittorio-restaurant.html": {
-  "name": "Vittorio Restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3129-pivnice-u-badinu.html": {
-  "name": "Pivnice U Badinů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3149-pizzeria-ristorante-il-capo.html": {
-  "name": "Pizzeria & Ristorante IL CAPO",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/5820-by-the-way.html": {
-  "name": "By the way",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
  "https://www.menicka.cz/6897-restaurace-u-tomana.html": {
   "name": "Restaurace U Tomana",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2724-plzensky-dvur.html": {
-  "name": "Plzeňský Dvůr",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2786-tusto-pizzeria-ristorante.html": {
-  "name": "Tusto Pizzeria Ristorante",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9365-fako-club-restaurace.html": {
-  "name": "Fako Club restaurace",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2663-restaurace-korzar.html": {
-  "name": "Restaurace Korzár",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2693-pizzeria-u-kalvodu.html": {
-  "name": "Pizzeria U Kalvodů",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6691-thalie.html": {
-  "name": "Thalie",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2759-u-hoveziho-pupku.html": {
-  "name": "U Hovězího pupku",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2646-na-kovarne.html": {
-  "name": "Na Kovárně",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2691-jidelna-maj.html": {
-  "name": "Jídelna Máj",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3867-pivovarska-restaurace-u-richarda.html": {
-  "name": "Pivovarská restaurace U Richarda",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3833-havana-restaurant.html": {
-  "name": "Havana Restaurant",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3153-our-story-beer-ribs.html": {
-  "name": "Our Story beer & ribs",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9351-na-hasicce.html": {
-  "name": "Na Hasičce",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2611-zagreb.html": {
-  "name": "Zágreb",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/3279-za-kaplickou.html": {
-  "name": "Za Kapličkou",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2680-restaurace-campo-a-sport-hotel.html": {
-  "name": "Restaurace Campo (A-Sport Hotel)",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2654-hostinec-slunecnice.html": {
-  "name": "Hostinec Slunečnice",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/6980-bernard-bar.html": {
-  "name": "Bernard Bar",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/4946-statl.html": {
-  "name": "Štatl",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/2778-restaurace-a-pivnice-gambrinus.html": {
-  "name": "Restaurace a pivnice Gambrinus",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1331,11 +1061,149 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/2620-potrefena-husa-vankovka.html": {
-  "name": "Potrefená Husa Vaňkovka",
+ "https://www.menicka.cz/5343-bistro-leharo.html": {
+  "name": "Bistro Leháro",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
+ },
+ "https://www.menicka.cz/8409-u-primu.html": {
+  "name": "U Primů",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6980-bernard-bar.html": {
+  "name": "Bernard Bar",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3833-havana-restaurant.html": {
+  "name": "Havana Restaurant",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3225-u-3-opic.html": {
+  "name": "U 3 Opic",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2620-potrefena-husa-vankovka.html": {
+  "name": "Potrefená Husa Vaňkovka",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3129-pivnice-u-badinu.html": {
+  "name": "Pivnice U Badinů",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3163-bistro-franz.html": {
+  "name": "Bistro Franz",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3149-pizzeria-ristorante-il-capo.html": {
+  "name": "Pizzeria & Ristorante IL CAPO",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2680-restaurace-campo-a-sport-hotel.html": {
+  "name": "Restaurace Campo (A-Sport Hotel)",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2717-restaurace-jakoby.html": {
+  "name": "Restaurace Jakoby",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3874-u-musketyra.html": {
+  "name": "U Mušketýra",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9365-fako-club-restaurace.html": {
+  "name": "Fako Club restaurace",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5434-u-lucerny.html": {
+  "name": "U Lucerny",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2774-alvin.html": {
+  "name": "Alvin",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4901-bastirna-slatina.html": {
+  "name": "Baštírna Slatina",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3942-restaurace-na-vyhlidce.html": {
+  "name": "Restaurace na Vyhlídce",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3854-na-ruzku.html": {
+  "name": "Na Růžku",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/9351-na-hasicce.html": {
+  "name": "Na Hasičce",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2684-charlies-park.html": {
+  "name": "Charlies Park",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5820-by-the-way.html": {
+  "name": "By the way",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2693-pizzeria-u-kalvodu.html": {
+  "name": "Pizzeria U Kalvodů",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3177-la-famiglia.html": {
+  "name": "La Famiglia",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2663-restaurace-korzar.html": {
+  "name": "Restaurace Korzár",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 1
  },
  "https://www.menicka.cz/6559-bistro-u-machala.html": {
   "name": "Bistro U Máchala",
@@ -1343,8 +1211,146 @@
   "days_gf": 0,
   "days_explicit": 0
  },
+ "https://www.menicka.cz/4977-restaurace-oaza.html": {
+  "name": "Restaurace Oáza",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2643-na-trati.html": {
+  "name": "Na Trati",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3172-hotel-gregor.html": {
+  "name": "Hotel Gregor ***",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2745-rebio-orli.html": {
+  "name": "Rebio Orlí",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3918-zannam.html": {
+  "name": "Zannam",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2691-jidelna-maj.html": {
+  "name": "Jídelna Máj",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3279-za-kaplickou.html": {
+  "name": "Za Kapličkou",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2665-za-branou.html": {
+  "name": "Za Bránou",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2778-restaurace-a-pivnice-gambrinus.html": {
+  "name": "Restaurace a pivnice Gambrinus",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2749-restaurace-rubin.html": {
+  "name": "Restaurace Rubín",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/4946-statl.html": {
+  "name": "Štatl",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3153-our-story-beer-ribs.html": {
+  "name": "Our Story beer & ribs",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2696-pohosteni-u-sroubka.html": {
+  "name": "Pohoštění u Šroubka",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2724-plzensky-dvur.html": {
+  "name": "Plzeňský Dvůr",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2611-zagreb.html": {
+  "name": "Zágreb",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/6666-vittorio-restaurant.html": {
+  "name": "Vittorio Restaurant",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3867-pivovarska-restaurace-u-richarda.html": {
+  "name": "Pivovarská restaurace U Richarda",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2646-na-kovarne.html": {
+  "name": "Na Kovárně",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2654-hostinec-slunecnice.html": {
+  "name": "Hostinec Slunečnice",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
  "https://www.menicka.cz/4128-charlies-mill.html": {
   "name": "Charlies Mill",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5841-slunecnice-pub.html": {
+  "name": "Slunečnice pub",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/2743-restaurant-padowetz.html": {
+  "name": "Restaurant Padowetz",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3207-tripoli-starobrnenska.html": {
+  "name": "Tripoli Starobrňenská",
+  "days_seen": 1,
+  "days_gf": 1,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/3870-pizzerie-basilico.html": {
+  "name": "Pizzerie Basilico",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1355,20 +1361,14 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/3870-pizzerie-basilico.html": {
-  "name": "Pizzerie Basilico",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
- "https://www.menicka.cz/9399-singha.html": {
-  "name": "Singha",
-  "days_seen": 1,
-  "days_gf": 0,
-  "days_explicit": 0
- },
  "https://www.menicka.cz/9581-siddhartha.html": {
   "name": "SIDDHARTHA",
+  "days_seen": 1,
+  "days_gf": 0,
+  "days_explicit": 0
+ },
+ "https://www.menicka.cz/5410-svitavska-rychta.html": {
+  "name": "Svitavská Rychta",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
@@ -1379,8 +1379,8 @@
   "days_gf": 0,
   "days_explicit": 0
  },
- "https://www.menicka.cz/5410-svitavska-rychta.html": {
-  "name": "Svitavská Rychta",
+ "https://www.menicka.cz/9399-singha.html": {
+  "name": "Singha",
   "days_seen": 1,
   "days_gf": 0,
   "days_explicit": 0
