@@ -46,7 +46,6 @@ NO_MENU_RE = re.compile(r"nebylo zadáno|není k dispozici|zavřeno|dovolená", 
 class ParseError(RuntimeError):
     pass
 
-
 def parse_allergens(text: str) -> tuple[str, list[str] | None]:
     """Vráti (názov jedla bez alergénov a ceny, zoznam alergénov alebo None)."""
     t = PRICE_RE.sub("", " ".join(text.split())).strip().rstrip(" •·*")
@@ -148,3 +147,78 @@ def allowed_by_robots(url: str) -> bool:
     except Exception:
         return True
     return rp.can_fetch(USER_AGENT, url)
+
+
+def build_stats(history_dir: Path) -> dict:
+    stats: dict[str, dict] = {}
+    for f in sorted(history_dir.glob("*.json")):
+        day = json.loads(f.read_text(encoding="utf-8"))
+        for r in day["restaurants"]:
+            key = r["url"] or r["name"]
+            s = stats.setdefault(key, {"name": r["name"], "days_seen": 0,
+                                       "days_gf": 0, "days_explicit": 0})
+            statuses = {d["status"] for d in r["dishes"]}
+            s["days_seen"] += 1
+            s["days_gf"] += bool(statuses & {"no_gluten", "explicit_gf"})
+            s["days_explicit"] += "explicit_gf" in statuses
+    return stats
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--out", type=Path, default=Path("site/data"))
+    ap.add_argument("--debug-dir", type=Path, default=Path("debug"))
+    ap.add_argument("--html", type=Path, help="parsovať lokálny HTML súbor namiesto sťahovania")
+    ap.add_argument("--max-pages", type=int, default=15)
+    args = ap.parse_args(argv)
+
+    now = dt.datetime.now(TZ)
+    pages: list[tuple[str, bytes]] = []
+    if args.html:
+        pages.append((LIST_URL, args.html.read_bytes()))
+    else:
+        if not allowed_by_robots(LIST_URL):
+            print("robots.txt nepovoľuje sťahovanie, končím.", file=sys.stderr)
+            return 1
+        session = requests.Session()
+        session.headers["User-Agent"] = USER_AGENT
+        url: str | None = LIST_URL
+        seen = set()
+        while url and url not in seen and len(pages) < args.max_pages:
+            seen.add(url)
+            html = fetch(session, url)
+            pages.append((url, html))
+            url = find_next_page(html, url)
+            if url:
+                time.sleep(REQUEST_DELAY_S)
+
+    args.debug_dir.mkdir(parents=True, exist_ok=True)
+    for i, (_, html) in enumerate(pages):
+        (args.debug_dir / f"page{i + 1}.html").write_bytes(html)
+
+    restaurants = []
+    for url, html in pages:
+        restaurants.extend(parse_list_page(html, url))
+
+    payload = {
+        "date": now.date().isoformat(),
+        "fetched_at": now.isoformat(timespec="seconds"),
+        "source": LIST_URL,
+        "restaurants": restaurants,
+    }
+    history_dir = args.out / "history"
+    history_dir.mkdir(parents=True, exist_ok=True)
+    dump = json.dumps(payload, ensure_ascii=False, indent=1)
+    (args.out / "today.json").write_text(dump, encoding="utf-8")
+    (history_dir / f"{payload['date']}.json").write_text(dump, encoding="utf-8")
+    (args.out / "stats.json").write_text(
+        json.dumps(build_stats(history_dir), ensure_ascii=False, indent=1), encoding="utf-8")
+
+    dishes = [d for r in restaurants for d in r["dishes"]]
+    counts = {s: sum(d["status"] == s for d in dishes)
+              for s in ("explicit_gf", "no_gluten", "gluten", "unknown")}
+    print(f"{len(pages)} strán, {len(restaurants)} reštaurácií, {len(dishes)} jedál: {counts}")
+    if dishes and counts["unknown"] / len(dishes) > 0.8:
+        print("Varovanie: pri >80 % jedál sa nenašli alergény, parser treba asi upraviť.",
+              file=sys.stderr)
+    return 0
