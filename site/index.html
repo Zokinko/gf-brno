@@ -8,13 +8,13 @@
   :root {
     --bg: #faf8f4; --fg: #1f1d1a; --muted: #6b665e; --card: #ffffff;
     --line: #e6e1d8; --gf: #1f7a4d; --gf-bg: #e3f3ea; --maybe: #8a6d1a; --maybe-bg: #f7efd6;
-    --unk: #6b665e; --unk-bg: #eeebe5;
+    --unk: #6b665e; --unk-bg: #eeebe5; --star: #c58a00;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #161513; --fg: #ece8e1; --muted: #a39d93; --card: #201f1c;
       --line: #34322e; --gf: #7fd3a5; --gf-bg: #1d3328; --maybe: #e2c46e; --maybe-bg: #3a3220;
-      --unk: #a39d93; --unk-bg: #2a2925;
+      --unk: #a39d93; --unk-bg: #2a2925; --star: #f2c14e;
     }
   }
   * { box-sizing: border-box; }
@@ -44,6 +44,16 @@
   .no_gluten { color: var(--maybe); background: var(--maybe-bg); }
   .unknown { color: var(--unk); background: var(--unk-bg); }
   .empty { color: var(--muted); text-align: center; padding: 32px 0; }
+  .head { display: flex; align-items: flex-start; gap: 8px; }
+  .head h2 { flex: 1; }
+  .star { background: none; border: 0; cursor: pointer; font-size: 1.35rem; line-height: 1;
+          color: var(--muted); padding: 0 2px; }
+  .star.on { color: var(--star); }
+  .card.fav { border-color: var(--star); }
+  .none { color: var(--muted); font-size: .875rem; margin: 4px 0 0; }
+  .foot { color: var(--muted); font-size: .85rem; margin-top: 24px; }
+  .linkbtn { background: none; border: 0; padding: 0; color: inherit; font: inherit;
+             text-decoration: underline; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -55,38 +65,73 @@
   <div class="controls">
     <input type="search" id="q" placeholder="Hľadať reštauráciu alebo jedlo">
     <label><input type="checkbox" id="unk"> aj jedlá bez uvedených alergénov</label>
+    <label><input type="checkbox" id="favonly"> len obľúbené ★</label>
   </div>
   <div id="list"></div>
+  <p class="foot">Obľúbené sa ukladajú len v tomto prehliadači.
+    <button class="linkbtn" id="share">Skopírovať odkaz na prenos do iného zariadenia</button>
+    <span id="msg"></span></p>
 </main>
 <script>
 const LABEL = { explicit_gf: "bez lepku", no_gluten: "bez alerg. 1", unknown: "alergény ?" };
 const RANK = { explicit_gf: 0, no_gluten: 1, unknown: 2 };
+const FAV_STORE = "gf-brno-favs";
 let today = null, stats = {};
+
+// Obľúbené: kľúč je ID z menicka.cz URL (napr. 5396), inak názov.
+const favKey = r => (r.url && (r.url.match(/\/(\d+)-/) || [])[1]) || r.name;
+let favs = new Set();
+try { favs = new Set(JSON.parse(localStorage.getItem(FAV_STORE)) || []); } catch {}
+const saveFavs = () => { try { localStorage.setItem(FAV_STORE, JSON.stringify([...favs])); } catch {} };
+
+function importFavsFromHash() {
+  const m = location.hash.match(/fav=([^&]*)/);
+  if (!m) return 0;
+  const keys = m[1].split(",").filter(Boolean).map(decodeURIComponent);
+  keys.forEach(k => favs.add(k));
+  saveFavs();
+  history.replaceState(null, "", location.pathname + location.search);
+  return keys.length;
+}
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   const showUnk = document.getElementById("unk").checked;
+  const favOnly = document.getElementById("favonly").checked;
   const ok = new Set(["explicit_gf", "no_gluten", ...(showUnk ? ["unknown"] : [])]);
 
   const rows = today.restaurants.map(r => {
+    const fav = favs.has(favKey(r));
+    const nameHit = !q || r.name.toLowerCase().includes(q);
     const dishes = r.dishes.filter(d => ok.has(d.status))
-      .filter(d => !q || r.name.toLowerCase().includes(q) || d.name.toLowerCase().includes(q))
+      .filter(d => nameHit || d.name.toLowerCase().includes(q))
       .sort((a, b) => RANK[a.status] - RANK[b.status]);
     const score = dishes.reduce((s, d) => s + (d.status === "explicit_gf" ? 10 : d.status === "no_gluten" ? 3 : 0), 0);
-    return { r, dishes, score };
-  }).filter(x => x.dishes.length).sort((a, b) => b.score - a.score);
+    return { r, dishes, score, fav, nameHit };
+  })
+    .filter(x => favOnly ? x.fav && (x.nameHit || x.dishes.length) : x.dishes.length)
+    .sort((a, b) => b.fav - a.fav || b.score - a.score);
 
   const el = document.getElementById("list");
-  if (!rows.length) { el.innerHTML = '<p class="empty">Nič nenájdené.</p>'; return; }
-  el.innerHTML = rows.map(({ r, dishes }) => {
+  if (!rows.length) {
+    el.innerHTML = `<p class="empty">${favOnly && !favs.size
+      ? "Zatiaľ nemáš obľúbené. Klikni na ☆ pri reštaurácii." : "Nič nenájdené."}</p>`;
+    return;
+  }
+  el.innerHTML = rows.map(({ r, dishes, fav }) => {
     const s = stats[r.url || r.name];
     const hist = s && s.days_seen > 1 ? `Vhodné jedlo v ${s.days_gf} z ${s.days_seen} sledovaných dní` : "";
     const meta = [r.address, hist].filter(Boolean).map(esc).join(" · ");
-    return `<div class="card">
-      <h2>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)}</h2>
+    return `<div class="card${fav ? " fav" : ""}">
+      <div class="head">
+        <h2>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)}</h2>
+        <button class="star${fav ? " on" : ""}" data-key="${esc(favKey(r))}" aria-pressed="${fav}"
+          title="${fav ? "Odobrať z obľúbených" : "Pridať do obľúbených"}">${fav ? "★" : "☆"}</button>
+      </div>
       ${meta ? `<div class="meta">${meta}</div>` : ""}
+      ${dishes.length ? "" : '<p class="none">Dnes tu nie je žiadne vhodné jedlo.</p>'}
       <ul>${dishes.map(d => `<li>
         <span class="tag ${d.status}">${LABEL[d.status]}</span>
         <span class="dish">${esc(d.name)}${d.allergens ? ` <small>(${esc(d.allergens.join(", "))})</small>` : ""}</span>
@@ -110,6 +155,24 @@ async function load() {
 }
 document.getElementById("q").addEventListener("input", render);
 document.getElementById("unk").addEventListener("change", render);
+document.getElementById("favonly").addEventListener("change", render);
+document.getElementById("list").addEventListener("click", e => {
+  const btn = e.target.closest(".star");
+  if (!btn) return;
+  const k = btn.dataset.key;
+  favs.has(k) ? favs.delete(k) : favs.add(k);
+  saveFavs();
+  render();
+});
+document.getElementById("share").addEventListener("click", async () => {
+  const msg = document.getElementById("msg");
+  if (!favs.size) { msg.textContent = "Najprv si pridaj nejaké obľúbené."; return; }
+  const url = location.origin + location.pathname + "#fav=" + [...favs].map(encodeURIComponent).join(",");
+  try { await navigator.clipboard.writeText(url); msg.textContent = "Skopírované. Otvor odkaz na druhom zariadení."; }
+  catch { prompt("Skopíruj si tento odkaz:", url); }
+});
+const imported = importFavsFromHash();
+if (imported) document.getElementById("msg").textContent = `Pridané obľúbené z odkazu: ${imported}.`;
 load();
 </script>
 </body>
