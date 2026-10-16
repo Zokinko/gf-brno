@@ -33,7 +33,7 @@ ALLERGEN_RE = re.compile(
     r"""(?P<prefix>\(\s*(?:(?:A|Alerg[eé]ny)\s*[:.\-–]?\s*)?
                   |\b(?:A|Al|Alerg[eé]ny)\s*[:.\-–]?\s*
                   |/\s*)?
-        (?P<list>\d{1,2}[a-h]?(?:(?:\s*[,;/]\s*|\s+)\d{1,2}[a-h]?)*)
+        (?<![^\W\d_])(?P<list>\d{1,2}[a-h]?(?:(?:\s*[,;/]\s*|\s+)\d{1,2}[a-h]?)*)
         \s*[,;]?\s*\)?\s*$""",
     re.X | re.I,
 )
@@ -45,6 +45,7 @@ NO_MENU_RE = re.compile(r"nebylo zadáno|není k dispozici|zavřeno|dovolená", 
 
 class ParseError(RuntimeError):
     pass
+
 
 def parse_allergens(text: str) -> tuple[str, list[str] | None]:
     """Vráti (názov jedla bez alergénov a ceny, zoznam alergénov alebo None)."""
