@@ -31,12 +31,17 @@ OVERPASS_URLS = [
     "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
 ]
 # Brno podľa Wikidata (Q14960), aby sme nezáviseli od admin_level.
-OVERPASS_QUERY = """
-[out:json][timeout:180];
-area["wikidata"="Q14960"]->.brno;
-nwr["amenity"~"^(restaurant|cafe|fast_food|pub|biergarten|ice_cream)$"]["name"](area.brno);
-out center tags;
-"""
+AMENITY_FILTER = '["amenity"~"^(restaurant|cafe|fast_food|pub|biergarten|ice_cream)$"]["name"]'
+OVERPASS_QUERIES = [
+    # Presne hranice mesta (Brno podľa Wikidata Q14960). Niektoré zrkadlá nemajú predpočítané oblasti
+    # a vrátia prázdny výsledok, preto záložne obdĺžnik okolo Brna (zachytí aj kúsok okolia).
+    ("hranice mesta", f'[out:json][timeout:180];area["wikidata"="Q14960"]->.brno;'
+                      f'nwr{AMENITY_FILTER}(area.brno);out center tags;'),
+    ("obdĺžnik okolo Brna", f'[out:json][timeout:180];nwr{AMENITY_FILTER}(49.109,16.428,49.295,16.728);'
+                            f'out center tags;'),
+]
+# V Brne je podnikov rádovo viac ako tisíc; menej znamená chybnú alebo neúplnú odpoveď servera.
+MIN_EXPECTED_PLACES = 200
 USER_AGENT = "bezlepkove-brno/0.2 (osobny projekt, jednorazovy prechod webov)"
 TIMEOUT_S = 12
 MAX_BYTES = 4_000_000
@@ -60,22 +65,27 @@ SKIP_HOSTS_RE = re.compile(r"(facebook|instagram|fb)\.com|wolt\.com|foodora\.cz|
 
 # ---------- OpenStreetMap ----------
 
-def fetch_osm(session: requests.Session, rounds: int = 3) -> list[dict]:
-    """Verejné Overpass servery bývajú preťažené (429/504), skúsi preto viac zrkadiel a opakuje."""
+def fetch_osm(session: requests.Session, rounds: int = 3,
+              min_places: int = MIN_EXPECTED_PLACES) -> list[dict]:
+    """Verejné Overpass servery bývajú preťažené (429/504) alebo vrátia neúplné dáta,
+    skúsi preto viac zrkadiel, oba dotazy a opakuje."""
     last_error: Exception | None = None
     for attempt in range(rounds):
         for url in OVERPASS_URLS:
-            try:
-                resp = session.post(url, data={"data": OVERPASS_QUERY}, timeout=240)
-                resp.raise_for_status()
-                data = resp.json()
-                if "remark" in data and not data.get("elements"):
-                    raise RuntimeError(data["remark"])  # napr. timeout na strane servera
-                print(f"OSM dáta z {url}", flush=True)
-                return parse_osm(data)
-            except Exception as e:
-                last_error = e
-                print(f"Overpass {url} zlyhal: {type(e).__name__}: {str(e)[:150]}", flush=True)
+            for label, query in OVERPASS_QUERIES:
+                try:
+                    resp = session.post(url, data={"data": query}, timeout=240)
+                    resp.raise_for_status()
+                    data = resp.json()
+                    places = parse_osm(data)
+                    if len(places) < min_places:
+                        remark = data.get("remark", "")
+                        raise RuntimeError(f"len {len(places)} podnikov {remark}".strip())
+                    print(f"OSM dáta z {url} ({label})", flush=True)
+                    return places
+                except Exception as e:
+                    last_error = e
+                    print(f"Overpass {url} ({label}) zlyhal: {type(e).__name__}: {str(e)[:150]}", flush=True)
         if attempt < rounds - 1:
             wait = 30 * (attempt + 1)
             print(f"Všetky Overpass servery zlyhali, čakám {wait} s…", flush=True)
