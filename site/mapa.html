@@ -11,6 +11,7 @@
     --s3: #0f5c37; --s2: #1f7a4d; --s1: #b07d12; --s0: #9a958c;
     --s3-bg: #d5ecdf; --s2-bg: #e3f3ea; --s1-bg: #f7efd6; --s0-bg: #eeebe5;
     --star: #c58a00; --warn-bg: #f7efd6;
+    --gold: #d49a00; --bad: #b42318; --bad-bg: #fde8e6; --fm-bg: #fbf6ec;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -18,6 +19,7 @@
       --s3: #9be3bb; --s2: #7fd3a5; --s1: #e2c46e; --s0: #7d786f;
       --s3-bg: #17402b; --s2-bg: #1d3328; --s1-bg: #3a3220; --s0-bg: #2a2925;
       --star: #f2c14e; --warn-bg: #3a3220;
+      --gold: #f5c542; --bad: #ff8a80; --bad-bg: #3d1f1c; --fm-bg: #26231d;
     }
   }
   * { box-sizing: border-box; }
@@ -48,9 +50,22 @@
   .t3 { color: var(--s3); background: var(--s3-bg); } .t2 { color: var(--s2); background: var(--s2-bg); }
   .t1 { color: var(--s1); background: var(--s1-bg); } .t0 { color: var(--muted); background: var(--s0-bg); }
   .summary { font-size: .9rem; margin: 6px 0 0; }
-  .fmgf { font-size: .85rem; margin: 6px 0 0; color: var(--muted); }
-  .fmgf q { font-style: italic; color: var(--fg); }
-  .fmgf a { color: inherit; }
+  .fm { background: var(--fm-bg); border-radius: 8px; padding: 8px 10px; margin-top: 8px; font-size: .88rem; }
+  .fm-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin: 2px 0; }
+  .fm-src { font-size: .7rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .fm-stars { font-size: 1.15rem; letter-spacing: 1px; line-height: 1;
+              background: linear-gradient(90deg, var(--gold) var(--p), var(--line) var(--p));
+              -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .fm-hearts { font-size: 1.05rem; letter-spacing: 1px; line-height: 1; }
+  .fm-num { font-weight: 700; }
+  .fm-muted { color: var(--muted); font-size: .8rem; }
+  .verdict { font-weight: 700; font-size: .8rem; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+  .v-ded { color: var(--s3); background: var(--s3-bg); font-size: .85rem; }
+  .v-ok { color: var(--s2); background: var(--s2-bg); }
+  .v-mid { color: var(--s1); background: var(--s1-bg); }
+  .v-bad { color: var(--bad); background: var(--bad-bg); }
+  .fm q { font-style: italic; display: block; margin-top: 4px; }
+  .fm a { color: var(--muted); font-size: .8rem; }
   details { font-size: .85rem; margin-top: 6px; }
   summary { cursor: pointer; color: var(--muted); }
   blockquote { margin: 6px 0; padding: 4px 10px; border-left: 3px solid var(--line); color: var(--fg); }
@@ -81,7 +96,13 @@
     <select id="min">
       <option value="1">So zmienkou o bezlepkovom</option>
       <option value="2">Len silný signál</option>
+      <option value="fmgf">Len hodnotené na Find Me Gluten Free</option>
       <option value="0">Všetky podniky</option>
+    </select>
+    <select id="sort" aria-label="Zoradenie">
+      <option value="score">Zoradiť: odporúčané</option>
+      <option value="safety">Zoradiť: ❤️ bezpečnosť pre celiatikov</option>
+      <option value="rating">Zoradiť: ⭐ hodnotenie FMGF</option>
     </select>
     <label><input type="checkbox" id="favonly"> len obľúbené ★</label>
   </div>
@@ -109,10 +130,43 @@ const favKey = p => "osm:" + p.id;
 const scoreOf = p => p.review?.score ?? p.score;
 const reasonOf = p => p.review?.summary || p.reason;
 
+// ---------- Find Me Gluten Free: hviezdičky a bezpečnosť ----------
+const num = x => String(x).replace(".", ",");
+const pct = r => Math.max(0, Math.min(100, r / 5 * 100)) + "%";
+function hearts(s) {
+  const full = Math.floor(s + 0.25);  // 4,3 -> 4 srdiečka, 4,8 -> 5; radšej menej ako viac
+  return "❤️".repeat(full) + "🤍".repeat(5 - full);
+}
+function verdict(f) {
+  if (f.dedicated) return `<span class="verdict v-ded">🛡️ 100 % bezlepková prevádzka</span>`;
+  if (f.safety == null) return `<span class="fm-muted">🤍 bezpečnosť zatiaľ nikto nehodnotil</span>`;
+  if (f.safety >= 4) return `<span class="verdict v-ok">✅ pravdepodobne vhodné pre celiatikov</span>`;
+  if (f.safety >= 3) return `<span class="verdict v-mid">⚠️ možno vhodné, pýtaj sa obsluhy</span>`;
+  return `<span class="verdict v-bad">⛔ skôr nevhodné pre celiatikov</span>`;
+}
+function fmgfHtml(f) {
+  const safety = f.safety != null ? `<span class="fm-hearts" title="Bezpečnosť ${num(f.safety)} z 5">${hearts(f.safety)}</span>
+      <span class="fm-num">${num(f.safety)}</span><span class="fm-muted">/ 5 bezpečnosť</span>` : "";
+  return `<div class="fm">
+    <div class="fm-row"><span class="fm-src">Find Me Gluten Free</span></div>
+    <div class="fm-row"><span class="fm-stars" style="--p:${pct(f.rating)}" title="${num(f.rating)} z 5">★★★★★</span>
+      <span class="fm-num">${num(f.rating.toFixed(1))}</span><span class="fm-muted">(${f.reviews} ${f.reviews === 1 ? "recenzia" : f.reviews < 5 ? "recenzie" : "recenzií"})</span></div>
+    <div class="fm-row">${safety} ${verdict(f)}</div>
+    ${f.quote ? `<q>${esc(f.quote)}</q>` : ""}
+    <div class="fm-row">${f.items ? `<span class="fm-muted">Bez lepku: ${esc(f.items)}</span>` : ""}
+      <a href="${esc(f.url)}" target="_blank" rel="noopener">detail na FMGF ↗</a></div>
+  </div>`;
+}
+const fmgfShort = f => f.dedicated ? "🛡️ 100 % bezlepkové"
+  : `<span style="color:var(--gold)">★</span> ${num(f.rating.toFixed(1))} (${f.reviews})${f.safety != null ? ` · ${hearts(f.safety)} ${num(f.safety)}` : ""}`;
+const safetyKey = p => !p.fmgf ? -2 : p.fmgf.dedicated ? 6 : p.fmgf.safety ?? -1;
+const ratingKey = p => p.fmgf ? p.fmgf.rating * 100 + Math.min(p.fmgf.reviews, 99) : -1;
+
 function popupHtml(p) {
   const s = scoreOf(p);
   return `<strong>${esc(p.name)}</strong><br>
     <span class="tag t${s}">${LABEL[s]}</span> ${esc(TYPES[p.type] || p.type || "")}<br>
+    ${p.fmgf ? fmgfShort(p.fmgf) + "<br>" : ""}
     ${reasonOf(p) ? esc(reasonOf(p)) + "<br>" : ""}
     ${p.website ? `<a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}`;
 }
@@ -126,11 +180,15 @@ function matches(p, q) {
 
 function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
-  const min = +document.getElementById("min").value;
+  const min = document.getElementById("min").value;
+  const sort = document.getElementById("sort").value;
   const favOnly = document.getElementById("favonly").checked;
+  const keep = p => favOnly ? favs.has(favKey(p)) : min === "fmgf" ? !!p.fmgf : scoreOf(p) >= +min;
+  const key = sort === "safety" ? safetyKey : sort === "rating" ? ratingKey : scoreOf;
   const visible = places
-    .filter(p => (favOnly ? favs.has(favKey(p)) : scoreOf(p) >= min) && matches(p, q))
-    .sort((a, b) => favs.has(favKey(b)) - favs.has(favKey(a)) || scoreOf(b) - scoreOf(a) || a.name.localeCompare(b.name, "cs"));
+    .filter(p => keep(p) && matches(p, q))
+    .sort((a, b) => favs.has(favKey(b)) - favs.has(favKey(a)) || key(b) - key(a) || scoreOf(b) - scoreOf(a)
+                    || a.name.localeCompare(b.name, "cs"));
   const shown = new Set(visible.map(p => p.id));
 
   for (const p of places) {
@@ -158,8 +216,7 @@ function render() {
       <div class="meta">${meta}${p.website ? ` · <a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}${
         p.menicka?.url ? ` · <a href="${esc(p.menicka.url)}" target="_blank" rel="noopener">denné menu</a>` : ""}</div>
       ${reasonOf(p) ? `<p class="summary">${esc(reasonOf(p))}</p>` : ""}
-      ${p.fmgf ? `<p class="fmgf">${p.fmgf.quote ? `<q>${esc(p.fmgf.quote)}</q> ` : ""}${
-        p.fmgf.items ? `Bez lepku: ${esc(p.fmgf.items)}. ` : ""}<a href="${esc(p.fmgf.url)}" target="_blank" rel="noopener">Find Me Gluten Free</a></p>` : ""}
+      ${p.fmgf ? fmgfHtml(p.fmgf) : ""}
       ${snips.length ? `<details><summary>Zmienky na webe (${snips.length})</summary>
         ${snips.map(x => `<blockquote>…${hl(x.text)}…<br><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a></blockquote>`).join("")}
       </details>` : ""}
@@ -210,6 +267,7 @@ async function load() {
 
 document.getElementById("q").addEventListener("input", render);
 document.getElementById("min").addEventListener("change", render);
+document.getElementById("sort").addEventListener("change", render);
 document.getElementById("favonly").addEventListener("change", render);
 document.getElementById("list").addEventListener("click", e => {
   const star = e.target.closest(".star");
