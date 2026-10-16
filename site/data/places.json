@@ -1379,7 +1379,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Eggs Benedict, Omelets, Bread/Buns",
+    "quote": "They offer the gluten free bread in a separate basket.",
+    "url": "https://www.findmeglutenfree.com/biz/bavard-cafe/5973079828594688"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (1)."
+   }
   },
   {
    "id": "node/4625164514",
@@ -1558,7 +1572,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Dessert, Pancakes, Acai Bowls, Cakes, Salad",
+    "quote": "Wonderful spot with lots of seating, great variety and fully dedicated GF.",
+    "url": "https://www.findmeglutenfree.com/biz/bezcukru/5875956118323200"
+   },
+   "review": {
+    "score": 3,
+    "summary": "Find Me Gluten Free: 5.0★ (2), 100 % bezlepkové, bezlepkové menu."
+   }
   },
   {
    "id": "node/3158339717",
@@ -1774,7 +1802,21 @@
     "status": "skipped"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 4,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Tacos, Breakfast Tacos",
+    "quote": "Można pytać obsługę o dania bezglutenowe.",
+    "url": "https://www.findmeglutenfree.com/biz/bistro-bastardo/6204559527903232"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (4)."
+   }
   },
   {
    "id": "node/9156132437",
@@ -1892,7 +1934,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Eggs Benedict, Bread/Buns",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/bistro-franz/6601259151130624"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/3988607406",
@@ -2544,8 +2600,18 @@
    "score": 2,
    "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 49 z 127 položiek bez alergénu 1",
    "review": {
-    "score": 1,
-    "summary": "Obchod so zdravou výživou s kaviarňou: bezlepkové potraviny, denne bezlepkové pečivo a dezerty."
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (3). Obchod so zdravou výživou s kaviarňou: bezlepkové potraviny, denne bezlepkové pečivo a dezerty."
+   },
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Cookies, Cakes, Muffins, Pies, Bread/Buns",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/brana-ke-zdravi-zdrava-vyziva/6622919023788032"
    }
   },
   {
@@ -2633,7 +2699,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": null,
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/buchta-c/4946558674403328"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (1)."
+   }
   },
   {
    "id": "node/13669511501",
@@ -3242,7 +3322,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 3.5,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": 2.7,
+    "gf_menu": true,
+    "items": "Pho, Noodles, Stir Fry, Spring Rolls, Pork Ribs",
+    "quote": "Gluten-free dishes are marked on the menu.",
+    "url": "https://www.findmeglutenfree.com/biz/ca-phe-co-brno/5770027822612480"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 3.5★ (3), bezpečnosť pre celiatikov 2,7/5, bezlepkové menu. Pozor: na FMGF hodnotenie bezpečnosti len 2,7/5 („skôr nie pre celiatikov“)."
+   }
   },
   {
    "id": "node/5647979421",
@@ -3415,7 +3509,17 @@
    "reason": "zmienka o bezlepkovom na webe",
    "review": {
     "score": 1,
-    "summary": "Bezlepkové banánové lievance na raňajky."
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu. Bezlepkové banánové lievance na raňajky."
+   },
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Pancakes",
+    "quote": "Nice atmosphere, good coffee and great gluten-free pancakes.",
+    "url": "https://www.findmeglutenfree.com/biz/cafe-podnebi/6026567324401664"
    }
   },
   {
@@ -4059,7 +4163,21 @@
     "error": "HTTPError: 401 Client Error: Unauthorized for url: https://www.cafeplaczek.cz/"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 8,
+    "dedicated": false,
+    "safety": 3.4,
+    "gf_menu": true,
+    "items": "Bread/Buns",
+    "quote": "Perfect, gluten free bread was very good.",
+    "url": "https://www.findmeglutenfree.com/biz/cafe-placzek/4602179140845568"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.5★ (8), bezpečnosť pre celiatikov 3,4/5, bezlepkové menu."
+   }
   },
   {
    "id": "node/5842027033",
@@ -4360,7 +4478,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 6,
+    "dedicated": false,
+    "safety": 4.1,
+    "gf_menu": false,
+    "items": "Pasta, Bread/Buns, Bruschetta, Risotto, Soup",
+    "quote": "They can prepare every pasta dish from a menu with a gluten free pasta.",
+    "url": "https://www.findmeglutenfree.com/biz/castellana-trattoria/5410514494947328"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.5★ (6), bezpečnosť pre celiatikov 4,1/5."
+   }
   },
   {
    "id": "node/2816946243",
@@ -4986,7 +5118,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Dessert",
+    "quote": "They have delicious desserts. Gf. Matcha, coffee.",
+    "url": "https://www.findmeglutenfree.com/biz/coffee-trail-garden/5739146116464640"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1)."
+   }
   },
   {
    "id": "node/3165689373",
@@ -5647,7 +5793,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Sushi, Pho, Noodles",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/diandi/4572810554507264"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (2), bezlepkové menu."
+   }
   },
   {
    "id": "node/10162256116",
@@ -6598,7 +6758,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Fries, Bread/Buns",
+    "quote": "Bezlepková nabídka jídel, na přání u snídaní i bezlepkové pečivo.",
+    "url": "https://www.findmeglutenfree.com/biz/fabrik-urban-house/5866271898206208"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1)."
+   }
   },
   {
    "id": "node/13358095500",
@@ -6769,7 +6943,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 9,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Dessert, Bread/Buns, Pasta, Beer",
+    "quote": "Very safe when allergic to gluten.",
+    "url": "https://www.findmeglutenfree.com/biz/fat-free/5500496436133888"
+   },
+   "review": {
+    "score": 3,
+    "summary": "Find Me Gluten Free: 5.0★ (9), 100 % bezlepkové, bezlepkové menu."
+   }
   },
   {
    "id": "node/4752748651",
@@ -6839,7 +7027,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Bread/Buns, Avocado Toast",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/fetch-coffee/5722320854712320"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/13894347653",
@@ -6947,7 +7149,17 @@
    "reason": "zmienka o bezlepkovom na webe; lístok na webe: 6 z 20 položiek bez alergénu 1",
    "review": {
     "score": 2,
-    "summary": "Jedlá označené BL/GF, ale podľa podniku môžu obsahovať stopy lepku."
+    "summary": "Find Me Gluten Free: 4.0★ (1). Jedlá označené BL/GF, ale podľa podniku môžu obsahovať stopy lepku."
+   },
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": null,
+    "quote": "Vegan and place with gluten free options",
+    "url": "https://www.findmeglutenfree.com/biz/forkys-nc-kralovo-pole/6510652015640576"
    }
   },
   {
@@ -7216,7 +7428,21 @@
     "error": "HTTPError: 401 Client Error: Unauthorized for url: https://www.faencyfries.cz/pobocky/faency-brno"
    },
    "score": 2,
-   "reason": "bezlepkové jedlá (OSM)"
+   "reason": "bezlepkové jedlá (OSM)",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": 4.5,
+    "gf_menu": true,
+    "items": "Fries",
+    "quote": "Almost everything, apart from some sauces, is gluten free!",
+    "url": "https://www.findmeglutenfree.com/biz/faency-fries/6739505931747328"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (3), bezpečnosť pre celiatikov 4,5/5, bezlepkové menu."
+   }
   },
   {
    "id": "node/3713173000",
@@ -9113,7 +9339,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 4,
+    "dedicated": false,
+    "safety": 4.5,
+    "gf_menu": true,
+    "items": "Dessert",
+    "quote": "No dedicated gluten-free menu, but they accommodated my request.",
+    "url": "https://www.findmeglutenfree.com/biz/jakoby/4622706672271360"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (4), bezpečnosť pre celiatikov 4,5/5, bezlepkové menu."
+   }
   },
   {
    "id": "node/4836646022",
@@ -9245,7 +9485,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Ice Cream, Gelato",
+    "quote": "Good ice cream, they have labeled alergies, but they dont have GF cornet.",
+    "url": "https://www.findmeglutenfree.com/biz/jeste-jednu/5669582034829312"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/11108453357",
@@ -9835,7 +10089,21 @@
     "allergen_items_no1": 3
    },
    "score": 1,
-   "reason": "lístok na webe: 3 z 3 položiek bez alergénu 1"
+   "reason": "lístok na webe: 3 z 3 položiek bez alergénu 1",
+   "fmgf": {
+    "rating": 3.5,
+    "reviews": 8,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Dessert, Waffles",
+    "quote": "Unfortunately no allergens on menu.",
+    "url": "https://www.findmeglutenfree.com/biz/kafec/5377635863625728"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 3.5★ (8)."
+   }
   },
   {
    "id": "node/5477418497",
@@ -9851,7 +10119,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Waffles",
+    "quote": "AGAIN gf waffles. Sweet and herbs. Only gf, so no contamination.",
+    "url": "https://www.findmeglutenfree.com/biz/kafec-brno-uvoz/5963616416563200"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (2)."
+   }
   },
   {
    "id": "node/10001477838",
@@ -11174,7 +11456,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Fries",
+    "quote": "You can eat everything on the menu (except pita bread).",
+    "url": "https://www.findmeglutenfree.com/biz/kousek-recka-na-taliri/5683725182042112"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1)."
+   }
   },
   {
    "id": "node/4031417230",
@@ -11717,7 +12013,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Risotto, Pasta",
+    "quote": "They only offer gluten-free pasta and risotto.",
+    "url": "https://www.findmeglutenfree.com/biz/la-famiglia-brno/5187753536258048"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.5★ (2)."
+   }
   },
   {
    "id": "node/3719886350",
@@ -11749,7 +12059,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Pizza, Steak, Pasta",
+    "quote": "The gluten-free items are clearly marked on the menu.",
+    "url": "https://www.findmeglutenfree.com/biz/la-speranza/4855995494432768"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (3), bezlepkové menu."
+   }
   },
   {
    "id": "node/613526571",
@@ -11766,7 +12090,21 @@
     "error": "HTTPError: 401 Client Error: Unauthorized for url: https://lastrada-brno.cz/"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 15,
+    "dedicated": false,
+    "safety": 4.3,
+    "gf_menu": true,
+    "items": "Pizza, Pasta, Lasagna, Dessert, Bread/Buns",
+    "quote": "Super delicious pizza! It seems to be a rice flour base. Tons of gf options.",
+    "url": "https://www.findmeglutenfree.com/biz/la-strada/5544164322312192"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (15), bezpečnosť pre celiatikov 4,3/5, bezlepkové menu."
+   }
   },
   {
    "id": "node/6333883446",
@@ -11944,7 +12282,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Bagels, Eggs Benedict, Bread/Buns",
+    "quote": "Asked the kitchen what can be made gluten free and the answer was everything.",
+    "url": "https://www.findmeglutenfree.com/biz/le-brunch-cafe/6228071585021952"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/13970693454",
@@ -12017,7 +12369,21 @@
     "error": "ConnectionError: HTTPSConnectionPool(host='leharostreet.cz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\""
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 4,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Burgers, Bread/Buns",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/leharo-street/5469201992646656"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.5★ (4)."
+   }
   },
   {
    "id": "node/3253689326",
@@ -12444,7 +12810,17 @@
    "reason": "zmienky o bezlepkovom na webe (6)",
    "review": {
     "score": 2,
-    "summary": "Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu. Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+   },
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Burrito Bowls, Tacos, Fajitas",
+    "quote": "Very good Mexican food. I love the chicken fajitas.",
+    "url": "https://www.findmeglutenfree.com/biz/los-capolitos/6150012399910912"
    }
   },
   {
@@ -12881,7 +13257,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Poke, Sushi, Pho",
+    "quote": "So good and the staff was very helpful. Allergies are clearly marked",
+    "url": "https://www.findmeglutenfree.com/biz/maison-restaurant-taste-of-asia/5220508930277376"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (2), bezlepkové menu."
+   }
   },
   {
    "id": "node/2451609620",
@@ -12909,8 +13299,18 @@
    "score": 1,
    "reason": "zmienka o bezlepkovom na webe",
    "review": {
-    "score": 0,
-    "summary": "Len bezlepkové pivo, o jedle nič."
+    "score": 1,
+    "summary": "Find Me Gluten Free: 5.0★ (2). Len bezlepkové pivo, o jedle nič."
+   },
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Beer",
+    "quote": "They have at least two brands of GF beers.",
+    "url": "https://www.findmeglutenfree.com/biz/malt-worm/6579435135959040"
    }
   },
   {
@@ -12964,7 +13364,21 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Dessert",
+    "quote": "Někdy mají na výběr bezlepkový dort, vyplatí se sledovat aktuální nabídku ve stories.",
+    "url": "https://www.findmeglutenfree.com/biz/mandlarna/6235677009510400"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (1)."
+   }
   },
   {
    "id": "node/11497026585",
@@ -13341,7 +13755,21 @@
     "error": "SSLError: HTTPSConnectionPool(host='menynem.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SS"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Spring Rolls, Soy Sauce",
+    "quote": "Simple fresh or fried delicious Vietnamese rolls take away only.",
+    "url": "https://www.findmeglutenfree.com/biz/menynem/6065206624387072"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/665497453",
@@ -13744,7 +14172,21 @@
     "error": "HTTPError: 401 Client Error: Unauthorized for url: https://mlsna-holka.cz/"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Coffee Cake, Pastries, Toast, Bread/Buns, Avocado Toast",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/mlsna-holka/5163946880663552"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/12607042505",
@@ -15483,7 +15925,17 @@
    "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 6 z 6 položiek bez alergénu 1",
    "review": {
     "score": 3,
-    "summary": "100 % bezlepková kuchyňa, podľa podniku bez kontaminácie lepkom; aj bez cukru a laktózy."
+    "summary": "Find Me Gluten Free: 4.5★ (49), 100 % bezlepkové, bezlepkové menu. 100 % bezlepková kuchyňa, podľa podniku bez kontaminácie lepkom; aj bez cukru a laktózy."
+   },
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 49,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Cakes, Bread/Buns, Dessert, Burgers, Beer",
+    "quote": "Purely gluten free restaurant. 2 options for soup and few main dish options available.",
+    "url": "https://www.findmeglutenfree.com/biz/no-gluten-no-problem/5660699366391808"
    }
   },
   {
@@ -15604,7 +16056,21 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "lístok na webe: 8 z 36 položiek bez alergénu 1"
+   "reason": "lístok na webe: 8 z 36 položiek bez alergénu 1",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": null,
+    "quote": "My kiddo was served a tasty salmon dish that was listed as gluten free and she had no reactions.",
+    "url": "https://www.findmeglutenfree.com/biz/nok-nok-restaurace-brno/5685496865226752"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/4901150827",
@@ -16512,7 +16978,21 @@
     "error": "HTTPError: 404 Client Error: Not Found for url: https://www.my-paprika.com/zelny-trh-10-brno-1"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Falafel",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/paprika/6267612094136320"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (1)."
+   }
   },
   {
    "id": "node/2805580190",
@@ -16675,7 +17155,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Steak, Fries, Bread/Buns",
+    "quote": "Really lovely restaurant and they didn’t bat an eye when I advised I was coeliac.",
+    "url": "https://www.findmeglutenfree.com/biz/pavillon-steak-house/6203547957198848"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/708859543",
@@ -20680,7 +21174,21 @@
     "allergen_items_no1": 1
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": null,
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/namaskar/5021859905667072"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/1390744628",
@@ -20724,7 +21232,21 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 20 z 135 položiek bez alergénu 1"
+   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 20 z 135 položiek bez alergénu 1",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 5,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Pasta, Risotto, Dessert",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/ristorante-piazza/6276540736602112"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.0★ (5), bezlepkové menu."
+   }
   },
   {
    "id": "node/4252303201",
@@ -21575,7 +22097,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Curry",
+    "quote": "They have a lot of gluten free dishes and allergens are clearly marked on the menu.",
+    "url": "https://www.findmeglutenfree.com/biz/singha-thai-restaurant/5536678887686144"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
   },
   {
    "id": "node/872041162",
@@ -22400,7 +22936,21 @@
     "days_explicit": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": null,
+    "quote": "They have daily menu, where there is always at least 1 gf meal, some days even 2 or 3.",
+    "url": "https://www.findmeglutenfree.com/biz/stavba/4820549261459456"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (2), bezlepkové menu."
+   }
   },
   {
    "id": "node/2286043228",
@@ -22421,7 +22971,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Fries",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/pizzerie-k1/6331018517020672"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu. Pizzéria K1 na Žarošickej (v OSM ako Steak House K1)."
+   }
   },
   {
    "id": "node/6711950050",
@@ -22442,7 +23006,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Fries",
+    "quote": "Personal know what to do And how.",
+    "url": "https://www.findmeglutenfree.com/biz/steak-house-k1/5385019489386496"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.0★ (3), bezlepkové menu."
+   }
   },
   {
    "id": "node/7567168469",
@@ -23678,7 +24256,17 @@
    "reason": "zmienka o bezlepkovom na webe; lístok na webe: 19 z 25 položiek bez alergénu 1",
    "review": {
     "score": 2,
-    "summary": "Indická a nepálska kuchyňa, podľa webu veľa bezlepkových jedál; lístok s alergénmi."
+    "summary": "Find Me Gluten Free: 4.0★ (1), bezlepkové menu. Indická a nepálska kuchyňa, podľa webu veľa bezlepkových jedál; lístok s alergénmi."
+   },
+   "fmgf": {
+    "rating": 4.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Butter Chicken, Biryani, Curry",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/himalaya-restaurant/4664635271020544"
    }
   },
   {
@@ -26660,7 +27248,17 @@
    "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (5); lístok na webe: 6 z 20 položiek bez alergénu 1",
    "review": {
     "score": 2,
-    "summary": "Vegánska reštaurácia: v dennom menu označené jedlá bez lepku. Aj v OSM."
+    "summary": "Find Me Gluten Free: 5.0★ (3), bezlepkové menu. Vegánska reštaurácia: v dennom menu označené jedlá bez lepku. Aj v OSM."
+   },
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 3,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Beer, Salad, Cider, Soup",
+    "quote": "Gluten free beer and cider on tap.",
+    "url": "https://www.findmeglutenfree.com/biz/vegalite/4906375287799808"
    }
   },
   {
@@ -26852,7 +27450,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Curry, Noodles, Pho",
+    "quote": "It was super easy to choose a gluten-free meal because they had numbers on the menu (1=gluten).",
+    "url": "https://www.findmeglutenfree.com/biz/viet-tam-restaurant/5772559130165248"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (2)."
+   }
   },
   {
    "id": "node/5494532178",
@@ -26914,7 +27526,21 @@
     "allergen_items_no1": 0
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 2,
+    "dedicated": false,
+    "safety": 3.6,
+    "gf_menu": false,
+    "items": null,
+    "quote": "Had one bowl, no bad reaction, i asked the staff should be safe",
+    "url": "https://www.findmeglutenfree.com/biz/vilgain-fast-food/4776121170526208"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 4.5★ (2), bezpečnosť pre celiatikov 3,6/5."
+   }
   },
   {
    "id": "node/3586796491",
@@ -27867,8 +28493,18 @@
    "score": 1,
    "reason": "zmienka o bezlepkovom na webe; menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 6 z 20 položiek bez alergénu 1",
    "review": {
-    "score": 1,
-    "summary": "Niektoré cestoviny aj v bezlepkovej variante za príplatok."
+    "score": 2,
+    "summary": "Find Me Gluten Free: 5.0★ (1). Niektoré cestoviny aj v bezlepkovej variante za príplatok."
+   },
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Salad, Pasta",
+    "quote": "Nice modern czech restaurant with several gluten free meal options.",
+    "url": "https://www.findmeglutenfree.com/biz/zlata-lod/4649017947848704"
    }
   },
   {
@@ -28730,7 +29366,223 @@
    },
    "score": 0,
    "reason": ""
+  },
+  {
+   "id": "fmgf/6094060961529856",
+   "name": "cukrárna BezCukru",
+   "type": "cafe",
+   "cuisine": null,
+   "lat": 49.194733,
+   "lon": 16.612847,
+   "address": "Novobranská 4",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 13,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Dessert, Cakes, Cheesecake, Salad, Pastries",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/bezcukru/6094060961529856"
+   },
+   "review": {
+    "score": 3,
+    "summary": "Find Me Gluten Free: 4.5★ (13), 100 % bezlepkové, bezlepkové menu."
+   }
+  },
+  {
+   "id": "fmgf/6264880725622784",
+   "name": "Jen zdravě",
+   "type": "shop",
+   "cuisine": null,
+   "lat": 49.193251,
+   "lon": 16.60757,
+   "address": "Mečová 695/2",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": true,
+    "items": null,
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/jen-zdrave/6264880725622784"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 5.0★ (1), bezlepkové menu."
+   }
+  },
+  {
+   "id": "fmgf/4819765400567808",
+   "name": "Protože Můžu...",
+   "type": "cafe",
+   "cuisine": null,
+   "lat": 49.192698,
+   "lon": 16.607042,
+   "address": "Starobrněnská 12",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Cider",
+    "quote": "Glutenfree cocktails (also alcoholfree)",
+    "url": "https://www.findmeglutenfree.com/biz/protoze-muzu/4819765400567808"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 5.0★ (1)."
+   }
+  },
+  {
+   "id": "fmgf/6040009634349056",
+   "name": "Svět bez lepku",
+   "type": "shop",
+   "cuisine": null,
+   "lat": 49.184276,
+   "lon": 16.594908,
+   "address": "Vídeňská 1018/18a",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 8,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Bread/Buns, Dessert, Cookies, Bagels, Pastries",
+    "quote": "A bakery + store with a range of gluten free products, freshly baked bread, mini pizzas, and desserts.",
+    "url": "https://www.findmeglutenfree.com/biz/svet-bez-lepku/6040009634349056"
+   },
+   "review": {
+    "score": 3,
+    "summary": "Find Me Gluten Free: 5.0★ (8), 100 % bezlepkové, bezlepkové menu."
+   }
+  },
+  {
+   "id": "fmgf/4608891359199232",
+   "name": "KAVÁRNA WaffleczBrno",
+   "type": "cafe",
+   "cuisine": null,
+   "lat": 49.191765,
+   "lon": 16.597565,
+   "address": "Pekařská 364/76",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 1,
+    "dedicated": false,
+    "safety": null,
+    "gf_menu": false,
+    "items": "Waffles",
+    "quote": null,
+    "url": "https://www.findmeglutenfree.com/biz/waffleczbrno/4608891359199232"
+   },
+   "review": {
+    "score": 1,
+    "summary": "Find Me Gluten Free: 5.0★ (1)."
+   }
+  },
+  {
+   "id": "fmgf/5413974235021312",
+   "name": "Buchta B",
+   "type": "cafe",
+   "cuisine": null,
+   "lat": 49.208946,
+   "lon": 16.603837,
+   "address": "Štefánikova 85/16",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 4.5,
+    "reviews": 7,
+    "dedicated": false,
+    "safety": 4.3,
+    "gf_menu": true,
+    "items": "Bread/Buns, Dessert, Pancakes, Cakes",
+    "quote": "Gluten free breakfast menu with vegan and vegetarian options.",
+    "url": "https://www.findmeglutenfree.com/biz/buchta-b/5413974235021312"
+   },
+   "review": {
+    "score": 2,
+    "summary": "Find Me Gluten Free: 4.5★ (7), bezpečnosť pre celiatikov 4,3/5, bezlepkové menu."
+   }
+  },
+  {
+   "id": "fmgf/4836766399201280",
+   "name": "Svět bez lepku",
+   "type": "shop",
+   "cuisine": null,
+   "lat": 49.228299,
+   "lon": 16.594211,
+   "address": "Kosmova 6",
+   "website": null,
+   "osm_gf": null,
+   "web": {
+    "status": "not_in_osm"
+   },
+   "score": 0,
+   "reason": "",
+   "fmgf": {
+    "rating": 5.0,
+    "reviews": 3,
+    "dedicated": true,
+    "safety": null,
+    "gf_menu": true,
+    "items": "Bread/Buns, Pastries",
+    "quote": "They have fresh gluten free and laktose free bread every day.",
+    "url": "https://www.findmeglutenfree.com/biz/svet-bez-lepku/4836766399201280"
+   },
+   "review": {
+    "score": 3,
+    "summary": "Find Me Gluten Free: 5.0★ (3), 100 % bezlepkové, bezlepkové menu."
+   }
   }
  ],
- "reviewed": "2026-10-16"
+ "reviewed": "2026-10-16",
+ "sources": [
+  "OpenStreetMap",
+  "weby podnikov",
+  "menicka.cz",
+  "Find Me Gluten Free (ručne, 2026-10-16)"
+ ]
 }
