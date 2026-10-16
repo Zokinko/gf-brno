@@ -45,6 +45,16 @@ Hviezdička ☆ pri reštaurácii ju uloží do obľúbených v prehliadači (`l
 Obľúbené sú zoradené navrchu a filter „len obľúbené“ ich ukáže aj v dni, keď nemajú vhodné jedlo.
 Do iného zariadenia ich prenesieš odkazom „Skopírovať odkaz na prenos…“ dole na stránke.
 
+## Aplikácia v mobile (PWA)
+
+Stránku si môžeš pridať na plochu mobilu ako aplikáciu (`manifest.webmanifest`, `sw.js`, `pwa.js`, `icons/`):
+- **iPhone:** v Safari *Zdieľať → Pridať na plochu* (iPhone automaticky inštaláciu neponúkne; stránka zobrazí radu).
+- **Android:** Chrome ponúkne *Nainštalovať aplikáciu*, prípadne menu ⋮ → *Pridať na plochu*.
+
+Offline sa zobrazia posledné stiahnuté stránky a dáta. Mapové dlaždice OSM sa neukladajú, bez signálu je
+podklad mapy sivý. Aplikácia na ploche iPhonu má vlastné úložisko, obľúbené z Safari prenesieš odkazom na prenos.
+Po zmene `sw.js` zvýš `VERSION`, aby si telefóny stiahli nové súbory.
+
 ## Nastavenie na GitHube
 
 1. Vytvor repo (napr. `bezlepkove-brno`) a nahraj doň tieto súbory.
