@@ -64,6 +64,55 @@ class PlacesTest(unittest.TestCase):
         self.assertIn("Celiakie", sn[1]["text"])
         self.assertEqual(P.find_snippets("Svíčková na smetaně", "u"), [])
 
+    def test_more_keywords(self):
+        for t in ["pizza bez glutenu", "Glutenfrei", "pasta senza glutine", "Pizza (BL) 189 Kč", "gluten-free buns"]:
+            with self.subTest(t=t):
+                self.assertTrue(P.find_snippets(t, "u"))
+        self.assertEqual(P.find_snippets("BLT sendvič, bl", "u"), [])
+
+    def test_block_text_and_allergens(self):
+        html = b"""<table>
+          <tr><td>Ku\xc5\x99e na paprice,\n  t\xc4\x9bstoviny <span>1, 7</span></td><td>159 K\xc4\x8d</td></tr>
+          <tr><td>Rizoto se\n zeleninou</td><td><em>7</em> <em>9</em></td></tr>
+          </table>
+          <p>Losos, brambory</p><p>4</p><p>7</p>
+          <p>Steak, hranolky (3, 10)</p><p>Praha 1</p><p>Otev\xc5\x99eno 10 - 22</p>"""
+        text, lines, soup = P.extract_text(html, "text/html", "u")
+        self.assertIn("Kuře na paprice, těstoviny 1, 7", lines)
+        self.assertEqual(len(soup.find_all("span")), 1)  # pôvodný soup ostane nedotknutý (odkazy na menu)
+        # Kuře (1,7) / Rizoto (7,9) / Losos (4,7) / Steak (3,10) / "Praha 1" (počíta sa ako s lepkom)
+        self.assertEqual(P.scan_allergens(lines), (5, 3))
+
+    def test_dedupe_snippets(self):
+        footer = b"<p>Menu</p><footer>Nab\xc3\xadz\xc3\xadme i bezlepkov\xc3\xa9 pe\xc4\x8divo.</footer>"
+        site = "https://podnik.cz/"
+        session = FakeSession({site: b'<a href="/menu">Menu</a>' + footer, "https://podnik.cz/menu": footer})
+        r = P.crawl_site(session, {"website": site}, P.HostLimiter(), {}, P.threading.Lock())
+        self.assertEqual(r["pages"], 2)
+        self.assertEqual(len(r["snippets"]), 1)
+
+    def test_attach_menicka(self):
+        places = [{"name": "Restaurace U Tomana"}, {"name": "Bageterie Boulevard"}, {"name": "Bageterie Boulevard"},
+                  {"name": "Café Momo"}]
+        stats = {
+            "https://www.menicka.cz/1-u-tomana.html": {"name": "U Tomana", "days_seen": 3, "days_gf": 2, "days_explicit": 1},
+            "https://www.menicka.cz/2-bb.html": {"name": "Bageterie Boulevard", "days_seen": 1, "days_gf": 1, "days_explicit": 0},
+            "https://www.menicka.cz/3-momo.html": {"name": "Kavárna Momo", "days_seen": 1, "days_gf": 0, "days_explicit": 0},
+        }
+        self.assertEqual(P.attach_menicka(places, stats), 2)
+        self.assertEqual(places[0]["menicka"]["url"], "https://www.menicka.cz/1-u-tomana.html")
+        self.assertNotIn("menicka", places[1])  # dve pobočky -> nejednoznačné
+        self.assertIn("menicka", places[3])     # "Café Momo" == "Kavárna Momo"
+        sc, reason = P.score(places[0] | {"web": {}})
+        self.assertEqual(sc, 2)
+        self.assertIn("1 z 3 dní", reason)
+
+    def test_score_combines_reasons(self):
+        sc, reason = P.score({"osm_gf": "limited", "web": {"snippets": [1], "allergen_items": 20,
+                                                            "allergen_items_no1": 6}})
+        self.assertEqual(sc, 1)
+        self.assertEqual(reason.count(";"), 2)
+
     def test_menu_links(self):
         soup = BeautifulSoup("""
           <a href="/o-nas">O nás</a><a href="/menu">Jídelní lístek</a>
