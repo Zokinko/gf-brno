@@ -48,6 +48,9 @@
   .t3 { color: var(--s3); background: var(--s3-bg); } .t2 { color: var(--s2); background: var(--s2-bg); }
   .t1 { color: var(--s1); background: var(--s1-bg); } .t0 { color: var(--muted); background: var(--s0-bg); }
   .summary { font-size: .9rem; margin: 6px 0 0; }
+  .fmgf { font-size: .85rem; margin: 6px 0 0; color: var(--muted); }
+  .fmgf q { font-style: italic; color: var(--fg); }
+  .fmgf a { color: inherit; }
   details { font-size: .85rem; margin-top: 6px; }
   summary { cursor: pointer; color: var(--muted); }
   blockquote { margin: 6px 0; padding: 4px 10px; border-left: 3px solid var(--line); color: var(--fg); }
@@ -64,7 +67,7 @@
   <nav><a href="./">← Denné menu</a></nav>
   <h1>Bezlepková mapa Brna</h1>
   <p class="sub" id="sub">Načítavam…</p>
-  <div class="warn">Hodnotenie vychádza zo zmienok na weboch podnikov a z OpenStreetMap. Zmienka neznamená
+  <div class="warn">Hodnotenie vychádza z OpenStreetMap, webov podnikov, menicka.cz a Find Me Gluten Free. Zmienka neznamená
     bezpečnosť pre celiatika, pred návštevou si to over.</div>
   <div id="map"></div>
   <div class="legend">
@@ -89,7 +92,7 @@
 const FAV_STORE = "gf-brno-favs";  // spoločné s denným menu
 const LABEL = { 3: "100 % bezlepkové", 2: "silný signál", 1: "zmienka", 0: "bez signálu" };
 const TYPES = { restaurant: "reštaurácia", cafe: "kaviareň", fast_food: "bistro", pub: "krčma",
-                biergarten: "pivná záhrada", ice_cream: "zmrzlina" };
+                biergarten: "pivná záhrada", ice_cream: "zmrzlina", shop: "obchod" };
 const LIST_LIMIT = 200;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -116,7 +119,8 @@ function popupHtml(p) {
 
 function matches(p, q) {
   if (!q) return true;
-  const hay = [p.name, p.address, p.cuisine, reasonOf(p), ...(p.web?.snippets || []).map(s => s.text)].join(" ").toLowerCase();
+  const hay = [p.name, p.address, p.cuisine, reasonOf(p), p.fmgf?.quote, p.fmgf?.items,
+               ...(p.web?.snippets || []).map(s => s.text)].join(" ").toLowerCase();
   return hay.includes(q);
 }
 
@@ -142,7 +146,8 @@ function render() {
   }
   el.innerHTML = visible.slice(0, LIST_LIMIT).map(p => {
     const s = scoreOf(p), fav = favs.has(favKey(p)), snips = p.web?.snippets || [];
-    const meta = [TYPES[p.type] || p.type, p.cuisine?.replaceAll(";", ", "), p.address].filter(Boolean).map(esc).join(" · ");
+    const meta = [TYPES[p.type] || p.type, p.cuisine?.replaceAll(";", ", "), p.address,
+                  p.lat == null ? "na mape chýba poloha" : ""].filter(Boolean).map(esc).join(" · ");
     return `<div class="card${fav ? " fav" : ""}">
       <div class="head">
         <h2><button data-goto="${esc(p.id)}">${esc(p.name)}</button></h2>
@@ -153,6 +158,8 @@ function render() {
       <div class="meta">${meta}${p.website ? ` · <a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}${
         p.menicka?.url ? ` · <a href="${esc(p.menicka.url)}" target="_blank" rel="noopener">denné menu</a>` : ""}</div>
       ${reasonOf(p) ? `<p class="summary">${esc(reasonOf(p))}</p>` : ""}
+      ${p.fmgf ? `<p class="fmgf">${p.fmgf.quote ? `<q>${esc(p.fmgf.quote)}</q> ` : ""}${
+        p.fmgf.items ? `Bez lepku: ${esc(p.fmgf.items)}. ` : ""}<a href="${esc(p.fmgf.url)}" target="_blank" rel="noopener">Find Me Gluten Free</a></p>` : ""}
       ${snips.length ? `<details><summary>Zmienky na webe (${snips.length})</summary>
         ${snips.map(x => `<blockquote>…${hl(x.text)}…<br><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a></blockquote>`).join("")}
       </details>` : ""}
@@ -167,6 +174,7 @@ function initMap() {
   }).addTo(map);
   const colors = { 3: css("--s3"), 2: css("--s2"), 1: css("--s1"), 0: css("--s0") };
   for (const p of places) {
+    if (p.lat == null || p.lon == null) continue;
     const s = scoreOf(p);
     const m = L.circleMarker([p.lat, p.lon], {
       radius: s ? 5 + s * 2 : 4, color: colors[s], fillColor: colors[s], fillOpacity: s ? .85 : .4, weight: s ? 2 : 1,
@@ -182,7 +190,7 @@ async function load() {
   places = data.places;
   const withSignal = places.filter(p => scoreOf(p) > 0).length;
   document.getElementById("sub").textContent =
-    `${places.length} podnikov z OpenStreetMap · ${withSignal} so zmienkou o bezlepkovom · vygenerované ${data.generated}`;
+    `${places.length} podnikov · ${withSignal} so zmienkou o bezlepkovom · zdroje: ${(data.sources || ["OpenStreetMap"]).join(", ")}`;
   if (window.L) initMap(); else document.getElementById("map").textContent = "Mapu sa nepodarilo načítať.";
   render();
 }
@@ -200,6 +208,7 @@ document.getElementById("list").addEventListener("click", e => {
   const go = e.target.closest("[data-goto]");
   if (go && map) {
     const m = markers.get(go.dataset.goto);
+    if (!m) return;
     map.flyTo(m.getLatLng(), 17, { duration: .6 });
     m.openPopup();
     document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
