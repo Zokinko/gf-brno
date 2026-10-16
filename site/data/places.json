@@ -445,7 +445,11 @@
     "allergen_items_no1": 9
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Bezlepková pizza (Margherita, salám a ďalšie) za príplatok, alergény pri každej položke."
+   }
   },
   {
    "id": "node/3218210049",
@@ -491,7 +495,11 @@
     "allergen_items_no1": 9
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Bezlepková pizza (Margherita, salám a ďalšie) za príplatok, alergény pri každej položke."
+   }
   },
   {
    "id": "node/3159201422",
@@ -1573,7 +1581,11 @@
     "days_explicit": 1
    },
    "score": 2,
-   "reason": "menicka.cz: výslovne bezlepkové jedlo v 1 z 1 dní"
+   "reason": "menicka.cz: výslovne bezlepkové jedlo v 1 z 1 dní",
+   "review": {
+    "score": 2,
+    "summary": "V dennom menu na menicka.cz viac výslovne bezlepkových jedál (BEZLEPKOVÉ / A-bezlepkové)."
+   }
   },
   {
    "id": "node/11038139691",
@@ -1954,7 +1966,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Na webe uvádzajú aj bezlepkové jedlá, konkrétne položky neuvedené."
+   }
   },
   {
    "id": "node/12623153801",
@@ -2526,7 +2542,11 @@
     "allergen_items_no1": 49
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 49 z 127 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 49 z 127 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Obchod so zdravou výživou s kaviarňou: bezlepkové potraviny, denne bezlepkové pečivo a dezerty."
+   }
   },
   {
    "id": "node/3449418457",
@@ -3392,7 +3412,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Bezlepkové banánové lievance na raňajky."
+   }
   },
   {
    "id": "node/1119975710",
@@ -3929,7 +3953,11 @@
     "allergen_items_no1": 2
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Bezlepkový cheesecake; inak dezerty a raňajky s alergénmi."
+   }
   },
   {
    "id": "node/3713159282",
@@ -4713,7 +4741,11 @@
     "allergen_items_no1": 46
    },
    "score": 1,
-   "reason": "lístok na webe: 46 z 79 položiek bez alergénu 1"
+   "reason": "lístok na webe: 46 z 79 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 46 z 79 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/7578155027",
@@ -4934,7 +4966,11 @@
     "allergen_items_no1": 36
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Ku väčšine jedál (raňajky, polievky, chlebíčky) možnosť bezlepkového pečiva."
+   }
   },
   {
    "id": "node/9592597260",
@@ -4996,7 +5032,11 @@
     "allergen_items_no1": 36
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Ku väčšine jedál (raňajky, polievky, chlebíčky) možnosť bezlepkového pečiva."
+   }
   },
   {
    "id": "node/11935116646",
@@ -5042,7 +5082,11 @@
     "allergen_items_no1": 36
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 36 z 57 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Ku väčšine jedál (raňajky, polievky, chlebíčky) možnosť bezlepkového pečiva."
+   }
   },
   {
    "id": "node/11090483408",
@@ -5190,7 +5234,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 0,
+    "summary": "Falošný zásah: „bez lepku“ sa týka len nápojov (ovsené mlieko)."
+   }
   },
   {
    "id": "node/10082219763",
@@ -5415,7 +5463,11 @@
     "allergen_items_no1": 8
    },
    "score": 1,
-   "reason": "lístok na webe: 8 z 18 položiek bez alergénu 1"
+   "reason": "lístok na webe: 8 z 18 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 8 z 18 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/7578320415",
@@ -6338,7 +6390,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 2,
+    "summary": "Jedálny lístok aj denné menu označujú bezlepkové jedlá symbolom."
+   }
   },
   {
    "id": "node/9006948400",
@@ -6888,7 +6944,11 @@
     "allergen_items_no1": 6
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 6 z 20 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 6 z 20 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Jedlá označené BL/GF, ale podľa podniku môžu obsahovať stopy lepku."
+   }
   },
   {
    "id": "node/11986030413",
@@ -6914,7 +6974,11 @@
     "allergen_items_no1": 4
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 4 z 11 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 4 z 11 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Jedlá označené BL/GF, ale podľa podniku môžu obsahovať stopy lepku."
+   }
   },
   {
    "id": "node/1634167381",
@@ -7062,7 +7126,11 @@
     "allergen_items_no1": 2
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 2,
+    "summary": "V dennom menu označujú bezlepkové jedlá (BL)."
+   }
   },
   {
    "id": "node/3720075129",
@@ -7379,7 +7447,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Bezlepková varianta sendvičov za príplatok."
+   }
   },
   {
    "id": "node/12578941433",
@@ -7522,7 +7594,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Indická vegetariánska kuchyňa, v dennom menu označené jedlá bez lepku; pohánka ako príloha."
+   }
   },
   {
    "id": "node/8946534726",
@@ -8924,7 +9000,11 @@
     "allergen_items_no1": 115
    },
    "score": 1,
-   "reason": "lístok na webe: 115 z 148 položiek bez alergénu 1"
+   "reason": "lístok na webe: 115 z 148 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 115 z 148 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/3152329636",
@@ -9380,7 +9460,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 2,
+    "summary": "Denne v ponuke bezlepkové/diétne jedlo."
+   }
   },
   {
    "id": "node/10594717578",
@@ -10304,7 +10388,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 11 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 11 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Obaľované kurča; položky bez alergénu 1 sú len prílohy a omáčky."
+   }
   },
   {
    "id": "node/2363346360",
@@ -10325,7 +10413,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Obaľované kurča; položky bez alergénu 1 sú len prílohy a omáčky."
+   }
   },
   {
    "id": "node/3160973926",
@@ -10362,7 +10454,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Obaľované kurča; položky bez alergénu 1 sú len prílohy a omáčky."
+   }
   },
   {
    "id": "node/13634315958",
@@ -10399,7 +10495,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 12 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Obaľované kurča; položky bez alergénu 1 sú len prílohy a omáčky."
+   }
   },
   {
    "id": "node/1219767791",
@@ -11033,7 +11133,11 @@
     "days_explicit": 1
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2); menicka.cz: výslovne bezlepkové jedlo v 1 z 1 dní"
+   "reason": "zmienky o bezlepkovom na webe (2); menicka.cz: výslovne bezlepkové jedlo v 1 z 1 dní",
+   "review": {
+    "score": 2,
+    "summary": "V dennom menu pravidelne výslovne bezlepkové jedlá (napr. thajský bôčik, kung pao s ryžou)."
+   }
   },
   {
    "id": "node/3712445426",
@@ -11585,7 +11689,11 @@
     "allergen_items_no1": 7
    },
    "score": 1,
-   "reason": "lístok na webe: 7 z 136 položiek bez alergénu 1"
+   "reason": "lístok na webe: 7 z 136 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Len 7 z 136 položiek bez alergénu 1, zrejme prílohy či nápoje."
+   }
   },
   {
    "id": "node/3191349082",
@@ -12043,7 +12151,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 87 z 122 položiek bez alergénu 1"
+   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 87 z 122 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 87 z 122 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "way/78087605",
@@ -12229,7 +12341,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+   }
   },
   {
    "id": "node/8677626547",
@@ -12275,7 +12391,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+   }
   },
   {
    "id": "node/12379023962",
@@ -12321,7 +12441,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+   }
   },
   {
    "id": "way/1372710344",
@@ -12367,7 +12491,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Mexické bistro: polievky výslovne bezlepkové, kukuričné chipsy."
+   }
   },
   {
    "id": "node/3269157266",
@@ -12409,7 +12537,11 @@
     "allergen_items_no1": 22
    },
    "score": 1,
-   "reason": "lístok na webe: 22 z 42 položiek bez alergénu 1"
+   "reason": "lístok na webe: 22 z 42 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 22 z 42 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/4022249575",
@@ -12472,7 +12604,11 @@
     "allergen_items_no1": 1
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Hotelové raňajky s bezlepkovými variantami."
+   }
   },
   {
    "id": "node/1713967399",
@@ -12771,7 +12907,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 0,
+    "summary": "Len bezlepkové pivo, o jedle nič."
+   }
   },
   {
    "id": "node/12205017607",
@@ -12945,7 +13085,11 @@
     "allergen_items_no1": 8
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 8 z 31 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 8 z 31 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Lístok označuje bezlepkové jedlá symbolom, alergény pri položkách."
+   }
   },
   {
    "id": "node/8418025213",
@@ -13244,7 +13388,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Pizzérie VUT ponúkajú pizzu z bezlepkových surovín (jedáleň pre študentov)."
+   }
   },
   {
    "id": "node/1626527714",
@@ -13295,7 +13443,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 1,
+    "summary": "Menza MUNI: všeobecne uvádzajú aj bezlepkové jedlá, alergény v jedálničku."
+   }
   },
   {
    "id": "node/576176023",
@@ -13362,7 +13514,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 1,
+    "summary": "Menza MUNI: všeobecne uvádzajú aj bezlepkové jedlá, alergény v jedálničku."
+   }
   },
   {
    "id": "node/13592908987",
@@ -13743,7 +13899,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 2,
+    "summary": "Bezlepkové empanády (syr, šunka, 5 formaggi, caprese, napolitana)."
+   }
   },
   {
    "id": "node/296445664",
@@ -14115,7 +14275,11 @@
     "allergen_items_no1": 38
    },
    "score": 1,
-   "reason": "lístok na webe: 38 z 78 položiek bez alergénu 1"
+   "reason": "lístok na webe: 38 z 78 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 38 z 78 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/296443209",
@@ -14940,7 +15104,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (5)"
+   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (5)",
+   "review": {
+    "score": 2,
+    "summary": "Denne viac jedál výslovne označených ako bezlepkové; jasne uvedené zloženie. Aj v OSM."
+   }
   },
   {
    "id": "node/1736750610",
@@ -15312,7 +15480,11 @@
     "allergen_items_no1": 6
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 6 z 6 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 6 z 6 položiek bez alergénu 1",
+   "review": {
+    "score": 3,
+    "summary": "100 % bezlepková kuchyňa, podľa podniku bez kontaminácie lepkom; aj bez cukru a laktózy."
+   }
   },
   {
    "id": "node/5303021021",
@@ -15531,7 +15703,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2)"
+   "reason": "zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 2,
+    "summary": "Denne výber bezlepkových jedál, bezlepkové dezerty, poradia s diétou."
+   }
   },
   {
    "id": "node/3216608109",
@@ -15778,7 +15954,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 0,
+    "summary": "Len bezlepkové pivo, o jedle nič."
+   }
   },
   {
    "id": "node/4180626909",
@@ -16162,7 +16342,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 49 z 57 položiek bez alergénu 1"
+   "reason": "menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 49 z 57 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 49 z 57 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/3719917047",
@@ -17193,7 +17377,11 @@
     "allergen_items_no1": 6
    },
    "score": 1,
-   "reason": "lístok na webe: 6 z 75 položiek bez alergénu 1"
+   "reason": "lístok na webe: 6 z 75 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Len 6 z 75 položiek bez alergénu 1, zrejme prílohy či nápoje."
+   }
   },
   {
    "id": "node/296512579",
@@ -17914,7 +18102,11 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "review": {
+    "score": 2,
+    "summary": "Podľa webu Tutti Frutti „100 % veganská a bez lepku“ pizza. Zdroj je nepriamy, over si to."
+   }
   },
   {
    "id": "node/13061842901",
@@ -17930,7 +18122,11 @@
     "status": "no_website"
    },
    "score": 0,
-   "reason": ""
+   "reason": "",
+   "review": {
+    "score": 2,
+    "summary": "Podľa webu Tutti Frutti „100 % veganská a bez lepku“ pizza. Zdroj je nepriamy, over si to."
+   }
   },
   {
    "id": "node/13633957675",
@@ -18252,7 +18448,11 @@
     "allergen_items_no1": 122
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 122 z 181 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 122 z 181 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Akúkoľvek pizzu pripravia z bezlepkového cesta (30 cm), aj bezlepkové cestoviny."
+   }
   },
   {
    "id": "node/4935097382",
@@ -18301,7 +18501,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 37 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 37 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Len 5 z 37 položiek bez alergénu 1, zrejme prílohy či nápoje."
+   }
   },
   {
    "id": "node/1202972372",
@@ -18509,7 +18713,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 5 z 13 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 5 z 13 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Palacinky bez lepku a laktózy."
+   }
   },
   {
    "id": "node/1432431130",
@@ -19897,7 +20105,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Na webe uvádzajú aj bezlepkové pokrmy, bez konkrétností."
+   }
   },
   {
    "id": "node/4930640682",
@@ -20227,7 +20439,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Tacos aj v bezlepkovej variante."
+   }
   },
   {
    "id": "node/3078788021",
@@ -20931,7 +21147,11 @@
     "allergen_items_no1": 96
    },
    "score": 1,
-   "reason": "lístok na webe: 96 z 110 položiek bez alergénu 1"
+   "reason": "lístok na webe: 96 z 110 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 96 z 110 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/7956288759",
@@ -21440,7 +21660,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Čerstvé bezlepkové pečivo."
+   }
   },
   {
    "id": "node/3319051592",
@@ -21466,7 +21690,11 @@
     "allergen_items_no1": 2
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Niektoré raňajky označené GLUTEN FREE."
+   }
   },
   {
    "id": "node/13606373003",
@@ -21511,7 +21739,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (4); menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 35 z 96 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (4); menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 35 z 96 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Pizzu a jedlá „umíme i bez lepku a laktózy“; alergény pri položkách."
+   }
   },
   {
    "id": "node/2081263602",
@@ -22535,7 +22767,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6)"
+   "reason": "zmienky o bezlepkovom na webe (6)",
+   "review": {
+    "score": 2,
+    "summary": "Všetky chlebíčky sa dajú objednať na bezlepkovom pečive (vopred)."
+   }
   },
   {
    "id": "node/2582912687",
@@ -22826,7 +23062,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "V dennom menu občas jedlo označené „bez lepku“."
+   }
   },
   {
    "id": "node/3253626434",
@@ -23350,7 +23590,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 13 z 86 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 13 z 86 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Bezlepková verzia brownies; lístok s alergénmi."
+   }
   },
   {
    "id": "node/3156782070",
@@ -23431,7 +23675,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 19 z 25 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; lístok na webe: 19 z 25 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Indická a nepálska kuchyňa, podľa webu veľa bezlepkových jedál; lístok s alergénmi."
+   }
   },
   {
    "id": "node/3498298188",
@@ -23906,7 +24154,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 2,
+    "summary": "Ku všetkým cestovinám bezlepková/ryžová varianta za príplatok."
+   }
   },
   {
    "id": "node/416914954",
@@ -24139,7 +24391,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Cukráreň: bezlepkové a dia zákusky."
+   }
   },
   {
    "id": "node/3505137763",
@@ -24169,7 +24425,11 @@
     "allergen_items_no1": 0
    },
    "score": 2,
-   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (2)"
+   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (2)",
+   "review": {
+    "score": 2,
+    "summary": "Cukráreň: denne bezlepkové pečivo a dezerty, vegan a raw. Aj v OSM."
+   }
   },
   {
    "id": "node/6255868487",
@@ -24253,7 +24513,11 @@
     "allergen_items_no1": 5
    },
    "score": 1,
-   "reason": "lístok na webe: 5 z 35 položiek bez alergénu 1"
+   "reason": "lístok na webe: 5 z 35 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Len 5 z 35 položiek bez alergénu 1, zrejme prílohy či nápoje."
+   }
   },
   {
    "id": "node/452326984",
@@ -24274,7 +24538,11 @@
     "allergen_items_no1": 172
    },
    "score": 1,
-   "reason": "lístok na webe: 172 z 318 položiek bez alergénu 1"
+   "reason": "lístok na webe: 172 z 318 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 172 z 318 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/7122777719",
@@ -24633,7 +24901,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Podľa webu sú v menu aj jedlá pre celiatikov."
+   }
   },
   {
    "id": "node/13970695754",
@@ -25008,7 +25280,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2); lístok na webe: 4 z 19 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (2); lístok na webe: 4 z 19 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "V dennom menu výslovne bezlepkové jedlá."
+   }
   },
   {
    "id": "node/6716511733",
@@ -25045,7 +25321,11 @@
     "allergen_items_no1": 6
    },
    "score": 1,
-   "reason": "lístok na webe: 6 z 47 položiek bez alergénu 1"
+   "reason": "lístok na webe: 6 z 47 položiek bez alergénu 1",
+   "review": {
+    "score": 0,
+    "summary": "Len 6 z 47 položiek bez alergénu 1, zrejme prílohy či nápoje."
+   }
   },
   {
    "id": "node/942941201",
@@ -26133,7 +26413,11 @@
     "allergen_items_no1": 4
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 4 z 16 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 4 z 16 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Šaláty, polievky a šťavy s filtrom „bezlepkové“ v ponuke."
+   }
   },
   {
    "id": "node/2784431194",
@@ -26373,7 +26657,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (5); lístok na webe: 6 z 20 položiek bez alergénu 1"
+   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (5); lístok na webe: 6 z 20 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Vegánska reštaurácia: v dennom menu označené jedlá bez lepku. Aj v OSM."
+   }
   },
   {
    "id": "node/3716665533",
@@ -26585,7 +26873,11 @@
     "allergen_items_no1": 21
    },
    "score": 1,
-   "reason": "lístok na webe: 21 z 70 položiek bez alergénu 1"
+   "reason": "lístok na webe: 21 z 70 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Ryžová kuchyňa: 21 z 70 položiek lístka bez alergénu 1. Bezlepkové jedlá výslovne neoznačuje."
+   }
   },
   {
    "id": "node/3078013955",
@@ -26794,7 +27086,11 @@
     "allergen_items_no1": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 1,
+    "summary": "Pizzéria, ponúka aj bezlepkové cestoviny."
+   }
   },
   {
    "id": "node/13294043829",
@@ -26893,7 +27189,11 @@
     "allergen_items_no1": 18
    },
    "score": 2,
-   "reason": "zmienky o bezlepkovom na webe (2); lístok na webe: 18 z 20 položiek bez alergénu 1"
+   "reason": "zmienky o bezlepkovom na webe (2); lístok na webe: 18 z 20 položiek bez alergénu 1",
+   "review": {
+    "score": 2,
+    "summary": "Bezlepková žemľa ku všetkým burgerom."
+   }
   },
   {
    "id": "node/3114519064",
@@ -27490,7 +27790,11 @@
     "days_explicit": 0
    },
    "score": 2,
-   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (2); menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní"
+   "reason": "bezlepkové jedlá (OSM); zmienky o bezlepkovom na webe (2); menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní",
+   "review": {
+    "score": 2,
+    "summary": "Makrobiotická a vegánska reštaurácia s ponukou bez lepku; predajňa zdravej výživy. Aj v OSM."
+   }
   },
   {
    "id": "node/2658181615",
@@ -27561,7 +27865,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe; menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 6 z 20 položiek bez alergénu 1"
+   "reason": "zmienka o bezlepkovom na webe; menicka.cz: jedlo bez alergénu 1 v 1 z 1 dní; lístok na webe: 6 z 20 položiek bez alergénu 1",
+   "review": {
+    "score": 1,
+    "summary": "Niektoré cestoviny aj v bezlepkovej variante za príplatok."
+   }
   },
   {
    "id": "node/1494789738",
@@ -27930,7 +28238,11 @@
     "days_explicit": 0
    },
    "score": 1,
-   "reason": "zmienka o bezlepkovom na webe"
+   "reason": "zmienka o bezlepkovom na webe",
+   "review": {
+    "score": 2,
+    "summary": "Bezlepková žemľa ku všetkým burgerom (+20 Kč)."
+   }
   },
   {
    "id": "node/7856837254",
@@ -28419,5 +28731,6 @@
    "score": 0,
    "reason": ""
   }
- ]
+ ],
+ "reviewed": "2026-10-16"
 }
