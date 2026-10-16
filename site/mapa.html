@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bezlepková mapa Brna</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --bg: #faf8f4; --fg: #1f1d1a; --muted: #6b665e; --card: #ffffff; --line: #e6e1d8;
+    --s3: #0f5c37; --s2: #1f7a4d; --s1: #b07d12; --s0: #9a958c;
+    --s3-bg: #d5ecdf; --s2-bg: #e3f3ea; --s1-bg: #f7efd6; --s0-bg: #eeebe5;
+    --star: #c58a00; --warn-bg: #f7efd6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161513; --fg: #ece8e1; --muted: #a39d93; --card: #201f1c; --line: #34322e;
+      --s3: #9be3bb; --s2: #7fd3a5; --s1: #e2c46e; --s0: #7d786f;
+      --s3-bg: #17402b; --s2-bg: #1d3328; --s1-bg: #3a3220; --s0-bg: #2a2925;
+      --star: #f2c14e; --warn-bg: #3a3220;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 20px 16px 64px; }
+  nav { font-size: .9rem; margin-bottom: 8px; }
+  nav a { color: var(--muted); }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 12px; font-size: .9rem; }
+  .warn { background: var(--warn-bg); border-radius: 8px; padding: 10px 12px; font-size: .875rem; margin-bottom: 12px; }
+  #map { height: 55vh; min-height: 320px; border-radius: 10px; border: 1px solid var(--line); margin-bottom: 12px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; }
+  input[type=search], select { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+                               background: var(--card); color: var(--fg); font: inherit; }
+  input[type=search] { flex: 1 1 220px; }
+  label { font-size: .9rem; color: var(--muted); }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .8rem; color: var(--muted); margin-bottom: 12px; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
+  .card.fav { border-color: var(--star); }
+  .head { display: flex; gap: 8px; align-items: flex-start; }
+  .head h2 { flex: 1; font-size: 1.02rem; margin: 0; }
+  .head h2 button { all: unset; cursor: pointer; text-decoration: underline; }
+  .meta { color: var(--muted); font-size: .8rem; margin: 2px 0 6px; }
+  .meta a { color: inherit; }
+  .tag { font-size: .72rem; font-weight: 600; border-radius: 4px; padding: 1px 6px; white-space: nowrap; }
+  .t3 { color: var(--s3); background: var(--s3-bg); } .t2 { color: var(--s2); background: var(--s2-bg); }
+  .t1 { color: var(--s1); background: var(--s1-bg); } .t0 { color: var(--muted); background: var(--s0-bg); }
+  .summary { font-size: .9rem; margin: 6px 0 0; }
+  details { font-size: .85rem; margin-top: 6px; }
+  summary { cursor: pointer; color: var(--muted); }
+  blockquote { margin: 6px 0; padding: 4px 10px; border-left: 3px solid var(--line); color: var(--fg); }
+  blockquote a { color: var(--muted); font-size: .75rem; word-break: break-all; }
+  mark { background: var(--s2-bg); color: inherit; padding: 0 2px; border-radius: 2px; }
+  .star { background: none; border: 0; cursor: pointer; font-size: 1.3rem; line-height: 1; color: var(--muted); padding: 0 2px; }
+  .star.on { color: var(--star); }
+  .empty, .more { color: var(--muted); text-align: center; padding: 16px 0; font-size: .9rem; }
+  .leaflet-popup-content { font: 14px/1.4 system-ui, sans-serif; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="./">← Denné menu</a></nav>
+  <h1>Bezlepková mapa Brna</h1>
+  <p class="sub" id="sub">Načítavam…</p>
+  <div class="warn">Hodnotenie vychádza zo zmienok na weboch podnikov a z OpenStreetMap. Zmienka neznamená
+    bezpečnosť pre celiatika, pred návštevou si to over.</div>
+  <div id="map"></div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--s3)"></span>100 % bezlepkové</span>
+    <span><span class="dot" style="background:var(--s2)"></span>silný signál</span>
+    <span><span class="dot" style="background:var(--s1)"></span>zmienka</span>
+    <span><span class="dot" style="background:var(--s0)"></span>bez signálu</span>
+  </div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Hľadať podnik, ulicu alebo text zmienky">
+    <select id="min">
+      <option value="1">So zmienkou o bezlepkovom</option>
+      <option value="2">Len silný signál</option>
+      <option value="0">Všetky podniky</option>
+    </select>
+    <label><input type="checkbox" id="favonly"> len obľúbené ★</label>
+  </div>
+  <div id="list"></div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const FAV_STORE = "gf-brno-favs";  // spoločné s denným menu
+const LABEL = { 3: "100 % bezlepkové", 2: "silný signál", 1: "zmienka", 0: "bez signálu" };
+const TYPES = { restaurant: "reštaurácia", cafe: "kaviareň", fast_food: "bistro", pub: "krčma",
+                biergarten: "pivná záhrada", ice_cream: "zmrzlina" };
+const LIST_LIMIT = 200;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const GF_RE = /(bezlepk\p{L}*|bez\s+lepku|gluten[\s-]?free|glutenfree|bezgluten\p{L}*|celiak\p{L}*|coeliac|celiac)/giu;
+const hl = s => esc(s).replace(GF_RE, "<mark>$1</mark>");
+
+let places = [], markers = new Map(), map = null;
+let favs = new Set();
+try { favs = new Set(JSON.parse(localStorage.getItem(FAV_STORE)) || []); } catch {}
+const saveFavs = () => { try { localStorage.setItem(FAV_STORE, JSON.stringify([...favs])); } catch {} };
+const favKey = p => "osm:" + p.id;
+
+// Ručne/LLM skontrolované hodnotenie (p.review) má prednosť pred automatickým.
+const scoreOf = p => p.review?.score ?? p.score;
+const reasonOf = p => p.review?.summary || p.reason;
+
+function popupHtml(p) {
+  const s = scoreOf(p);
+  return `<strong>${esc(p.name)}</strong><br>
+    <span class="tag t${s}">${LABEL[s]}</span> ${esc(TYPES[p.type] || p.type || "")}<br>
+    ${reasonOf(p) ? esc(reasonOf(p)) + "<br>" : ""}
+    ${p.website ? `<a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}`;
+}
+
+function matches(p, q) {
+  if (!q) return true;
+  const hay = [p.name, p.address, p.cuisine, reasonOf(p), ...(p.web?.snippets || []).map(s => s.text)].join(" ").toLowerCase();
+  return hay.includes(q);
+}
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const min = +document.getElementById("min").value;
+  const favOnly = document.getElementById("favonly").checked;
+  const visible = places
+    .filter(p => (favOnly ? favs.has(favKey(p)) : scoreOf(p) >= min) && matches(p, q))
+    .sort((a, b) => favs.has(favKey(b)) - favs.has(favKey(a)) || scoreOf(b) - scoreOf(a) || a.name.localeCompare(b.name, "cs"));
+  const shown = new Set(visible.map(p => p.id));
+
+  for (const p of places) {
+    const m = markers.get(p.id);
+    if (!m) continue;
+    if (shown.has(p.id)) { if (!map.hasLayer(m)) m.addTo(map); } else if (map.hasLayer(m)) m.remove();
+  }
+
+  const el = document.getElementById("list");
+  if (!visible.length) {
+    el.innerHTML = `<p class="empty">${favOnly && !favs.size ? "Zatiaľ nemáš obľúbené. Klikni na ☆ pri podniku." : "Nič nenájdené."}</p>`;
+    return;
+  }
+  el.innerHTML = visible.slice(0, LIST_LIMIT).map(p => {
+    const s = scoreOf(p), fav = favs.has(favKey(p)), snips = p.web?.snippets || [];
+    const meta = [TYPES[p.type] || p.type, p.cuisine?.replaceAll(";", ", "), p.address].filter(Boolean).map(esc).join(" · ");
+    return `<div class="card${fav ? " fav" : ""}">
+      <div class="head">
+        <h2><button data-goto="${esc(p.id)}">${esc(p.name)}</button></h2>
+        <span class="tag t${s}">${LABEL[s]}</span>
+        <button class="star${fav ? " on" : ""}" data-key="${esc(favKey(p))}" aria-pressed="${fav}"
+          title="${fav ? "Odobrať z obľúbených" : "Pridať do obľúbených"}">${fav ? "★" : "☆"}</button>
+      </div>
+      <div class="meta">${meta}${p.website ? ` · <a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}</div>
+      ${reasonOf(p) ? `<p class="summary">${esc(reasonOf(p))}</p>` : ""}
+      ${snips.length ? `<details><summary>Zmienky na webe (${snips.length})</summary>
+        ${snips.map(x => `<blockquote>…${hl(x.text)}…<br><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a></blockquote>`).join("")}
+      </details>` : ""}
+    </div>`;
+  }).join("") + (visible.length > LIST_LIMIT ? `<p class="more">Zobrazených ${LIST_LIMIT} z ${visible.length}. Spresni hľadanie.</p>` : "");
+}
+
+function initMap() {
+  map = L.map("map", { preferCanvas: true }).setView([49.195, 16.608], 13);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+  const colors = { 3: css("--s3"), 2: css("--s2"), 1: css("--s1"), 0: css("--s0") };
+  for (const p of places) {
+    const s = scoreOf(p);
+    const m = L.circleMarker([p.lat, p.lon], {
+      radius: s ? 5 + s * 2 : 4, color: colors[s], fillColor: colors[s], fillOpacity: s ? .85 : .4, weight: s ? 2 : 1,
+    }).bindPopup(() => popupHtml(p));
+    markers.set(p.id, m);
+  }
+}
+
+async function load() {
+  let data;
+  try { data = await (await fetch("data/places.json", { cache: "no-store" })).json(); }
+  catch { document.getElementById("sub").textContent = "Dáta zatiaľ nie sú. Spusti workflow „Prehľad podnikov“."; return; }
+  places = data.places;
+  const withSignal = places.filter(p => scoreOf(p) > 0).length;
+  document.getElementById("sub").textContent =
+    `${places.length} podnikov z OpenStreetMap · ${withSignal} so zmienkou o bezlepkovom · vygenerované ${data.generated}`;
+  if (window.L) initMap(); else document.getElementById("map").textContent = "Mapu sa nepodarilo načítať.";
+  render();
+}
+
+document.getElementById("q").addEventListener("input", render);
+document.getElementById("min").addEventListener("change", render);
+document.getElementById("favonly").addEventListener("change", render);
+document.getElementById("list").addEventListener("click", e => {
+  const star = e.target.closest(".star");
+  if (star) {
+    const k = star.dataset.key;
+    favs.has(k) ? favs.delete(k) : favs.add(k);
+    saveFavs(); render(); return;
+  }
+  const go = e.target.closest("[data-goto]");
+  if (go && map) {
+    const m = markers.get(go.dataset.goto);
+    map.flyTo(m.getLatLng(), 17, { duration: .6 });
+    m.openPopup();
+    document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+});
+load();
+</script>
+</body>
+</html>
