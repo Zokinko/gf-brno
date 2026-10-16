@@ -92,6 +92,22 @@ class PlacesTest(unittest.TestCase):
         self.assertEqual(len(r["snippets"]), 1)
         self.assertNotIn("https://podnik.cz/tajne/menu", session.calls)  # robots.txt
 
+    def test_fetch_osm_falls_back_to_mirror(self):
+        class S:
+            calls = []
+
+            def post(self, url, **kw):
+                self.calls.append(url)
+                if url == P.OVERPASS_URLS[0]:
+                    return FakeResp(b"Gateway Timeout", status=504)
+                r = FakeResp(b"")
+                r.json = lambda: OSM
+                return r
+
+        s = S()
+        self.assertEqual(len(P.fetch_osm(s, rounds=1)), 2)
+        self.assertEqual(s.calls, P.OVERPASS_URLS[:2])
+
     def test_crawl_errors_and_skips(self):
         lock = P.threading.Lock()
         self.assertEqual(P.crawl_site(FakeSession({}), {"website": None}, P.HostLimiter(), {}, lock)["status"],
