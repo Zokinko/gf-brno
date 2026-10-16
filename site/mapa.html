@@ -188,6 +188,19 @@ async function load() {
   try { data = await (await fetch("data/places.json", { cache: "no-store" })).json(); }
   catch { document.getElementById("sub").textContent = "Dáta zatiaľ nie sú. Spusti workflow „Prehľad podnikov“."; return; }
   places = data.places;
+  // Ručné hodnotenia sú v samostatnom súbore, aby ich nový beh „Prehľadu podnikov“ neprepísal.
+  try {
+    const rv = await (await fetch("data/reviews.json", { cache: "no-store" })).json();
+    const byId = new Map(places.map(p => [p.id, p]));
+    for (const [id, r] of Object.entries(rv.reviews || {})) {
+      const p = byId.get(id);
+      if (!p) continue;  // podnik v novom behu z OSM zmizol
+      if (r.review) p.review = r.review;
+      if (r.fmgf) p.fmgf = r.fmgf;
+    }
+    for (const p of rv.extra_places || []) if (!byId.has(p.id)) places.push(p);
+    data.sources = [...(data.sources || []), ...(rv.sources || [])];
+  } catch {}
   const withSignal = places.filter(p => scoreOf(p) > 0).length;
   document.getElementById("sub").textContent =
     `${places.length} podnikov · ${withSignal} so zmienkou o bezlepkovom · zdroje: ${(data.sources || ["OpenStreetMap"]).join(", ")}`;
