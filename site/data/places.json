@@ -32,7 +32,9 @@
     "status": "ok",
     "pages": 2,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -99,7 +101,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -118,7 +122,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -137,7 +143,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -188,7 +196,9 @@
     "status": "ok",
     "pages": 3,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 1,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -223,10 +233,12 @@
     "status": "ok",
     "pages": 4,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 6,
+    "allergen_items_no1": 5
    },
-   "score": 0,
-   "reason": ""
+   "score": 1,
+   "reason": "lístok na webe: 5 z 6 položiek bez alergénu 1"
   },
   {
    "id": "node/2287728800",
@@ -242,7 +254,9 @@
     "status": "ok",
     "pages": 3,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -261,7 +275,9 @@
     "status": "ok",
     "pages": 3,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -280,7 +296,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -299,7 +317,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -334,10 +354,19 @@
     "status": "ok",
     "pages": 4,
     "allergen_info": true,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 78,
+    "allergen_items_no1": 14
    },
-   "score": 0,
-   "reason": ""
+   "menicka": {
+    "url": "https://www.menicka.cz/2774-alvin.html",
+    "name": "Alvin",
+    "days_seen": 1,
+    "days_gf": 0,
+    "days_explicit": 0
+   },
+   "score": 1,
+   "reason": "lístok na webe: 14 z 78 položiek bez alergénu 1"
   },
   {
    "id": "node/2352895242",
@@ -392,29 +421,31 @@
       "text": "ovat se Jídelní lístek / Food Menu Zóny Kariéra Kontakt Knoflíková sbírka Věrnostní program Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
      },
      {
-      "url": "https://www.amici.cz/",
-      "text": "y u všech poboček vyřídíte na +420 840 100 100 Zákaznická linka je v provozu od 16:30. 0 Kč Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
-     },
-     {
-      "url": "https://www.amici.cz/",
-      "text": "Box, hranolky Box Rajčatová omáčka, šunka, mozzarella, nasekaná petrželka 149 Kč Do košíku Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
-     },
-     {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
       "text": "Bezlepková Pizza | Amici Pizza & Burgers Otevřeli jsme v Moravanech a Újezdu u Brna. Rozvoz i osobní odběr 🎉 Vyzvednu na"
      },
      {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
-      "text": "ovat se Jídelní lístek / Food Menu Zóny Kariéra Kontakt Knoflíková sbírka Věrnostní program Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
+      "text": "iéra Kontakt Knoflíková sbírka Věrnostní program Vyzvednu na pobočce Brno-Kr. Pole 4.4 Změnit metodu doručení Bezlepková Pizza Bezlepková pizza Nižší cena ø 32 cm Zobrazit alergeny Alergeny 7 Bezlepková pizza Margherita Rajčatová"
      },
      {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
-      "text": "y u všech poboček vyřídíte na +420 840 100 100 Zákaznická linka je v provozu od 16:30. 0 Kč Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
+      "text": "lergeny Alergeny 7 Bezlepková pizza Margherita Rajčatová omáčka, mozzarella, čerstvá bazalka 249 Kč Do košíku Bezlepková pizza Nižší cena ø 32 cm Zobrazit alergeny Alergeny 7 Bezlepková pizza se salámem Rajčatová omáčka, salám, mo"
+     },
+     {
+      "url": "https://www.amici.cz/alergeny/",
+      "text": "- pšenice, b - žito, c - ječmen, d - oves, e - špalda, f - kamut nebo jejich hybridní odrůdy) - nejedná se o celiakii, výrobky z nich 2) Korýši a výrobky z nich - patří mezi potraviny ohrožující život 3) Vejce a výrobky z nich"
+     },
+     {
+      "url": "https://www.amici.cz/media/menu.pdf",
+      "text": "ový špenát +45 Kč OSTATNÍ vejce 3 +15 Kč POTÍRÁNÍ OKRAJŮ bylinkové okraje, česnekové okraje, mix okrajů +3 Kč BEZLEPKOVÁ PIZZA pizzy označené tímto symbolem je možné objednat ve variantě bez lepku +86 Kč KIDS BOX + DÁREK 1a, 7 109"
      }
-    ]
+    ],
+    "allergen_items": 79,
+    "allergen_items_no1": 9
    },
    "score": 2,
-   "reason": "viac zmienok na webe"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1"
   },
   {
    "id": "node/3218210049",
@@ -436,29 +467,31 @@
       "text": "ovat se Jídelní lístek / Food Menu Zóny Kariéra Kontakt Knoflíková sbírka Věrnostní program Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
      },
      {
-      "url": "https://www.amici.cz/",
-      "text": "y u všech poboček vyřídíte na +420 840 100 100 Zákaznická linka je v provozu od 16:30. 0 Kč Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
-     },
-     {
-      "url": "https://www.amici.cz/",
-      "text": "Box, hranolky Box Rajčatová omáčka, šunka, mozzarella, nasekaná petrželka 149 Kč Do košíku Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
-     },
-     {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
       "text": "Bezlepková Pizza | Amici Pizza & Burgers Otevřeli jsme v Moravanech a Újezdu u Brna. Rozvoz i osobní odběr 🎉 Vyzvednu na"
      },
      {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
-      "text": "ovat se Jídelní lístek / Food Menu Zóny Kariéra Kontakt Knoflíková sbírka Věrnostní program Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
+      "text": "iéra Kontakt Knoflíková sbírka Věrnostní program Vyzvednu na pobočce Brno-Kr. Pole 4.4 Změnit metodu doručení Bezlepková Pizza Bezlepková pizza Nižší cena ø 32 cm Zobrazit alergeny Alergeny 7 Bezlepková pizza Margherita Rajčatová"
      },
      {
       "url": "https://www.amici.cz/brno-krpole/bezlepkova-pizza/",
-      "text": "y u všech poboček vyřídíte na +420 840 100 100 Zákaznická linka je v provozu od 16:30. 0 Kč Pizza Pizza 25 cm Bezlepková Pizza Pizza 2 + 1 Zvýhodněné Menu Smash Burgery Burgery Chicken Pro Děti Snacky a Přílohy Nápoje Dezerty a Zm"
+      "text": "lergeny Alergeny 7 Bezlepková pizza Margherita Rajčatová omáčka, mozzarella, čerstvá bazalka 249 Kč Do košíku Bezlepková pizza Nižší cena ø 32 cm Zobrazit alergeny Alergeny 7 Bezlepková pizza se salámem Rajčatová omáčka, salám, mo"
+     },
+     {
+      "url": "https://www.amici.cz/alergeny/",
+      "text": "- pšenice, b - žito, c - ječmen, d - oves, e - špalda, f - kamut nebo jejich hybridní odrůdy) - nejedná se o celiakii, výrobky z nich 2) Korýši a výrobky z nich - patří mezi potraviny ohrožující život 3) Vejce a výrobky z nich"
+     },
+     {
+      "url": "https://www.amici.cz/media/menu.pdf",
+      "text": "ový špenát +45 Kč OSTATNÍ vejce 3 +15 Kč POTÍRÁNÍ OKRAJŮ bylinkové okraje, česnekové okraje, mix okrajů +3 Kč BEZLEPKOVÁ PIZZA pizzy označené tímto symbolem je možné objednat ve variantě bez lepku +86 Kč KIDS BOX + DÁREK 1a, 7 109"
      }
-    ]
+    ],
+    "allergen_items": 79,
+    "allergen_items_no1": 9
    },
    "score": 2,
-   "reason": "viac zmienok na webe"
+   "reason": "zmienky o bezlepkovom na webe (6); lístok na webe: 9 z 79 položiek bez alergénu 1"
   },
   {
    "id": "node/3159201422",
@@ -506,7 +539,9 @@
     "status": "ok",
     "pages": 5,
     "allergen_info": true,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -525,7 +560,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -656,7 +693,16 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
+   },
+   "menicka": {
+    "url": "https://www.menicka.cz/2728-restaurace-arka.html",
+    "name": "Restaurace Arka",
+    "days_seen": 1,
+    "days_gf": 0,
+    "days_explicit": 0
    },
    "score": 0,
    "reason": ""
@@ -787,7 +833,9 @@
     "status": "ok",
     "pages": 2,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
@@ -887,7 +935,9 @@
     "status": "ok",
     "pages": 1,
     "allergen_info": false,
-    "snippets": []
+    "snippets": [],
+    "allergen_items": 0,
+    "allergen_items_no1": 0
    },
    "score": 0,
    "reason": ""
