@@ -93,7 +93,7 @@ const TYPES = { restaurant: "reštaurácia", cafe: "kaviareň", fast_food: "bist
 const LIST_LIMIT = 200;
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const GF_RE = /(bezlepk\p{L}*|bez\s+lepku|gluten[\s-]?free|glutenfree|bezgluten\p{L}*|celiak\p{L}*|coeliac|celiac)/giu;
+const GF_RE = /(bezlepk\p{L}*|bez\s+lepku|bez\s+glutenu|gluten[\s-]?free|glutenfrei|senza\s+glutine|sans\s+gluten|without\s+gluten|bezgluten\p{L}*|celiak\p{L}*|coeliac\p{L}*|celiac\p{L}*|\(BL\))/giu;
 const hl = s => esc(s).replace(GF_RE, "<mark>$1</mark>");
 
 let places = [], markers = new Map(), map = null;
@@ -150,7 +150,8 @@ function render() {
         <button class="star${fav ? " on" : ""}" data-key="${esc(favKey(p))}" aria-pressed="${fav}"
           title="${fav ? "Odobrať z obľúbených" : "Pridať do obľúbených"}">${fav ? "★" : "☆"}</button>
       </div>
-      <div class="meta">${meta}${p.website ? ` · <a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}</div>
+      <div class="meta">${meta}${p.website ? ` · <a href="${esc(p.website)}" target="_blank" rel="noopener">web</a>` : ""}${
+        p.menicka?.url ? ` · <a href="${esc(p.menicka.url)}" target="_blank" rel="noopener">denné menu</a>` : ""}</div>
       ${reasonOf(p) ? `<p class="summary">${esc(reasonOf(p))}</p>` : ""}
       ${snips.length ? `<details><summary>Zmienky na webe (${snips.length})</summary>
         ${snips.map(x => `<blockquote>…${hl(x.text)}…<br><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a></blockquote>`).join("")}
