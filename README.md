@@ -29,8 +29,13 @@ ktoré majú na webe alebo v OSM zmienku o bezlepkovom jedle. Dáta vytvorí wor
    do `site/data/places.json`. Súbor je aj v artifacte `places`.
 
 Skóre: 3 = 100 % bezlepkové (OSM `only`), 2 = OSM `yes` alebo viac zmienok, 1 = jedna zmienka, 0 = nič.
-Ručne skontrolované hodnotenie sa dá doplniť do `places.json` ako `"review": {"score": 2, "summary": "…"}`.
-Má prednosť pred automatickým. Na skúšku: v poli „limit“ zadaj napr. `50`.
+Ručné hodnotenia sú v samostatnom súbore `site/data/reviews.json`, ktorý workflow neprepisuje:
+- `reviews`: podľa ID podniku z `places.json` (napr. `"node/123"`) → `{"review": {"score": 2, "summary": "…"}, "fmgf": {…}}`.
+  Ručné skóre má prednosť pred automatickým.
+- `extra_places`: podniky, ktoré v OSM chýbajú (pridané ručne, s polohou).
+
+Mapa oba súbory spojí pri načítaní. Nový beh „Prehľadu podnikov“ preto ručné hodnotenia nezmaže.
+Ak podnik z OSM zmizne, jeho hodnotenie sa ticho ignoruje. Na skúšku: v poli „limit“ zadaj napr. `50`.
 
 Lokálne: `python -m scraper.places --limit 50 --out site/data/places.json`
 
