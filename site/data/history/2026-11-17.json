@@ -1,0 +1,4033 @@
+{
+ "date": "2026-11-17",
+ "fetched_at": "2026-11-17T18:38:20+01:00",
+ "source": "https://www.menicka.cz/brno.html",
+ "restaurants": [
+  {
+   "name": "Pivnice Masný Růžek",
+   "url": "https://www.menicka.cz/6956-pivnice-masny-ruzek.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "STÁTNÍ SVÁTEK - OTEVŘENO 12:00-22:00",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "SMASH Burgers – Mojmírovo náměstí",
+   "url": "https://www.menicka.cz/10305-smash-burgers-mojmirovo-namesti.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Purkyňce",
+   "url": "https://www.menicka.cz/2647-na-purkynce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Padagali",
+   "url": "https://www.menicka.cz/4116-padagali.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Třech čertů - Starobrněnská",
+   "url": "https://www.menicka.cz/8402-u-trech-certu-starobrnenska.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "T 1) Tvarohové knedlíky s ovocem, máslem, strouhaným perníkem a šlehačkou",
+     "price": "155 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "T 2) Tagliattelle s tomatovou omáčkou, klobáskou salsiccia a parmezánem",
+     "price": "185 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "T 3) Grilovaný filet sumečka afrického s jemnou smetanovo-petrželovou omáčkou a kroketami",
+     "price": "205 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "4",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "T 4) Pomalu pečená kachní prsa s červeným zelím a karlovarským knedlíkem",
+     "price": "205 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "K2",
+   "url": "https://www.menicka.cz/3912-k2.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Mulgogi",
+   "url": "https://www.menicka.cz/8847-mulgogi.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro na Botance",
+   "url": "https://www.menicka.cz/9363-bistro-na-botance.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "150g Smažený sýr, vařené brambory, domácí tatarka",
+     "price": "219 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "re.SET Caffe",
+   "url": "https://www.menicka.cz/8168-re-set-caffe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Lišeňský pivovar",
+   "url": "https://www.menicka.cz/3873-lisensky-pivovar.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "150g Koprová omáčka, volské oko, vařené brambory",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "300g Linguine Andalusia s grilovanou zeleninou a sušenými rajčaty",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "120g Burger s trhaným kachním masem, hranolky, coleslaw",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "200g Kuřecí Cordon bleu, šťouchané brambory, tatarka, ozdoba",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Smažený řízek kuřecí, nebo vepřový, vařené brambory / hranolky, tatarka",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "100g Smažený sýr, vařené brambory / hranolky, tatarka",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Bistro Fifteen",
+   "url": "https://www.menicka.cz/9778-bistro-fifteen.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Zeleninový krém s krutony",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Dle denní nabídky",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí řízečky s vařeným bramborem / hranolky, fresh salát",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Caesar salát s filovanou vepřovou panenkou, krutony a sýrem",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Cheesadilla s kuřecími stripsy, čedarem, slaninou, bbq, hranolky",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí řízečky 3ks, hranolky, salátek",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Medailonky z panenky, s masovou omáčkou, opékané brambory, salátek",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený hermelín, hranolky, domácí tatarka",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Trhané vepřové maso, šťouchané brambory, salátek",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Burger s hovězím masem, čedar, slanina, zelenina, hranolky",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Tortilla s kuřecím masem, sýrem, zeleninou, mayo, hranolky",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Míchaný zeleninový salát, s grilovaným hermelínem, opečený fifteen chléb",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pelmeňe s mletým masem a máslovou omáčkou",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Arka",
+   "url": "https://www.menicka.cz/2728-restaurace-arka.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česnečka s krutony",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "300g Boloňské špagety, sýr",
+     "price": "145 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Smažený kuřecí řízek, šťouchaný brambor, čalamáda",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Burger s trhaný masem (fermentované zelí s mrkví, salát, rajče), cheddarová omáčka, hranolky",
+     "price": "185 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Bistro Ministerio",
+   "url": "https://www.menicka.cz/6694-bistro-ministerio.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "KT Bistro & restaurant",
+   "url": "https://www.menicka.cz/9039-kt-bistro-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro PLAC",
+   "url": "https://www.menicka.cz/5429-bistro-plac.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Kuřecí vývar se zeleninou a nudlemi",
+     "price": "60 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Margherita",
+     "price": "150 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Šunková",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Salámová",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Žampionová",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Špenátová",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Sýrová",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Positano",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Hawai",
+     "price": "180 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Americana",
+     "price": "190 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Diavola",
+     "price": "190 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Capricciosa",
+     "price": "190 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza Vegetariana",
+     "price": "190 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Club restaurant Remet",
+   "url": "https://www.menicka.cz/3174-club-restaurant-remet.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Grasel Haus",
+   "url": "https://www.menicka.cz/10284-grasel-haus.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dle denní nabídky v menu",
+     "price": "19 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Dle denní nabídky samostatně",
+     "price": "49 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřová pečeně na žampionech, dušená rýže",
+     "price": "129 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený květák, vařené brambory, tatarka",
+     "price": "129 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Vepřové výpečky, dušené bílé zelí, houskový knedlík",
+     "price": "149 Kč",
+     "allergens": [
+      "1"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažené kuřecí řízečky, bramborový salát s majonézou a vejci",
+     "price": "169 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažené sýrové Duo (camembert, gouda), hranolky, tatarka",
+     "price": "169 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Oh! Pho",
+   "url": "https://www.menicka.cz/5342-oh-pho.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec pod schody",
+   "url": "https://www.menicka.cz/9964-hostinec-pod-schody.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Domácí dukátové buchtičky s vanilkovým krémem a ovocem",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Steak z lososa na másle, restované fazolové lusky a nivová omáčka",
+     "price": "229 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pomalu pečený hovězí krk na kořenové zelenině a červeném víně, jemné bramborové pyré s máslem a smetanou",
+     "price": "239 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Hasičárna 638",
+   "url": "https://www.menicka.cz/8797-hasicarna-638.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "* Hrachová se smaženým hráškem",
+     "price": null,
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Brynzové halušky",
+     "price": "169 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "XXL vepřový česnekový řízek, šťouchaný brambor se špekem, okurkový salát",
+     "price": "195 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "re.SET Canteen",
+   "url": "https://www.menicka.cz/5336-re-set-canteen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Fairko",
+   "url": "https://www.menicka.cz/3930-restaurace-fairko.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Suzies",
+   "url": "https://www.menicka.cz/3830-suzies.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "STÁTNÍ SVÁTEK Otevřeno 11:00-22:00 hodin Speciální sváteční nabídka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Koffein",
+   "url": "https://www.menicka.cz/5344-koffein.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Otevřeno - celodenní brunch",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Jídelna Kocourek",
+   "url": "https://www.menicka.cz/2692-jidelna-kocourek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurant Mitrovski",
+   "url": "https://www.menicka.cz/3137-restaurant-mitrovski.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kormidla",
+   "url": "https://www.menicka.cz/6690-u-kormidla.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar s játrovou rýží a nudlemi",
+     "price": null,
+     "allergens": [
+      "1a",
+      "3",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený kuřecí řízek CORDON BLEU (S NIVOU A ŠUNKOU), vařené brambory s máslem",
+     "price": "169 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "200g VEPŘOVÝ STEAK, HRANOLKY, ČESNEKOVÝ DIP",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí kung -pao, jasmínová rýže",
+     "price": "169 Kč",
+     "allergens": [
+      "1a",
+      "5"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Pečená kačena, dušné zelí, variace knedlíků",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pooll Grill",
+   "url": "https://www.menicka.cz/6863-pooll-grill.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Fat free",
+   "url": "https://www.menicka.cz/4916-fat-free.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Stronghold",
+   "url": "https://www.menicka.cz/2751-restaurace-stronghold.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dle nabídky 40, -",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Moravský vrabec, červené zelí, knedle dle výběru",
+     "price": "159 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Chilli con carne, chléb",
+     "price": "139 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Gusto Plzeňka",
+   "url": "https://www.menicka.cz/5390-gusto-plzenka.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česnekový krém se smetanou a opečeným chlebem",
+     "price": "85 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Telecí medailonky v parmazánové krustě vařené dolnorakouské brambory s máslem a petrželkou",
+     "price": "390 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Králičí ledvinky dušené po Uhersku jasmínová rýže nebo karlovarský knedlík",
+     "price": "290 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Naber si",
+   "url": "https://www.menicka.cz/3882-naber-si.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Noem Arch Restaurant",
+   "url": "https://www.menicka.cz/2613-noem-arch-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Indická restaurace Goa",
+   "url": "https://www.menicka.cz/5363-indicka-restaurace-goa.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dal soup (čočková polévka)",
+     "price": "35 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Deer Madras (jelení kostky ve stř. ostré omáčce)",
+     "price": "179 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Chicken Patya (sladkokyselá omáčka s kuřecím masem)",
+     "price": "159 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Aloo Gobi (brambory s květákem v omáčce)",
+     "price": "159 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Palak Paneer (indický sýr se špenátem)",
+     "price": "159 Kč",
+     "allergens": [
+      "7"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Menu Mix Thali (mix 3 jídel z dnešního menu na děleném talíři)",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Menu Grand Mix Thali (mix všech zdnešního menu na děleném talíři) 200g",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Obědy Adam",
+   "url": "https://www.menicka.cz/7533-obedy-adam.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cook point",
+   "url": "https://www.menicka.cz/4931-cook-point.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hospůdka U Bosé nohy",
+   "url": "https://www.menicka.cz/2753-hospudka-u-bose-nohy.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česnečka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Grilovaný vepřový steak s houbovou omáčkou, hranolky",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Moravský vrabec, dušené zelí, houskové knedlíky",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený sýr, hranolky, tat. omáčka",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Hnízdo",
+   "url": "https://www.menicka.cz/3843-restaurace-hnizdo.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Houbové risotto s lanýžovým máslem a sýrem Grana Padano",
+     "price": "289 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Black Angus burger s cheddarem, chipotle majonézou, salátem, nakládanou okurkou a cibulí, hranolky",
+     "price": "289 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Anglický roastbeef na listových salátech s pečenými batáty, sezamový dressink",
+     "price": "339 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Na Špici",
+   "url": "https://www.menicka.cz/2642-na-spici.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek otevřeno - vaříme",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Úvozna",
+   "url": "https://www.menicka.cz/4900-uvozna.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "0, 35l POLÉVKA dle nabídky",
+     "price": "55 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU I: HERMELÍN BURGER - 100g vyzrálé hovězí, sýr hermelín, karamelizovaná cibulka, bluecheese dip, naše BBQ omáčka, rajče, okurek, salát",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU II: CHILLI CHEESE BURGER - 100g vyzrálé hovězí, grilovaná slanina, sýr maasdamer, papričky jalapeňos, sriracha majonéza, domácí cibulové kroužky",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU III: CHEDDAR BACON BURGER - 100g vyzrálé hovězí, grilovaná slanina, american cheddar cheese, majonéza, náš burger dip, nakládaný okurek, ledový salát",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU IV: CHICKEN BURGER - 120g smažená kuřecí prsa, american cheddar cheese, grilovaná slanina, majonéza, rajče, okurek, salát",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU V: TOFU BURGER (vege) - 80g grilované tofu, mix sýrů cheddar gouda a maasdamer, česnekový dip, kečup, rajče, okurek, salát",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "MENU VI: CHICKEN SALAD - 120g grilovaná kuřecí prsa, cheddar mild red, salát, rajče, okurek, nakládaná cibulka, sázené vejce, hořčicomedová omáčka, pečivo",
+     "price": "207 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "ANEBO ke kterémukoliv hlavnímu jídlu ze stálého jídelního lístku hranolky + dip nebo salát coleslaw ZDARMA",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "(při větším počtu objednávek v jednom čase výběr pouze z obědové nabídky)",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "0, 45l obědová limonáda dle nabídky",
+     "price": "54 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "100g hovězí maso do burgeru navíc",
+     "price": "55 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "40g přiostřit jalapeňos",
+     "price": "20 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pivnice U Čápa",
+   "url": "https://www.menicka.cz/2700-pivnice-u-capa.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Kuřecí vývar s masem a zeleninou",
+     "price": null,
+     "allergens": [
+      "1",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený kuřecí řízek, vařené brambory s máslem, sterilovaná okurka",
+     "price": "182 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Veg8Café",
+   "url": "https://www.menicka.cz/4108-veg8cafe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Milenium Kitchen",
+   "url": "https://www.menicka.cz/6322-milenium-kitchen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Raj Hlinky",
+   "url": "https://www.menicka.cz/6751-raj-hlinky.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Holandská",
+   "url": "https://www.menicka.cz/2747-rebio-holandska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzeria Al Capone",
+   "url": "https://www.menicka.cz/2609-pizzeria-al-capone.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pivnice Na Sýpce",
+   "url": "https://www.menicka.cz/5452-pivnice-na-sypce.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "350g Hrachová kaše, opečená klobása, sterilovaný okurek, chléb (1,12) …",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Cikánská hovězí pečeně, dušená jasmínová rýže (1,9,12) …",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Steak z vepřové panenky s angl. slaninou a sázeným vejcem, americké brambory s česnekem (1,3) …",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "350g Míchaný zeleninový salát s grilovaným hermelínem, rozpečená bageta (1,3,7) …",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Potrefená Husa Zelný trh",
+   "url": "https://www.menicka.cz/3165-potrefena-husa-zelny-trh.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Garden Food Concept",
+   "url": "https://www.menicka.cz/6361-garden-food-concept.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace a penzion U Honzáků",
+   "url": "https://www.menicka.cz/2756-restaurace-a-penzion-u-honzaku.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar se smaženým hráškem",
+     "price": "155 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený hermelín s poličanem, hranolky, tatarka",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Farmářský burger, hranolky, dip",
+     "price": "235 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza agli spinaci (sugo, mozzarella, šunka, špenát, česnek)",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pizza romana (smetana, mozzarella, šunka, hermelín, brusinky)",
+     "price": "165 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pivovarská Starobrno",
+   "url": "https://www.menicka.cz/5374-pivovarska-starobrno.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Otevřeno od 11:00 do 22:00 hod",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Bobrava a.s.",
+   "url": "https://www.menicka.cz/5475-bobrava-a-s.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Jean Pauls",
+   "url": "https://www.menicka.cz/3884-jean-pauls.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Vybrat si můžete z denní nabídky.",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Bistro Šindelář",
+   "url": "https://www.menicka.cz/3240-bistro-sindelar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Campus River",
+   "url": "https://www.menicka.cz/3232-campus-river.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pavillon",
+   "url": "https://www.menicka.cz/2702-pavillon.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Kulajda, vejce 63, houby, kopr, brambor (v)",
+     "price": "130 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Carpaccio, parmezán, rukola, citron, aioli",
+     "price": "290 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Vyzrálá hovězí svíčková, pepřová omáčka, grenaille, creme fraiche, libeček",
+     "price": "410 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Krevety, yakisoba nudle, miso, arašídy, edamame, kukuřice, karotka, sezam",
+     "price": "380 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Bůček, gnocchi, salát waldorf, kaštan, černý rybíz",
+     "price": "330 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažené kuře, máslová brioška, buffalo omáčka, ranch dressing, nakládaná okurka, naše hranolky",
+     "price": "310 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Buchtičky s krémem, vanilka, rum, švestka (v)",
+     "price": "150 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Buffalo American Steakhouse",
+   "url": "https://www.menicka.cz/5163-buffalo-american-steakhouse.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "! státní svátek !",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "TĚŠÍME SE NA VÁS OD 11:00 - 23:00 HODIN.",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Monte Bú",
+   "url": "https://www.menicka.cz/2652-monte-bu.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dovolujeme si vás upozornit, že Monte Bú od 23. 8. 2026 prochází kompletní rekonstrukcí.",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Na Chatě",
+   "url": "https://www.menicka.cz/2645-na-chate.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Čočková polévka s uzeninou 1,3.7",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Medailonky z vepřové panenky a kuřecích prsou zapečené v sýrové krustě, bylinková omáčka, smažené bramborové hranolky",
+     "price": "190 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Státní svátek otevřeno 11:00 – 23:00",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Kart Klub",
+   "url": "https://www.menicka.cz/3855-kart-klub.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česnečka se šunkou a sýrem, krutonky",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "150g - Trhané kuře na paprice, těstoviny",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "100g - Smažený hermelín, hranolky, tatarská omáčka",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Okruh Pub",
+   "url": "https://www.menicka.cz/3162-restaurace-okruh-pub.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Kuřecí vývar s masem a zeleninou",
+     "price": "179 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Vepřový flamendr, bramboráčky, čerstvý křen",
+     "price": "189 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "6"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Steak z vepřové kotlety, pepřová omáčka, šťouchané brambory, volské oko",
+     "price": "199 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Dřevorubecký steak, pečená brambora s česnekovým dipem, nakládaná zelenina, omáčka z hrubozrnné hořčice",
+     "price": "259 Kč",
+     "allergens": [
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Dřevorubecký steak, pečená brambora s česnekovým dipem, nakládaná zelenina, omáčka z hrubozrnné hořčice",
+     "price": "259 Kč",
+     "allergens": [
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    }
+   ]
+  },
+  {
+   "name": "Jídelna IBC Příkop",
+   "url": "https://www.menicka.cz/3868-jidelna-ibc-prikop.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Rajská s těstovinou",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí závitek se zeleninou, dušená rýže",
+     "price": null,
+     "allergens": [
+      "3",
+      "7",
+      "9"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Kapusta s vejci jako mozeček, vařený brambor",
+     "price": null,
+     "allergens": [
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    }
+   ]
+  },
+  {
+   "name": "Na Mlatech",
+   "url": "https://www.menicka.cz/2771-na-mlatech.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna 100 chutí",
+   "url": "https://www.menicka.cz/2685-jidelna-100-chuti.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hotel Rakovec",
+   "url": "https://www.menicka.cz/2694-hotel-rakovec.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar s masem a nudlemi",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřová panenka sous-vide, švestky, demi-glace, šťouchy",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pivovarská restaurace Moravia",
+   "url": "https://www.menicka.cz/6898-pivovarska-restaurace-moravia.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Baumannů",
+   "url": "https://www.menicka.cz/5415-u-baumannu.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Pastouška",
+   "url": "https://www.menicka.cz/3201-restaurace-pastouska.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Butchers",
+   "url": "https://www.menicka.cz/2718-butchers.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "KOPROVÁ POLÉVKA se zastřeným vejcem",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "1 ks TACOS TUNA kousky tuňáka, pšeničná tortilla, římský salát, pak choi, ponzu, smažená cibulka, koriandr",
+     "price": "170 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "POMALU TAŽENÉ VEPŘOVÉ na šťávě s karotkou a mrkví, bramborové noky",
+     "price": "298 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "HOVĚZÍ KVĚTOVÁ ŠPIČKA pomalu tažená na víně, bramborové pyré",
+     "price": "358 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "GRILOVANÁ KUŘECÍ PRSA v jogurtu, grenaille s bylinkovým dipem",
+     "price": "298 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "THAI NOODLE SALAD listový salát, nudle, edamame, karotka, zelí, teriyaki, koriandr, sezamová semínka, piniové oříšky",
+     "price": "328 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "DOMÁCÍ ŠULÁNKY s mákem",
+     "price": "178 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Portoriko",
+   "url": "https://www.menicka.cz/8467-portoriko.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Union",
+   "url": "https://www.menicka.cz/6968-restaurace-union.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tusto Titanium",
+   "url": "https://www.menicka.cz/2787-tusto-titanium.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sluneční dvůr",
+   "url": "https://www.menicka.cz/2690-slunecni-dvur.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sushi Noodles",
+   "url": "https://www.menicka.cz/10055-sushi-noodles.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Liberty cafe",
+   "url": "https://www.menicka.cz/9702-liberty-cafe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nová Chaloupka",
+   "url": "https://www.menicka.cz/2779-nova-chaloupka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Švejk restaurant",
+   "url": "https://www.menicka.cz/5433-svejk-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Stopkova Plzeňská Pivnice",
+   "url": "https://www.menicka.cz/3224-stopkova-plzenska-pivnice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Ristorante Piazza",
+   "url": "https://www.menicka.cz/2664-ristorante-piazza.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "La Corrida Restaurant - Bystrc",
+   "url": "https://www.menicka.cz/4897-la-corrida-restaurant-bystrc.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Dukát",
+   "url": "https://www.menicka.cz/6712-dukat.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Garden Restaurant & Pub",
+   "url": "https://www.menicka.cz/6991-garden-restaurant-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Kometa Pub Miki",
+   "url": "https://www.menicka.cz/2678-kometa-pub-miki.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Druhý chod",
+   "url": "https://www.menicka.cz/9429-bistro-druhy-chod.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Svatoboj",
+   "url": "https://www.menicka.cz/2764-svatoboj.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nok Nok",
+   "url": "https://www.menicka.cz/4971-nok-nok.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Potrefená Husa Líšeň",
+   "url": "https://www.menicka.cz/2621-potrefena-husa-lisen.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "KANCL bistro",
+   "url": "https://www.menicka.cz/8518-kancl-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Mamlasů Brno",
+   "url": "https://www.menicka.cz/6998-u-mamlasu-brno.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Grandezza restaurant",
+   "url": "https://www.menicka.cz/4837-grandezza-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Zlatá Loď",
+   "url": "https://www.menicka.cz/2618-zlata-lod.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tripoli restaurant",
+   "url": "https://www.menicka.cz/3206-tripoli-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivnice Na Rohu Divadelní",
+   "url": "https://www.menicka.cz/3247-pivnice-na-rohu-divadelni.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlie Square",
+   "url": "https://www.menicka.cz/3178-charlie-square.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Gourmet u Vaňkovky",
+   "url": "https://www.menicka.cz/7220-gourmet-u-vankovky.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Velký Špalíček",
+   "url": "https://www.menicka.cz/2742-rebio-velky-spalicek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Dvou kosů",
+   "url": "https://www.menicka.cz/9375-u-dvou-kosu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kajmana",
+   "url": "https://www.menicka.cz/5413-u-kajmana.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Morgal",
+   "url": "https://www.menicka.cz/5401-morgal.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "IQ Restaurant Morávka",
+   "url": "https://www.menicka.cz/6380-iq-restaurant-moravka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Železná Růže",
+   "url": "https://www.menicka.cz/9409-zelezna-ruze.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Nepal Curry House",
+   "url": "https://www.menicka.cz/9932-nepal-curry-house.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Casa del gusto",
+   "url": "https://www.menicka.cz/8655-casa-del-gusto.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro 22",
+   "url": "https://www.menicka.cz/6042-bistro-22.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Slatina Bistro",
+   "url": "https://www.menicka.cz/6720-slatina-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Maybe coffee & bistro",
+   "url": "https://www.menicka.cz/8289-maybe-coffee-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivní Opice",
+   "url": "https://www.menicka.cz/3170-pivni-opice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jazzmin Bar & Dining",
+   "url": "https://www.menicka.cz/9983-jazzmin-bar-dining.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Café Restaurant Bibus",
+   "url": "https://www.menicka.cz/2660-cafe-restaurant-bibus.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "BUDDHA",
+   "url": "https://www.menicka.cz/9564-buddha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Vegalite",
+   "url": "https://www.menicka.cz/2775-vegalite.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "BUDDHA 2",
+   "url": "https://www.menicka.cz/9582-buddha-2.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Obědy od Zacha",
+   "url": "https://www.menicka.cz/4864-obedy-od-zacha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "První Doubravnická",
+   "url": "https://www.menicka.cz/4948-prvni-doubravnicka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bagetka “ U mlsných koček”",
+   "url": "https://www.menicka.cz/6388-bagetka-u-mlsnych-kocek.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "El Fausto",
+   "url": "https://www.menicka.cz/2683-el-fausto.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro - Ocean48",
+   "url": "https://www.menicka.cz/4186-bistro-ocean48.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace U Zlaté Konve",
+   "url": "https://www.menicka.cz/10170-restaurace-u-zlate-konve.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Polévka: Hovězí vývar s masem a nudlemi",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Menu 1: Bramborák plněný hermelínem, čalamáda",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Menu 2: Roštěná po vídeňsku, pečené brambory",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Menu 3: Burger Texas",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Menu 4: Hovězí svíčková na smetaně, houskový knedlík",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Dezert týdne: Domácí perník se švestkovými povidly a čokoládovou polevou",
+     "price": "89 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "E.onka",
+   "url": "https://www.menicka.cz/10291-e-onka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Kotelny",
+   "url": "https://www.menicka.cz/3934-u-kotelny.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Sup",
+   "url": "https://www.menicka.cz/6347-restaurace-sup.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Svateční nabídka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "ILEGAL",
+   "url": "https://www.menicka.cz/9404-ilegal.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Tortillita - Tortillová polévka s čerstvým sýrem, zelenými fazolkami a koriandrem",
+     "price": null,
+     "allergens": [
+      "7"
+     ],
+     "soup": true,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Burrito klobása - Burrito plněné grilovanou klobásou se zelím a chipotle hořčicí",
+     "price": "189 Kč",
+     "allergens": [
+      "1",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Burrito houby - Burrito plněné grilovanými houbami a cibulkou",
+     "price": "179 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Na Solnici",
+   "url": "https://www.menicka.cz/7781-na-solnici.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Moravská cibulačka se sýrovými krutóny",
+     "price": "35 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Přejeme krásný svátek",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Dnes jsme pro vás připravili dvě jídla",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Filet okouníka červeného grilovaného na másle a bylinkách položeného na lůžku houbového kuby, čekanková sláma",
+     "price": "185 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "160g Flank steak z vyzrálého masa, gratinované šťouchané brambory, pepřová demi glace",
+     "price": "215 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Dobrou chuť Na Solnici",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Krakonoš",
+   "url": "https://www.menicka.cz/6718-krakonos.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Slatinský šenk",
+   "url": "https://www.menicka.cz/3238-restaurace-slatinsky-senk.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek - den boje za svobodu a demokracii",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace u Emila",
+   "url": "https://www.menicka.cz/5876-restaurace-u-emila.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na Piavě",
+   "url": "https://www.menicka.cz/2770-restaurace-na-piave.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Rajská s těstovinou",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřová pečeně na žampionech, dušená rýže",
+     "price": "149 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený květák, vařené brambory, tatarská omáčka",
+     "price": "149 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pečená krkovice na rozmarýnu, červené zelí, houskový knedlík",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažené kuřecí řízečky, bramborový salát s majonézou a vejci",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažené sýrové Duo (camembert, gouda), hranolky, tatarská omáčka",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "U Měděné pánve",
+   "url": "https://www.menicka.cz/8857-u-medene-panve.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Stavba",
+   "url": "https://www.menicka.cz/4954-restaurace-stavba.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česnečka (BL)",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "explicit_gf"
+    },
+    {
+     "name": "1. Smažený květák, vařené brambory, tatarka",
+     "price": "136 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "2. Smažený vepřový karbanátek, vídeňský bramborový salát",
+     "price": "142 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "5. 150g Srnčí guláš na divoko, domácí bramboráčky, zdobený červenou cibulí",
+     "price": "195 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "6. 150g Filovaná vepřová panenka, smetanovo-houbová omáčka, smažené bramborové dukátky (BL)",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "explicit_gf"
+    },
+    {
+     "name": "7. 200g Bacon burger z vyzrálého hovězího masa, cibulová marmeláda, rukola, hranolky",
+     "price": "249 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace & Bar Baroko",
+   "url": "https://www.menicka.cz/3205-restaurace-bar-baroko.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Zelňačka",
+     "price": null,
+     "allergens": [
+      "1",
+      "9",
+      "12"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Penne se špenátem ve smetaně sypané parmazánem, kuřecí prsíčko",
+     "price": "165 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Po celý týden nabízíme:",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Hovězí guláš, náš kynutý knedlík",
+     "price": "175 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Květákové curry, dušená rýže",
+     "price": "165 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažené vepřové řízečky, bramborový salát",
+     "price": "175 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "9",
+      "10",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Salát Caesar s filovaným kuřecím masem a krutony",
+     "price": "175 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "4",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažená gouda, vařené brambory, domácí tatarka",
+     "price": "175 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Gnocchi se sýrovou omáčkou a filovaným kuřecím prsíčkem",
+     "price": "185 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Dřevorubecká krkovice, hranolky (A 1, 12) MINUTKA",
+     "price": "205 Kč",
+     "allergens": [
+      "1",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace U Trávníčka",
+   "url": "https://www.menicka.cz/3139-restaurace-u-travnicka.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svatek - pouze ala cart menu",
+     "price": "185 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Dělnický dům Židenice",
+   "url": "https://www.menicka.cz/2626-delnicky-dum-zidenice.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar s nudlemi",
+     "price": null,
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "x",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený vepřový řízek, bramborový salát",
+     "price": "169 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "+ nabídka z jídelního lístku a pizza",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurant La Corrida - Žabovřesky",
+   "url": "https://www.menicka.cz/4898-restaurant-la-corrida-zabovresky.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar s masem a nudlemi",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Špíz s kuřecím masem, cibulí a klobásou, hranolky, vinná omáčka, dezert",
+     "price": "279 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Laguna",
+   "url": "https://www.menicka.cz/2701-restaurace-laguna.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Polévka: Hovězí vývar s masem a nudlemi",
+     "price": "35 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřový gyros s tzaziky a hranolkami",
+     "price": "148 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Štěpánská hovězí pečeně s dušenou rýží",
+     "price": "157 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Zvěřinový hamburger s karamelizovanou červenou cibulkou a pikantní majonézou,hranolky",
+     "price": "172 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Mini zákusek (věneček,špička,větrník,kokoska)",
+     "price": "30 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Na Musilce",
+   "url": "https://www.menicka.cz/5400-restaurace-na-musilce.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Cibulová polévka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Holandský sekaný řízek se sýrem, ameriky/vařené br. /br. kaše/šťouchané br.",
+     "price": "134 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí prsíčko Florencie (olivy, sušená šunka, rajčata, bazalka), ameriky/vařené br. /br. kaše/šťouch. br. /rýže",
+     "price": "134 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Chlupaté knedlíky plněné uzeným masem, kysané zelí/špenát",
+     "price": "134 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Betlém",
+   "url": "https://www.menicka.cz/5414-betlem.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Olymp Pub",
+   "url": "https://www.menicka.cz/9987-olymp-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec U Semináru",
+   "url": "https://www.menicka.cz/3197-hostinec-u-seminaru.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek - Den boje za svobodu a demokracii a Mezinárodní den studentstva",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Otevřeno od 12 do 23",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restobar Onyx",
+   "url": "https://www.menicka.cz/6722-restobar-onyx.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec U Pantátů",
+   "url": "https://www.menicka.cz/3883-hostinec-u-pantatu.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česneková polévka s uzeným masem, vejcem a chlebovými krutóny",
+     "price": "59 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený sýr gouda se šunkou, petrželkové brambory s máslem, domácí tatarská omáčka",
+     "price": "189 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Grilované kuřecí prso zapečené s nivou, opékané brambory, zelný salát",
+     "price": "199 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Medailonky z vepřové panenské svíčkové, grilované fazolky se slaninou a česnekem, hranolky",
+     "price": "239 Kč",
+     "allergens": [
+      "1",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Jalapeno beef burger s česrvými papričkami a chilli mayo, hranolky, zelný salát",
+     "price": "269 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Pečená marinovaná žebírka (500g) s nakládaným salátkem, hořčicí, křenem a chlebovým hřebínkem",
+     "price": "299 Kč",
+     "allergens": [
+      "1",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "U Maroša",
+   "url": "https://www.menicka.cz/8283-u-marosa.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Třech čertů - Dvořáková",
+   "url": "https://www.menicka.cz/8401-u-trech-certu-dvorakova.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "T 1) Bavorské vdolečky s povidlím, tvarohem a cukrem",
+     "price": "155 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "T 2) Salát z černé čočky beluga s filetem z platýze a opečeným toastem",
+     "price": "185 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "T 3) Sýrová quesadilla s kuřecím masem, hranolky",
+     "price": "205 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Padthai",
+   "url": "https://www.menicka.cz/8483-padthai.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Týdenní speciál: PAD MAMUANG – orestované kuřecí maso na ústřicové omáčce s kešu, paprika, fazolky, rajče, jasmínová rýže",
+     "price": "249 Kč",
+     "allergens": [
+      "6",
+      "8",
+      "14"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Týdenní speciál: PAT PHET PET – kachní maso s hlívou a chilli, zelenina, thajské bylinky, volské oko, jasmínová rýže",
+     "price": "249 Kč",
+     "allergens": [
+      "3",
+      "6",
+      "10"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    }
+   ]
+  },
+  {
+   "name": "Triplex76",
+   "url": "https://www.menicka.cz/10084-triplex76.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "0, 33l Česneková polévka se sýrem a krutony",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Flamendr – pikantní vepřová směs, hranolky",
+     "price": "99 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "130g Smažený kuřecí řízek, vařené brambory s máslem",
+     "price": "99 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "350g Bramborový guláš – brgul",
+     "price": "99 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Na Halách",
+   "url": "https://www.menicka.cz/5416-restaurace-na-halach.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Květákový krém s máslovými toastovými krutony",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Bramborové lokše plněné trhaným vepřovým masem se zelím a osmaženou cibulkou",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí soté s restovanými žampiony a jasmínovou rýží",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Divá Bára",
+   "url": "https://www.menicka.cz/6468-diva-bara.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Polévka: Kulajda",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřové rizoto po Srbsku sypané sýrem, okurek",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pečený uzený vepřový bok v pikantní marinádě, dušené červené zelí, domácí karlovarský knedlík /možné i s bramborovou kaší a rajčatovým salátem/",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí nugetky smažené v sýrovém těstíčku, bramborová kaše, rajčatový salát",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Medailonky z vepřové panenky s liškovou omáčkou, domácí kořeněné smažené bramborové plátky",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Vip menu",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pečené husí stehno, dušené červené zelí, variace houskových, karlovarských a bramborových knedlíků",
+     "price": "209 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Hospoda U Kostela",
+   "url": "https://www.menicka.cz/5822-hospoda-u-kostela.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Nevaří se - STÁTNÍ SVÁTEK",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Seven Food",
+   "url": "https://www.menicka.cz/4838-seven-food.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Jídelna Máj",
+   "url": "https://www.menicka.cz/2691-jidelna-maj.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Leháro",
+   "url": "https://www.menicka.cz/5343-bistro-leharo.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek- otevřeno",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Rubín",
+   "url": "https://www.menicka.cz/2749-restaurace-rubin.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Piccolo bar",
+   "url": "https://www.menicka.cz/3167-piccolo-bar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlie Street",
+   "url": "https://www.menicka.cz/2615-charlie-street.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Krém ze žlutého hrachu s chlebovými krutony",
+     "price": "34 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "300g Zapečené těstoviny s uzenou krkovicí a strouhaným uzeným sýrem se salátkem z nakládané zeleniny",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "300g Selský salát se slaninovými chipsy, pečenými brambory, sázeným vejcem, paprikou, jarní cibulkou, majonézovým dresinkem a rukolou",
+     "price": "169 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "150g Hovězí pečeně na znojemský způsob s dušenou jasmínovou rýží",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Zágreb",
+   "url": "https://www.menicka.cz/2611-zagreb.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek, otevřeno od 16:00 hod.",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Naše Vaše Bistro",
+   "url": "https://www.menicka.cz/4917-nase-vase-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "By the way",
+   "url": "https://www.menicka.cz/5820-by-the-way.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "17. 11. 2026 z důvodu státního svátku nepodáváme obědové menu",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Za Bránou",
+   "url": "https://www.menicka.cz/2665-za-branou.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Polévka dle denní nabídky",
+     "price": "59 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Dukátové buchtičky s vanilkovým krémem, mletý cukr",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Srbské rizoto sterilovaný okurek",
+     "price": "189 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Špagety po uhlířsku ochucená rukola",
+     "price": "195 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Srnčí flamendr opékané brambory",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažený kuřecí gordon blue vařené brambory, naše tatarka",
+     "price": "215 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Pštrosí prsní medailonky bramborové pyré",
+     "price": "235 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Gourmet Restaurant",
+   "url": "https://www.menicka.cz/2649-gourmet-restaurant.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Tento den nevaříme",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "U Hovězího pupku",
+   "url": "https://www.menicka.cz/2759-u-hoveziho-pupku.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Ala carte nabídka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "120g Hovězí pupek marinovaný v červeném víně, konfitovaný v husím sádle, šťouchaný brambor, karamelizovaná cibulka A1,12",
+     "price": "215 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "120g Anglický roastbeef sous vide, opékaný brambor, tatarská omáčka A3",
+     "price": "229 Kč",
+     "allergens": [
+      "10",
+      "12"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "120g Variace listových salátů s čerstvou zeleninou a kuřecím prsem, bylinkový dip, bageta",
+     "price": "185 Kč",
+     "allergens": [
+      "1",
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Plzeňský Dvůr",
+   "url": "https://www.menicka.cz/2724-plzensky-dvur.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dle denní nabídky",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "200g Pečený vepřový bůček na jablkách a slanině, bramborová kaše",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Light of India",
+   "url": "https://www.menicka.cz/5448-light-of-india.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Dal soup (čočková polévka)",
+     "price": "35 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Chicken Masala (kuřecí kostky v jemně ostré omáčce)",
+     "price": "169 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Chicken Curry (kuřecí kostky v kari omáčce)",
+     "price": "159 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Navratan Korma (směs zeleniny a ind. sýra v jemné omáčce)",
+     "price": "159 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Aloo Gobi (brambory s květákem v omáčce)",
+     "price": "159 Kč",
+     "allergens": [
+      "7",
+      "8"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Menu Mix Thali",
+     "price": "179 Kč",
+     "allergens": [
+      "3"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Menu Grand Mix Thali (mix všech zdnešního menu na děleném talíři) 200g",
+     "price": "199 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Potrefená Husa Vaňkovka",
+   "url": "https://www.menicka.cz/2620-potrefena-husa-vankovka.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Hovězí vývar s kořenovou zeleninou a nudlemi",
+     "price": "39 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "9"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "0, 12 kg SMAŽENÝ SÝR GOUDA obalený v trojobalu, s petrželkovým bramborem a tatarskou omáčkou",
+     "price": "189 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "0, 20 kg STAROČESKÝ BEJLÍK pomalu pečená kachní prsa, špikovaná česnekem a zázvorem, s restovanou kapustou na špeku a šťouchaným bramborem s cibulkou",
+     "price": "289 Kč",
+     "allergens": [
+      "1"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Bistro U Máchala",
+   "url": "https://www.menicka.cz/6559-bistro-u-machala.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Zelňačka",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřová plec na houbách, těstoviny",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Katův šleh, hranolky",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace Oáza",
+   "url": "https://www.menicka.cz/4977-restaurace-oaza.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Mušketýra",
+   "url": "https://www.menicka.cz/3874-u-musketyra.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Na Hasičce",
+   "url": "https://www.menicka.cz/9351-na-hasicce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Štatl",
+   "url": "https://www.menicka.cz/4946-statl.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Svátek otevřeno 11-22",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Charlies Mill",
+   "url": "https://www.menicka.cz/4128-charlies-mill.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "STÁTNÍ SVÁTEK, DEN BOJE ZA SVOBODU A DEMOKRACII. Vybrat si můžete z týdenní nabídky a stálého jídelního lístku.",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "U Lucerny",
+   "url": "https://www.menicka.cz/5434-u-lucerny.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Batátový krém, špek, zázvor",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "150 g Salát s jablkem, ořechy, hroznem, celer, toast",
+     "price": "153 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "200 g Holandský řízek s blaťáckým zlatem, bramborová kaše, coleslaw",
+     "price": "183 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "200 g Chilli cheese burger, salát, slanina, čedar, jalapeños, okurek, hranolky",
+     "price": "253 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "50 g Štrúdl se šlehačkou",
+     "price": "49 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "U Dvou Hřebíčků",
+   "url": "https://www.menicka.cz/5349-u-dvou-hrebicku.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Minestrone",
+     "price": null,
+     "allergens": [
+      "1",
+      "9",
+      "12"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený květák s vařenými brambory a domácí tatarskou omáčkou",
+     "price": "159 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7",
+      "10",
+      "12"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Poke bowl - jasmínová rýže, čerstvá zelenina a grilované krevety",
+     "price": "179 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Filovaná vepřová panenka na zeleninovém ratatouille a batátové hranolky",
+     "price": "189 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Na Růžku",
+   "url": "https://www.menicka.cz/3854-na-ruzku.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Svátek: otevřeno - menu dle aktuální nabídky",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pivovarská restaurace U Richarda",
+   "url": "https://www.menicka.cz/3867-pivovarska-restaurace-u-richarda.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "STÁTNÍ SVÁTEK - menu nepodáváme.",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Vittorio Restaurant",
+   "url": "https://www.menicka.cz/6666-vittorio-restaurant.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Krém, kukuřice, chorizo, špenát, grana padano",
+     "price": "130 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Carpaccio z telecí svíčkové, lesní hřiby, sýr asiago, bylinková majonéza, lískový ořech",
+     "price": "330 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Špíz z telecí svíčkové na ohni, glazovaná kořenová zelenina a šalotka, pastinák, hořčice pommery, jus",
+     "price": "410 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Rigatoni, kalamáry, rajčata, bílé víno, olivy, ančovička, chilli",
+     "price": "380 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Smažená kachní játra, grenaille, majonéza z černého česneku, javorový sirup, rybíz, oříškové máslo",
+     "price": "290 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Salát z pečeného celeru a kedlubny, tempeh, ponzu, med, ořechy, meloun (v)",
+     "price": "260 Kč",
+     "allergens": [
+      "7"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    },
+    {
+     "name": "Panna cotta, thajská bazalka, čokoládová ganache, mučenka (v)",
+     "price": "170 Kč",
+     "allergens": [
+      "7"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    }
+   ]
+  },
+  {
+   "name": "Pivnice U Badinů",
+   "url": "https://www.menicka.cz/3129-pivnice-u-badinu.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek provozovna bude otevřena od 11:00 do 23:00 hodin",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Zannam",
+   "url": "https://www.menicka.cz/3918-zannam.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česneková s krutony",
+     "price": null,
+     "allergens": [
+      "1"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Pečená jitnice, dušené zelí, brambory",
+     "price": "150 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Smažený sýr mix (hermelín, eidam), hranolky, tatarka",
+     "price": "155 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Grilovaný (vepřový, kuřecí), hranolky, tatarka",
+     "price": "195 Kč",
+     "allergens": [
+      "1",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace U Tomana",
+   "url": "https://www.menicka.cz/6897-restaurace-u-tomana.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Campo (A-Sport Hotel)",
+   "url": "https://www.menicka.cz/2680-restaurace-campo-a-sport-hotel.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Polévka dle denní nabídky",
+     "price": "45 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Kuřecí vývar s masem, kořenovou zeleninou a smaženým hráškem",
+     "price": "45 Kč",
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "150 g 1. Kuřecí steak na máslové jarní zelenině, hranolky/dušená rýže/bramborová kaše/zeleninový salát s bazalkovým pestem/salát alá Caesar, směs listových salátů ve sladkokyselém nálevu, domácí tatarská omáčka",
+     "price": "171 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "200 g2. Smažený holandský řízek, bramborová kaše/hranolky/zeleninový salát s bazalkovým pestem/salát alá Caesar, směs listových salátů ve sladkokyselém nálevu, domácí tatarská omáčka",
+     "price": "171 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "100 gSalát Caesar s grilovaným kuřecím masem, krutony a parmezánem (může být i bez masa)",
+     "price": "171 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Bramborové šišky s mákem a cukrem, přelité máslem, zdobené šlehačkou a čerstvým ovocem",
+     "price": "161 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "PIZZA - smetanový základ, mozzarella, listový špenát, šunka, rukola",
+     "price": "191 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Hrachová kaše, cikánská pečeně (150g), cibulka, sterilovaný okurek, kváskový chléb",
+     "price": "171 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "100 gFilované kuřecí prsíčko na paprice, těstoviny/dušená rýže",
+     "price": "171 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Bramborové šišky s mákem a cukrem, přelité máslem, zdobené šlehačkou a čerstvým ovocem",
+     "price": "75 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Bramborové šišky s mákem a cukrem, přelité máslem, zdobené šlehačkou a čerstvým ovocem+ Espresso/Espresso lungo (s mlékem)",
+     "price": "115 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Bernard Bar",
+   "url": "https://www.menicka.cz/6980-bernard-bar.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "STÁTNÍ SVÁTEK - vaříme z jídelního lístku",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Pizzeria & Ristorante IL CAPO",
+   "url": "https://www.menicka.cz/3149-pizzeria-ristorante-il-capo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Primů",
+   "url": "https://www.menicka.cz/8409-u-primu.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Česneková s chlebovými krutony",
+     "price": null,
+     "allergens": [
+      "1",
+      "3"
+     ],
+     "soup": true,
+     "status": "gluten"
+    },
+    {
+     "name": "Pečené kuřecí stehno s nádivkou, bramborová kaše, okurek (a. 1. 3. 7)",
+     "price": "209 Kč",
+     "allergens": [
+      "1",
+      "3",
+      "7"
+     ],
+     "soup": false,
+     "status": "gluten"
+    },
+    {
+     "name": "Kotlíkové ražničí, opékané brambory, tatarka",
+     "price": "209 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Medaillonky z vepřové panenky s dijonskou omáčkou, hranolky (a. 7. 10)",
+     "price": "209 Kč",
+     "allergens": [
+      "7",
+      "10"
+     ],
+     "soup": false,
+     "status": "no_gluten"
+    }
+   ]
+  },
+  {
+   "name": "Havana Restaurant",
+   "url": "https://www.menicka.cz/3833-havana-restaurant.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek – budeme se na Vás těšit se standartní nabídkou",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Státní svátek – budeme se na Vás těšit se standartní nabídkou",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Státní svátek – budeme se na Vás těšit se standartní nabídkou",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Restaurace a pivnice Gambrinus",
+   "url": "https://www.menicka.cz/2778-restaurace-a-pivnice-gambrinus.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek – menu dle denní nabídky",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Tusto Pizzeria Ristorante",
+   "url": "https://www.menicka.cz/2786-tusto-pizzeria-ristorante.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "Státní svátek - vaříme z á la carte menu",
+     "price": null,
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Alvin",
+   "url": "https://www.menicka.cz/2774-alvin.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Kovárně",
+   "url": "https://www.menicka.cz/2646-na-kovarne.html",
+   "address": null,
+   "dishes": [
+    {
+     "name": "ZELŇAČKA S KLOBÁSOU",
+     "price": null,
+     "allergens": null,
+     "soup": true,
+     "status": "unknown"
+    },
+    {
+     "name": "Boloňské lasagne",
+     "price": "149 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Vepřové výpečky, dušený špenát, bramborový knedlík",
+     "price": "159 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    },
+    {
+     "name": "Steak (kuřecí / vepřový), sýrová omáčka, bramborové hranolky",
+     "price": "179 Kč",
+     "allergens": null,
+     "soup": false,
+     "status": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "Slunečnice pub",
+   "url": "https://www.menicka.cz/5841-slunecnice-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Tripoli Starobrňenská",
+   "url": "https://www.menicka.cz/3207-tripoli-starobrnenska.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cosmopolis Grill",
+   "url": "https://www.menicka.cz/9305-cosmopolis-grill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzeria U Kalvodů",
+   "url": "https://www.menicka.cz/2693-pizzeria-u-kalvodu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Trati",
+   "url": "https://www.menicka.cz/2643-na-trati.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Scéna",
+   "url": "https://www.menicka.cz/10127-scena.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Za Kapličkou",
+   "url": "https://www.menicka.cz/3279-za-kaplickou.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Karla",
+   "url": "https://www.menicka.cz/6695-u-karla.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Our Story beer & ribs",
+   "url": "https://www.menicka.cz/3153-our-story-beer-ribs.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hostinec Slunečnice",
+   "url": "https://www.menicka.cz/2654-hostinec-slunecnice.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Himalaya restaurant",
+   "url": "https://www.menicka.cz/9683-himalaya-restaurant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Charlies Park",
+   "url": "https://www.menicka.cz/2684-charlies-park.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pizzerie Basilico",
+   "url": "https://www.menicka.cz/3870-pizzerie-basilico.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U 3 Opic",
+   "url": "https://www.menicka.cz/3225-u-3-opic.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Cafe Imperion",
+   "url": "https://www.menicka.cz/9881-cafe-imperion.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Prime Steak",
+   "url": "https://www.menicka.cz/9376-prime-steak.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Leonardo",
+   "url": "https://www.menicka.cz/9970-restaurace-leonardo.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Knoflíku",
+   "url": "https://www.menicka.cz/3899-na-knofliku.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Jakoby",
+   "url": "https://www.menicka.cz/2717-restaurace-jakoby.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Nemilosrdných Bratří",
+   "url": "https://www.menicka.cz/3185-u-nemilosrdnych-bratri.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurant Padowetz",
+   "url": "https://www.menicka.cz/2743-restaurant-padowetz.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Na Chajdě",
+   "url": "https://www.menicka.cz/5375-na-chajde.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Thalie",
+   "url": "https://www.menicka.cz/6691-thalie.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Sharingham",
+   "url": "https://www.menicka.cz/5396-restaurace-sharingham.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Steak House K1",
+   "url": "https://www.menicka.cz/4884-steak-house-k1.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Korzár",
+   "url": "https://www.menicka.cz/2663-restaurace-korzar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Na-tahu",
+   "url": "https://www.menicka.cz/3160-restaurace-na-tahu.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace na Vyhlídce",
+   "url": "https://www.menicka.cz/3942-restaurace-na-vyhlidce.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pohoštění u Šroubka",
+   "url": "https://www.menicka.cz/2696-pohosteni-u-sroubka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U krále Jiřího",
+   "url": "https://www.menicka.cz/5457-u-krale-jiriho.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Fako Club restaurace",
+   "url": "https://www.menicka.cz/9365-fako-club-restaurace.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Pivovarský dům Poupě",
+   "url": "https://www.menicka.cz/8656-pivovarsky-dum-poupe.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Baštírna Slatina",
+   "url": "https://www.menicka.cz/4901-bastirna-slatina.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Delitree Bistro",
+   "url": "https://www.menicka.cz/8722-delitree-bistro.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Dřeváka Beer&Grill",
+   "url": "https://www.menicka.cz/2752-u-drevaka-beer-grill.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Sono Grill&Bar",
+   "url": "https://www.menicka.cz/9517-sono-grill-bar.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "La Famiglia",
+   "url": "https://www.menicka.cz/3177-la-famiglia.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Hotel Gregor ***",
+   "url": "https://www.menicka.cz/3172-hotel-gregor.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Rebio Orlí",
+   "url": "https://www.menicka.cz/2745-rebio-orli.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Bistro Franz",
+   "url": "https://www.menicka.cz/3163-bistro-franz.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Restaurace Zdravý život",
+   "url": "https://www.menicka.cz/3245-restaurace-zdravy-zivot.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Bílého koníčka",
+   "url": "https://www.menicka.cz/5339-u-bileho-konicka.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Svitavská Rychta",
+   "url": "https://www.menicka.cz/5410-svitavska-rychta.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "SIDDHARTHA",
+   "url": "https://www.menicka.cz/9581-siddhartha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Brno Business Park",
+   "url": "https://www.menicka.cz/6372-brno-business-park.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "The Immigrant",
+   "url": "https://www.menicka.cz/7470-the-immigrant.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Singha",
+   "url": "https://www.menicka.cz/9399-singha.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Kometa Arena Pub",
+   "url": "https://www.menicka.cz/2687-kometa-arena-pub.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "Madama Cristina",
+   "url": "https://www.menicka.cz/9557-madama-cristina.html",
+   "address": null,
+   "dishes": []
+  },
+  {
+   "name": "U Látalů",
+   "url": "https://www.menicka.cz/2754-u-latalu.html",
+   "address": null,
+   "dishes": []
+  }
+ ]
+}
